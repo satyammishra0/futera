@@ -20,6 +20,8 @@
   <link rel="stylesheet" href="../assets/css/home.css" />
   <link rel="stylesheet" href="../assets/css/home-slider.css" />
 
+
+
 </head>
 
 <body>
@@ -51,6 +53,7 @@
       ></a>
     </div> -->
 
+
   <!--------------------------- -->
   <!------------ Second Section  -->
   <!--------------------------- -->
@@ -71,30 +74,53 @@
         <a href="#">Read More</a>
       </div>
       <div class="home_second-section-grid-img utility_background-property">
-        <a href="./">Gallery</a>
+
+        <a class="button-ani" href="#">Gallery</a>
       </div>
     </div>
 
     <div class="home_second-section-numbers utility_grid utility_grid-4">
       <div class="home_second-section-numbers-col">
-        <h2>136</h2>
+        <h2 id="counter-element">136</h2>
         <p>Luxe Apartments</p>
+        <!-- <script>
+          const targetNumber = 400;
+          let counter = 0;
+
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting && counter < targetNumber) {
+                const intervalId = setInterval(() => {
+                  // Increment the counter
+                  counter++
+
+                  // Update the counter value in your HTML or perform any desired action
+                  document.getElementById("counter-element").textContent = counter;
+
+                  // Check if the target number is reached
+                  if (counter === targetNumber) {
+                    clearInterval(intervalId); // Stop the counter
+                  }
+                }, 10); // Adjust the interval time (in milliseconds) to control the counter speed
+              }
+            });
+          });
+        </script> -->
       </div>
       <div class="home_second-section-numbers-col">
-        <h2>136</h2>
-        <p>Luxe Apartments</p>
+        <h2>355</h2>
+        <p>Bedroom</p>
       </div>
       <div class="home_second-section-numbers-col">
-        <h2>136</h2>
-        <p>Luxe Apartments</p>
+        <h2>326</h2>
+        <p>Square Areas</p>
       </div>
       <div class="home_second-section-numbers-col">
-        <h2>136</h2>
-        <p>Luxe Apartments</p>
+        <h2>1225</h2>
+        <p>Happy Customers</p>
       </div>
     </div>
   </section>
-
   <!--------------------------- -->
   <!------------ Slider (Third)-->
   <!--------------------------- -->

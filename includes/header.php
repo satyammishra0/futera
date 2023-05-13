@@ -31,7 +31,24 @@
             <li class="nav-links"><a href="../pages/about.php"> ABOUT</a></li>
             <li class="nav-links"><a href=""> FEATURES</a></li>
             <li class="nav-links"><a href="../pages/gallery.php"> GALLERY</a></li>
-            <li class="nav-links"><a href="../pages/gallery.php"> PROJECTS</a></li>
+            <li class="nav-links">
+                <a href="../pages/gallery.php"> PROJECTS</a>
+                <div class="sub-menu sub-menu-car" id="sub_menu">
+                    <div class="sub-menu-child w-100 ">
+                        <ul class="w-100 py-2">
+                            <li class="w-100">
+                                <a class="w-100" href="#service/security-services">Security Services</a>
+                            </li>
+                            <li class="w-100">
+                                <a class="w-100" href="#service/soft-services">Soft Services</a>
+                            </li>
+
+
+
+                        </ul>
+                    </div>
+                </div>
+            </li>
             <li class="nav-links"><a href="../pages/contact.php"> CONTACTS</a></li>
             <li class="nav-links"><a href="../pages/contact.php"> ANEMITIES</a></li>
         </ul>
