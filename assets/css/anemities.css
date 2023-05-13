@@ -1,0 +1,38 @@
+/* ----------------------- */
+/* ---------Services section  */
+/* ----------------------- */
+
+.animities-services {
+    padding: 5% 10%;
+    background-image: url(../images/bg_contacts.jpg);
+}
+
+.animities-services>p,
+.animities-services>h2 {
+    text-align: center;
+}
+
+.animities-services-grid {
+    margin-bottom: 5%;
+    grid-template-columns: 30% 1fr;
+}
+
+.animties-services-parent {
+    margin-top: 5%;
+}
+
+.animities-services-grid-img {
+    height: 25vh;
+    background-image: url(../images/slider-img-1.jpg);
+}
+
+.animities-services-grid-content {
+    background-color: var(--white);
+    padding: 5%;
+}
+
+.animities-services-grid-content>p {
+    font-size: 14px;
+    color: #3f4346;
+    font-family: var(--font-pt-sans);
+}

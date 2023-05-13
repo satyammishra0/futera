@@ -21,7 +21,7 @@
 
 <header class="header width-100 utility_flex-center-between">
     <div class="header-logo">
-        <a href="">
+        <a href="../pages/home.php">
             <img src="../assets/images/logo.webp" alt="Header logo" />
         </a>
     </div>
@@ -29,7 +29,6 @@
         <ul class="nav-list utility_flex utility_flex-center-center">
             <li class="nav-links"><a href="../pages/home.php"> HOME</a></li>
             <li class="nav-links"><a href="../pages/about.php"> ABOUT</a></li>
-            <li class="nav-links"><a href=""> FEATURES</a></li>
             <li class="nav-links"><a href="../pages/gallery.php"> GALLERY</a></li>
             <li class="nav-links">
                 <a href="../pages/gallery.php"> PROJECTS</a>
@@ -37,20 +36,17 @@
                     <div class="sub-menu-child w-100 ">
                         <ul class="w-100 py-2">
                             <li class="w-100">
-                                <a class="w-100" href="#service/security-services">Security Services</a>
+                                <a class="w-100" href="../pages/project-1.php">Project 1</a>
                             </li>
                             <li class="w-100">
-                                <a class="w-100" href="#service/soft-services">Soft Services</a>
+                                <a class="w-100" href="../pages/project-2.php">Project 2</a>
                             </li>
-
-
-
                         </ul>
                     </div>
                 </div>
             </li>
             <li class="nav-links"><a href="../pages/contact.php"> CONTACTS</a></li>
-            <li class="nav-links"><a href="../pages/contact.php"> ANEMITIES</a></li>
+            <li class="nav-links"><a href="../pages/anemities.php"> ANEMITIES</a></li>
         </ul>
     </nav>
     <!-- --------------------- -->
