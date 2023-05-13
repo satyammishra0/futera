@@ -75,7 +75,7 @@
       </div>
       <div class="home_second-section-grid-img utility_background-property">
 
-        <a class="button-ani" href="#">Gallery</a>
+        <a class="button-ani" href="./gallery.php">Gallery</a>
       </div>
     </div>
 
@@ -83,29 +83,6 @@
       <div class="home_second-section-numbers-col">
         <h2 id="counter-element">136</h2>
         <p>Luxe Apartments</p>
-        <!-- <script>
-          const targetNumber = 400;
-          let counter = 0;
-
-          const observer = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-              if (entry.isIntersecting && counter < targetNumber) {
-                const intervalId = setInterval(() => {
-                  // Increment the counter
-                  counter++
-
-                  // Update the counter value in your HTML or perform any desired action
-                  document.getElementById("counter-element").textContent = counter;
-
-                  // Check if the target number is reached
-                  if (counter === targetNumber) {
-                    clearInterval(intervalId); // Stop the counter
-                  }
-                }, 10); // Adjust the interval time (in milliseconds) to control the counter speed
-              }
-            });
-          });
-        </script> -->
       </div>
       <div class="home_second-section-numbers-col">
         <h2>355</h2>
