@@ -44,7 +44,11 @@
   padding: 14px 25px;
   font-size: 14px;
   background-color: var(--gray);
-  border: ;
+  cursor: pointer;
+}
+.active-service{
+  background-color: #3fb9be;
+  color: #fff;
 }
 
 @media screen and (max-width: 700px) {

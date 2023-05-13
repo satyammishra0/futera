@@ -37,13 +37,14 @@
     <section class="gallery-section">
 
         <div class="photo-selection utility_flex-total-center">
-            <div class="photo-selection-div" id="all-img">ALL</div>
-            <div class="photo-selection-div" id="building-process-img">BUILDING PROCESS</div>
-            <div class="photo-selection-div" id="envoirnment-img">ENVOIRNMENT</div>
-            <div class="photo-selection-div" id="views-img">VIEWS</div>
-            <div class="photo-selection-div" id="visualizing-complex-img">VISUALING COMPLEX</div>
+            <div class="photo-selection-div active-service button-ani" id="all-img">ALL</div>
+            <div class="photo-selection-div button-ani" id="building-process-img">BUILDING PROCESS</div>
+            <div class="photo-selection-div button-ani" id="envoirnment-img">ENVOIRNMENT</div>
+            <div class="photo-selection-div button-ani" id="views-img">VIEWS</div>
+            <div class="photo-selection-div button-ani" id="visualizing-complex-img">VISUALING COMPLEX</div>
         </div>
-        <div class="gallery-grid gallery-grid-active" id="all-img">
+
+        <div class="gallery-grid gallery-grid-active" name="all-img">
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
@@ -56,25 +57,28 @@
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
         </div>
 
-        <div class="gallery-grid " id="building-process-img">
+        <div class="gallery-grid " name="building-process-img">
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
         </div>
 
-        <div class="gallery-grid " id="envoirnment-img">
+        <div class="gallery-grid " name="envoirnment-img">
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
         </div>
 
-        <div class="gallery-grid " id="views-img">
+        <div class="gallery-grid " name="views-img">
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
         </div>
 
-        <div class="gallery-grid " id="visualizing-complex-img">
+        <div class="gallery-grid " name="visualizing-complex-img">
+            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
