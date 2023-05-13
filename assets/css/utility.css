@@ -133,7 +133,6 @@
       position: relative;
       transition: all 0.2s;
       z-index: 2;
-      
 }
 
 .button-ani::after {
@@ -146,7 +145,6 @@
       height: 0%;
       transition: all 0.2s ease-in-out;
       z-index: -1;
-
 }
 .button-ani:hover{
   color: #fff;

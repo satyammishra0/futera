@@ -206,7 +206,42 @@
               <p>Price</p>
               <p>$2500</p>
             </div>
-            <button class="">
+
+            <button class="button-ani">
+              <a href="">Schedule a tour</a>
+            </button>
+
+          </div>
+          <div class="home_fourth-section-grid-img">
+            <img src="../assets/images/apartement-plan-1.webp" alt="">
+          </div>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="home_fourth-section-grid utility_grid">
+          <div class="home_fourth-section-grid-content">
+            <h4>Monterey</h4>
+            <div class="utility_flex-center-between">
+              <p>Floor</p>
+              <p>6</p>
+            </div>
+            <div class="utility_flex-center-between">
+              <p>Floor</p>
+              <p>6</p>
+            </div>
+            <div class="utility_flex-center-between">
+              <p>Floor</p>
+              <p>6</p>
+            </div>
+            <div class="utility_flex-center-between">
+              <p>Floor</p>
+              <p>6</p>
+            </div>
+            <div class="utility_flex-center-between">
+              <p>Floor</p>
+              <p>6</p>
+            </div>
+            <button class="button-ani">
               <a href="">Schedule a tour</a>
             </button>
           </div>
@@ -239,7 +274,7 @@
               <p>Floor</p>
               <p>6</p>
             </div>
-            <button class="utility_main-button">
+            <button class="button-ani">
               <a href="">Schedule a tour</a>
             </button>
           </div>
@@ -272,7 +307,7 @@
               <p>Floor</p>
               <p>6</p>
             </div>
-            <button class="utility_main-button">
+            <button class="button-ani">
               <a href="">Schedule a tour</a>
             </button>
           </div>
@@ -305,40 +340,7 @@
               <p>Floor</p>
               <p>6</p>
             </div>
-            <button class="utility_main-button">
-              <a href="">Schedule a tour</a>
-            </button>
-          </div>
-          <div class="home_fourth-section-grid-img">
-            <img src="../assets/images/apartement-plan-1.webp" alt="">
-          </div>
-        </div>
-      </swiper-slide>
-      <swiper-slide>
-        <div class="home_fourth-section-grid utility_grid">
-          <div class="home_fourth-section-grid-content">
-            <h4>Monterey</h4>
-            <div class="utility_flex-center-between">
-              <p>Floor</p>
-              <p>6</p>
-            </div>
-            <div class="utility_flex-center-between">
-              <p>Floor</p>
-              <p>6</p>
-            </div>
-            <div class="utility_flex-center-between">
-              <p>Floor</p>
-              <p>6</p>
-            </div>
-            <div class="utility_flex-center-between">
-              <p>Floor</p>
-              <p>6</p>
-            </div>
-            <div class="utility_flex-center-between">
-              <p>Floor</p>
-              <p>6</p>
-            </div>
-            <button class="utility_main-button">
+            <button class="button-ani">
               <a href="">Schedule a tour</a>
             </button>
           </div>
@@ -432,7 +434,7 @@
     </div>
 
     <div class="home_sixth-section-btn utility_flex-total-center">
-      <button class="utility_main-button"><a href="#">Read More</a></button>
+      <button class="utility_main-button button-ani"><a href="#">Read More</a></button>
     </div>
   </section>
 

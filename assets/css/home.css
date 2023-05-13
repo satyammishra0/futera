@@ -241,17 +241,19 @@
   cursor: pointer;
   display: inline-block;
   text-transform: uppercase;
-  padding: 6px 0px;
   border: none;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin-top: 5%;
-  background: linear-gradient(to bottom, #13162b 50%, #3fb9be 50%) no-repeat scroll right bottom / 100% 210% #3fb9be !important;
-}
+  margin-top: 5%; padding: 10px;
+  background-color: #3fb9be;
 
+}
+.home_fourth-section-grid-content>div{
+  margin-top:10px;
+}
 .home_fourth-section-grid-content>button>a {
-  padding: 4px 10px;
+  padding: 10px;
   line-height: 2;
   font-weight: 500;
   font-size: 12px;
