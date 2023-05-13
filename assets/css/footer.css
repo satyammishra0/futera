@@ -1,0 +1,184 @@
+/* ----------------------- */
+/* ---------Footer   */
+/* ----------------------- */
+.footer-grid {
+  height: 100%;
+  width: 100%;
+  background-color: var(--dark-blue);
+}
+
+.footer-grid-contact {
+  color: var(--white);
+  flex-direction: column;
+}
+
+.footer-grid-contact>h2 {
+  font-size: 28px;
+  margin-bottom: 5%;
+}
+
+.footer-grid-address {
+  color: #969fa6;
+}
+
+.footer-grid-contact>ul>li {
+  font-size: 14px;
+  font-family: var(--font-pt-sans);
+  margin: 7% 0;
+  text-align: center;
+}
+
+.footer-grid-contact>ul>li>a {
+  color: var(--white);
+}
+
+.footer-main-address {
+  color: var(--white);
+}
+
+.footer-social-icons {
+  margin-top: 8%;
+  gap: 5px;
+}
+
+.footer-social-icons>a {
+  padding: 10px;
+  background-color: vaR(--greenish-blue);
+  color: var(--white);
+}
+
+.footer-grid-map {
+  height: 100%;
+  width: 100%;
+}
+
+.footer-grid-map>iframe {
+  height: 100%;
+  width: 100%;
+}
+
+.footer-grid-form {
+  padding-top: 5%;
+  flex-direction: column;
+}
+
+.footer-grid-form>form>input {
+  color: #969fa6;
+  border-color: #1a1e3b;
+  background-color: #13162b;
+  border: 2px solid #eee;
+  font-size: 1em;
+  line-height: 1.2em;
+  font-style: normal;
+  padding: 10px;
+  width: 94%;
+}
+
+.footer-grid-form>form>textarea {
+  color: #969fa6;
+  border-color: #1a1e3b;
+  background-color: #13162b;
+  border: 2px solid #eee;
+  font-size: 1em;
+  line-height: 1.2em;
+  font-style: normal;
+  padding: 10px;
+  height: 100px;
+  width: 94%;
+}
+
+.footer-grid-form>form>select {
+  color: #969fa6;
+  border-color: #1a1e3b;
+  background-color: #13162b;
+  border: 2px solid #eee;
+  font-size: 1em;
+  line-height: 1.2em;
+  font-style: normal;
+  padding: 10px;
+  width: 94%;
+}
+
+.footer-grid-form>button {
+  cursor: pointer;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 6px 0px;
+  border: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 5%;
+  background: linear-gradient(to bottom, #13162b 50%, #3fb9be 50%) no-repeat scroll right bottom / 100% 210% #3fb9be !important;
+}
+
+.footer-grid-form>button>a {
+  padding: 4px 10px;
+  line-height: 2;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: var(--white);
+}
+
+
+input[type="email"] {
+  width: 94%;
+  display: block;
+}
+
+.footer-grid-form>h2 {
+  font-size: 28px;
+  color: var(--white);
+  margin-bottom: 5%;
+}
+
+
+.footer-grid-form>form>div>button {
+  cursor: pointer;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 6px 0px;
+  border: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 5%;
+  background: linear-gradient(to bottom, #13162b 50%, #3fb9be 50%) no-repeat scroll right bottom / 100% 210% #3fb9be !important;
+}
+
+.footer-grid-form>form>div>button>a {
+  padding: 4px 10px;
+  line-height: 2;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: var(--white);
+}
+
+form.utility_flex-total-center {
+  width: 100%;
+  align-items: start;
+}
+
+/* ----------------------- */
+/* ---------Footer Strip  */
+/* ----------------------- */
+.last-footer {
+  padding: 2.5%;
+  background-color: var(--black);
+}
+
+.last-footer>p {
+  font-size: 13px;
+  color: var(--white);
+  font-family: var(--font-pt-sans);
+}
+
+@media screen and (max-width: 700px) {
+
+  .footer-grid-contact,
+  .footer-grid-form {
+    padding: 5% 0;
+  }
+}
