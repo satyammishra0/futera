@@ -183,24 +183,28 @@
           <div class="home_fourth-section-grid-content">
             <h4>Monterey</h4>
             <div class="utility_flex-center-between">
-              <p>Floor</p>
+              <p>Home</p>
               <p>6</p>
             </div>
             <div class="utility_flex-center-between">
-              <p>Floor</p>
+              <p>Room</p>
+              <p>3</p>
+            </div>
+            <div class="utility_flex-center-between">
+              <p>Windows</p>
               <p>6</p>
             </div>
             <div class="utility_flex-center-between">
-              <p>Floor</p>
-              <p>6</p>
+              <p>Total Sq. Km</p>
+              <p>120</p>
             </div>
             <div class="utility_flex-center-between">
-              <p>Floor</p>
-              <p>6</p>
+              <p>Parking</p>
+              <p>YES</p>
             </div>
             <div class="utility_flex-center-between">
-              <p>Floor</p>
-              <p>6</p>
+              <p>Price</p>
+              <p>$2500</p>
             </div>
             <button class="">
               <a href="">Schedule a tour</a>
@@ -359,24 +363,24 @@
           <a href="">FREE HEIGHT SPEED WI-FI </a>
         </div>
         <div class="home_fifth-section-content-grid-one">
-          <i class="bx bx-wifi"></i>
-          <a href="">FREE HEIGHT SPEED WI-FI </a>
+          <i class='bx bxs-shower'></i>
+          <a href="">LUXURY APPLICANCES </a>
         </div>
         <div class="home_fifth-section-content-grid-one">
-          <i class="bx bx-wifi"></i>
-          <a href="">FREE HEIGHT SPEED WI-FI </a>
+          <i class='bx bxs-bowl-hot'></i>
+          <a href="">OUTDOOR BBQ AREA </a>
         </div>
         <div class="home_fifth-section-content-grid-one">
-          <i class="bx bx-wifi"></i>
-          <a href="">FREE HEIGHT SPEED WI-FI </a>
+          <i class='bx bxs-car-garage'></i>
+          <a href="">PARKING PLACE</a>
         </div>
         <div class="home_fifth-section-content-grid-one">
-          <i class="bx bx-wifi"></i>
-          <a href="">FREE HEIGHT SPEED WI-FI </a>
+          <i class='bx bx-water'></i>
+          <a href="">SWIMMING POOL </a>
         </div>
         <div class="home_fifth-section-content-grid-one">
-          <i class="bx bx-wifi"></i>
-          <a href="">FREE HEIGHT SPEED WI-FI </a>
+          <i class='bx bxs-basket'></i>
+          <a href="">WASHER DRY</a>
         </div>
       </div>
     </div>

@@ -35,8 +35,15 @@
     <!------------ Second Section -->
     <!--------------------------- -->
     <section class="gallery-section">
-        <h2>Our Gallery </h2>
-        <div class="gallery-grid utility_grid">
+
+        <div class="photo-selection utility_flex-total-center">
+            <div class="photo-selection-div" id="all-img">ALL</div>
+            <div class="photo-selection-div" id="building-process-img">BUILDING PROCESS</div>
+            <div class="photo-selection-div" id="envoirnment-img">ENVOIRNMENT</div>
+            <div class="photo-selection-div" id="views-img">VIEWS</div>
+            <div class="photo-selection-div" id="visualizing-complex-img">VISUALING COMPLEX</div>
+        </div>
+        <div class="gallery-grid gallery-grid-active" id="all-img">
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
@@ -44,6 +51,30 @@
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
+        </div>
+
+        <div class="gallery-grid " id="building-process-img">
+            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
+        </div>
+
+        <div class="gallery-grid " id="envoirnment-img">
+            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
+        </div>
+
+        <div class="gallery-grid " id="views-img">
+            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
+        </div>
+
+        <div class="gallery-grid " id="visualizing-complex-img">
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
@@ -57,6 +88,32 @@
     <!------------ ALL Links -->
     <!--------------------------- -->
     <?php include '../includes/links.php'; ?>
+
+    <script>
+        const accordion = document.querySelectorAll('.photo-selection-div');
+        const accordion_content = document.querySelectorAll('.gallery-grid');
+
+
+        for (let i = 0; i < accordion.length; i++) {
+            accordion[i].addEventListener("click", (e) => {
+
+                remove_cl();
+                e.currentTarget.classList.add("active-service");
+                document.querySelector('[name="hi"]')
+
+                const check = document.querySelector('[name="' + e.currentTarget.id + '"]');
+                check.classList.add('gallery-grid-active')
+            });
+
+        }
+
+        function remove_cl() {
+            for (let i = 0; i < accordion.length; i++) {
+                accordion[i].classList.remove("active-service");
+                accordion_content[i].classList.remove("gallery-grid-active")
+            }
+        };
+    </script>
     <script src="../assets/js/home-slider.js"></script>
 </body>
 
