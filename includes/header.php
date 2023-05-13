@@ -46,7 +46,7 @@
                 </div>
             </li>
             <li class="nav-links"><a href="../pages/contact.php"> CONTACTS</a></li>
-            <li class="nav-links"><a href="../pages/contact.php"> ANEMITIES</a></li>
+            <li class="nav-links"><a href="../pages/anemities.php"> ANEMITIES</a></li>
         </ul>
     </nav>
     <!-- --------------------- -->
