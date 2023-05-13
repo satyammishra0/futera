@@ -15,7 +15,15 @@
     background-image: url(../images/bg_contacts-1.jpg);
 }
 
-.proximity-section>h2 {
+.proximity-section-overlay {
+    width: 100%;
+    padding: 5% 0;
+    padding-bottom: 10%;
+    height: 100%;
+    background-color: rgba(13, 16, 31, 0.8);
+}
+
+.parent_section-headings>h2 {
     font-size: 44px;
     font-weight: 500;
     position: relative;
@@ -23,6 +31,15 @@
     color: var(--white);
     font-size: 36px;
     letter-spacing: 2px;
-    margin: 5% 0;
     text-transform: uppercase;
+}
+
+.proximity-section-overlay .home_fifth-section-content-grid {
+    padding: 0 15%;
+}
+
+.proximity-section-overlay .home_fifth-section-content-grid-one>p {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: bold;
 }

@@ -51,9 +51,6 @@
                 </p>
                 <a href="#">Read More</a>
             </div>
-            <div class="home_second-section-grid-img utility_background-property">
-                <a href="./">Gallery</a>
-            </div>
         </div>
         <div class="home_second-section-numbers utility_grid utility_grid-4">
             <div class="home_second-section-numbers-col">
@@ -345,6 +342,38 @@
         <div class="proximity-section-overlay">
             <div class="parent_section-headings utility_flex-total-center">
                 <h2>PROXIMITY</h2>
+            </div>
+            <div class="home_fifth-section-content-grid utility_grid utility_grid-3">
+                <div class="home_fifth-section-content-grid-one">
+                    <i class='bx bxs-school'></i>
+                    <a href="">SCHOOLS </a>
+                    <p>1.5km</p>
+                </div>
+                <div class="home_fifth-section-content-grid-one">
+                    <i class='bx bx-plus-medical'></i>
+                    <a href="">HOSPITALS</a>
+                    <p>1.5km</p>
+                </div>
+                <div class="home_fifth-section-content-grid-one">
+                    <i class='bx bxs-building-house'></i>
+                    <a href="">SHOPPING MALLS </a>
+                    <p>1.5km</p>
+                </div>
+                <div class="home_fifth-section-content-grid-one">
+                    <i class='bx bxs-cable-car'></i>
+                    <a href="">NATIONAL HIGHWAY</a>
+                    <p>1.5km</p>
+                </div>
+                <div class="home_fifth-section-content-grid-one">
+                    <i class='bx bxs-store-alt'></i>
+                    <a href="">BUISNESS DISTRICT </a>
+                    <p>1.5km</p>
+                </div>
+                <div class="home_fifth-section-content-grid-one">
+                    <i class='bx bxs-buildings'></i>
+                    <a href="">IT PARKS</a>
+                    <p>1.5km</p>
+                </div>
             </div>
         </div>
     </section>
