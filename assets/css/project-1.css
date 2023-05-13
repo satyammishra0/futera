@@ -1,0 +1,28 @@
+.home_second-section-price {
+    padding: 14px;
+    text-align: center;
+    background-color: #070811;
+    font-size: 30px;
+    font-weight: bold;
+    border-top: 1px solid #fff;
+    color: var(--white);
+}
+
+/* ----------------------- */
+/* ---------Fourth Section  */
+/* ----------------------- */
+.proximity-section {
+    background-image: url(../images/bg_contacts-1.jpg);
+}
+
+.proximity-section>h2 {
+    font-size: 44px;
+    font-weight: 500;
+    position: relative;
+    z-index: 100;
+    color: var(--white);
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin: 5% 0;
+    text-transform: uppercase;
+}

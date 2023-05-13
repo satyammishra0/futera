@@ -77,20 +77,43 @@
 
     <div class="home_second-section-numbers utility_grid utility_grid-4">
       <div class="home_second-section-numbers-col">
-        <h2>136</h2>
+        <h2 id="counter-element">136</h2>
         <p>Luxe Apartments</p>
+        <!-- <script>
+          const targetNumber = 400;
+          let counter = 0;
+
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting && counter < targetNumber) {
+                const intervalId = setInterval(() => {
+                  // Increment the counter
+                  counter++
+
+                  // Update the counter value in your HTML or perform any desired action
+                  document.getElementById("counter-element").textContent = counter;
+
+                  // Check if the target number is reached
+                  if (counter === targetNumber) {
+                    clearInterval(intervalId); // Stop the counter
+                  }
+                }, 10); // Adjust the interval time (in milliseconds) to control the counter speed
+              }
+            });
+          });
+        </script> -->
       </div>
       <div class="home_second-section-numbers-col">
-        <h2>136</h2>
-        <p>Luxe Apartments</p>
+        <h2>355</h2>
+        <p>Bedroom</p>
       </div>
       <div class="home_second-section-numbers-col">
-        <h2>136</h2>
-        <p>Luxe Apartments</p>
+        <h2>326</h2>
+        <p>Square Areas</p>
       </div>
       <div class="home_second-section-numbers-col">
-        <h2>136</h2>
-        <p>Luxe Apartments</p>
+        <h2>1225</h2>
+        <p>Happy Customers</p>
       </div>
     </div>
   </section>
@@ -157,24 +180,28 @@
           <div class="home_fourth-section-grid-content">
             <h4>Monterey</h4>
             <div class="utility_flex-center-between">
-              <p>Floor</p>
+              <p>Home</p>
               <p>6</p>
             </div>
             <div class="utility_flex-center-between">
-              <p>Floor</p>
+              <p>Room</p>
+              <p>3</p>
+            </div>
+            <div class="utility_flex-center-between">
+              <p>Windows</p>
               <p>6</p>
             </div>
             <div class="utility_flex-center-between">
-              <p>Floor</p>
-              <p>6</p>
+              <p>Total Sq. Km</p>
+              <p>120</p>
             </div>
             <div class="utility_flex-center-between">
-              <p>Floor</p>
-              <p>6</p>
+              <p>Parking</p>
+              <p>YES</p>
             </div>
             <div class="utility_flex-center-between">
-              <p>Floor</p>
-              <p>6</p>
+              <p>Price</p>
+              <p>$2500</p>
             </div>
             <button class="">
               <a href="">Schedule a tour</a>
@@ -333,24 +360,24 @@
           <a href="">FREE HEIGHT SPEED WI-FI </a>
         </div>
         <div class="home_fifth-section-content-grid-one">
-          <i class="bx bx-wifi"></i>
-          <a href="">FREE HEIGHT SPEED WI-FI </a>
+          <i class='bx bxs-shower'></i>
+          <a href="">LUXURY APPLICANCES </a>
         </div>
         <div class="home_fifth-section-content-grid-one">
-          <i class="bx bx-wifi"></i>
-          <a href="">FREE HEIGHT SPEED WI-FI </a>
+          <i class='bx bxs-bowl-hot'></i>
+          <a href="">OUTDOOR BBQ AREA </a>
         </div>
         <div class="home_fifth-section-content-grid-one">
-          <i class="bx bx-wifi"></i>
-          <a href="">FREE HEIGHT SPEED WI-FI </a>
+          <i class='bx bxs-car-garage'></i>
+          <a href="">PARKING PLACE</a>
         </div>
         <div class="home_fifth-section-content-grid-one">
-          <i class="bx bx-wifi"></i>
-          <a href="">FREE HEIGHT SPEED WI-FI </a>
+          <i class='bx bx-water'></i>
+          <a href="">SWIMMING POOL </a>
         </div>
         <div class="home_fifth-section-content-grid-one">
-          <i class="bx bx-wifi"></i>
-          <a href="">FREE HEIGHT SPEED WI-FI </a>
+          <i class='bx bxs-basket'></i>
+          <a href="">WASHER DRY</a>
         </div>
       </div>
     </div>
