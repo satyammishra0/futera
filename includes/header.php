@@ -19,7 +19,7 @@
 <!------------ Header Starts  -->
 <!--------------------------- -->
 
-<header class="header width-100 utility_flex-center-between">
+<header class="header sticky-header width-100 utility_flex-center-between sticky-header">
     <div class="header-logo">
         <a href="../pages/home.php">
             <img src="../assets/images/logo.jpg" alt="Header logo" />

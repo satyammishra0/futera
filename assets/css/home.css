@@ -1,42 +1,9 @@
 /* ----------------------- */
-/* ----------- Header  */
-/* ----------------------- */
-.header {
-  padding: 2% 10%;
-  background-color: var(--dark-blue);
-}
-
-.header-logo>a>img {
-  height: 60px;
-  width: 100%;
-}
-
-.nav-list {
-  gap: 18px;
-}
-
-.nav-links>a {
-  font-size: 16px;
-  color: var(--white);
-  transition: all 0.3s;
-  font-weight: 500;
-}
-
-.nav-links>a:hover {
-  color: var(--greenish-blue);
-}
-
-.mobile-navbar-btn {
-  display: none;
-  cursor: pointer;
-}
-
-/* ----------------------- */
 /* ----------- First section  */
 /* ----------------------- */
 .home_first-section {
-  background-image: url("../../Futera/futera-4.jpg");
-  height: 81vh;
+  background-image: url(../../Futera/futera-4.jpg);
+  height: 100vh;
   width: 100%;
   flex-direction: column;
 }
