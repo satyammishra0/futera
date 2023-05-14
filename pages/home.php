@@ -35,10 +35,10 @@
   <!--------------------------- -->
   <section class="home_first-section utility_flex-total-center utility_background-property">
     <div class="home_first-content" data-aos="zoom-in" data-aos-duration="1500">
-      <p class="utility_heading-caption">Find The Best</p>
-      <h1>MODERN APARTMENT IN A NEW RESIDENTIAL COMPLEX</h1>
+      <p class="utility_heading-caption">Find the Best</p>
+      <h1>Innovative Apartments For The Future Era of Living</h1>
       <button class="home_first-content-button">
-        <a href="#">Learn More</a>
+        <a href="./about.php">Learn More</a>
       </button>
     </div>
   </section>
@@ -62,16 +62,17 @@
       <div class="home_second-section-grid-content">
         <p class="utility_heading-caption">Luxury Apartments</p>
         <h2 class="utility_main-heading">
-          INTRODUCING A NEW<br />
-          RESIDENTIAL COMPLEX
+          Luxury of a home,<br> convenience of an apartment
         </h2>
         <p class="text-second">
-          Each apartments has been individually designed to maximise space and
-          light. Smart Home Technology installed as standard in each apartment
-          putting you in total control of your home at the touch of a button
-          from wherever you might be.
+          Luxury meets convenience in our futuristic & beautiful residences. Experience the
+          comfort and privacy of a luxurious home, complemented by the modern
+          amenities and hassle-free living of an upscale apartment. Indulge in elegant
+          finishes, spacious interiors, and personalized services, creating a refined lifestyle
+          that redefines your expectations. Welcome to a new level of future era living.
+
         </p>
-        <a href="#">Read More</a>
+        <a href="./about.php">Read More</a>
       </div>
       <div class="home_second-section-grid-img utility_background-property">
 
@@ -79,21 +80,21 @@
       </div>
     </div>
 
-    <div class="home_second-section-numbers utility_grid utility_grid-4">
+    <div class="home_second-section-numbers utility_grid utility_grid-4" id="counter">
       <div class="home_second-section-numbers-col">
-        <h2 id="counter-element">136</h2>
+        <h2 id="counter-element" class="counter-value" data-count="300">1</h2>
         <p>Luxe Apartments</p>
       </div>
       <div class="home_second-section-numbers-col">
-        <h2>355</h2>
+        <h2 class="counter-value" data-count="200">0</h2>
         <p>Bedroom</p>
       </div>
       <div class="home_second-section-numbers-col">
-        <h2>326</h2>
+        <h2 class="counter-value" data-count="800">1</h2>
         <p>Square Areas</p>
       </div>
       <div class="home_second-section-numbers-col">
-        <h2>1225</h2>
+        <h2 class="counter-value" data-count="800">1</h2>
         <p>Happy Customers</p>
       </div>
     </div>
@@ -337,31 +338,32 @@
   <section class="home_fifth-section utility_background-property">
     <div class="home_fifth-section-content">
       <p class="utility_heading-caption">Apartments Amenities</p>
-      <h2>STUNNING LUXURY RENTAL APARTMENTS, DESIGNED FOR LIFE</h2>
+      <h2>Embrace Your Futuristic Lifestyle with Exceptional Amenities Ahead
+      </h2>
       <div class="home_fifth-section-content-grid utility_grid utility_grid-3">
         <div class="home_fifth-section-content-grid-one">
           <i class="bx bx-wifi"></i>
-          <a href="">FREE HEIGHT SPEED WI-FI </a>
+          <a href="">Children Playarea </a>
         </div>
         <div class="home_fifth-section-content-grid-one">
           <i class='bx bxs-shower'></i>
-          <a href="">LUXURY APPLICANCES </a>
+          <a href="">Terrace Garden</a>
         </div>
         <div class="home_fifth-section-content-grid-one">
           <i class='bx bxs-bowl-hot'></i>
-          <a href="">OUTDOOR BBQ AREA </a>
+          <a href="">Outdoor Sitout Area</a>
         </div>
         <div class="home_fifth-section-content-grid-one">
           <i class='bx bxs-car-garage'></i>
-          <a href="">PARKING PLACE</a>
+          <a href="">Outdoor Sitout Area</a>
         </div>
         <div class="home_fifth-section-content-grid-one">
           <i class='bx bx-water'></i>
-          <a href="">SWIMMING POOL </a>
+          <a href="">Tropical Plantation</a>
         </div>
         <div class="home_fifth-section-content-grid-one">
           <i class='bx bxs-basket'></i>
-          <a href="">WASHER DRY</a>
+          <a href="">Water Softener</a>
         </div>
       </div>
     </div>
@@ -374,7 +376,8 @@
     <div class="home_sixth-section-overlay"></div>
     <div class="home_sixth-section-top-content">
       <p class="utility_heading-caption"> Apartment Neiborhoods</p>
-      <h2> STUNNING LUXURY RENTAL APARTMENTS, <br>DESIGNED FOR LIFE
+      <h2> Where Community and Convenience Converge, Your Perfect Neighborhood
+        Awaits
       </h2>
     </div>
     <div class="north-bridge  tooltip" title="North Bridge">
@@ -401,7 +404,43 @@
   <!------------ ALL Links -->
   <!--------------------------- -->
   <?php include '../includes/links.php'; ?>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+
+  <script>
+    var a = 0;
+    $(window).scroll(function() {
+
+      var oTop = $('#counter').offset().top - window.innerHeight;
+      if (a == 0 && $(window).scrollTop() > oTop) {
+        $('.counter-value').each(function() {
+          var $this = $(this),
+            countTo = $this.attr('data-count');
+          $({
+            countNum: $this.text()
+          }).animate({
+              countNum: countTo
+            },
+
+            {
+
+              duration: 2000,
+              easing: 'swing',
+              step: function() {
+                $this.text(Math.floor(this.countNum));
+              },
+              complete: function() {
+                $this.text(this.countNum);
+                //alert('finished');
+              }
+
+            });
+        });
+        a = 1;
+      }
+
+    });
+  </script>
 
 </body>
 
