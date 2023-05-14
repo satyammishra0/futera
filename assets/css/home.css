@@ -35,7 +35,7 @@
 /* ----------- First section  */
 /* ----------------------- */
 .home_first-section {
-  background-image: url("../images/home-bg.jpg");
+  background-image: url("../../Futera/futera-6.jpg");
   height: 81vh;
   width: 100%;
   flex-direction: column;
@@ -245,13 +245,16 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin-top: 5%; padding: 10px;
+  margin-top: 5%;
+  padding: 10px;
   background-color: #3fb9be;
 
 }
-.home_fourth-section-grid-content>div{
-  margin-top:10px;
+
+.home_fourth-section-grid-content>div {
+  margin-top: 10px;
 }
+
 .home_fourth-section-grid-content>button>a {
   padding: 10px;
   line-height: 2;

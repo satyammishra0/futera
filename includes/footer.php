@@ -11,9 +11,9 @@
                 <li><strong>Email:</strong> <a href=""> info@yoursite.com</a></li>
             </ul>
             <div class="footer-social-icons utility_flex-total-center">
-                <a href=""><i class='bx bxl-instagram'></i></a>
-                <a href=""><i class='bx bxl-instagram'></i></a>
-                <a href=""><i class='bx bxl-instagram'></i></a>
+                <a href="" style="border: 1px solid var(--white);" class="button-ani"><i class='bx bxl-instagram'></i></a>
+                <a href="" style="border: 1px solid var(--white);" class="button-ani"><i class='bx bxl-facebook-square'></i></a>
+                <a href="" style="border: 1px solid var(--white);" class="button-ani"><i class='bx bxl-youtube'></i></a>
             </div>
         </div>
         <div class="footer-grid-map">
@@ -33,7 +33,7 @@
                 </select>
                 <textarea placeholder="Your Message" name="" id="" cols="30" rows="10"></textarea>
                 <div class="utility_flex-total-center">
-                    <button type="submit"><a href="#">Schedule a tour</a></button>
+                    <button type="submit" style="border: 1px solid var(--white);" class="button-ani"><a href="#">Schedule a tour</a></button>
                 </div>
             </form>
         </div>

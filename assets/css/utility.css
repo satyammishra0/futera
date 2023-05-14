@@ -131,23 +131,24 @@
 }
 
 .button-ani {
-      position: relative;
-      transition: all 0.2s;
-      z-index: 2;
+  position: relative;
+  transition: all 0.2s;
+  z-index: 2;
 }
 
 .button-ani::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-color: #0d101f;
-      width: 100%;
-      height: 0%;
-      transition: all 0.2s ease-in-out;
-      z-index: -1;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #0d101f;
+  width: 100%;
+  height: 0%;
+  transition: all 0.2s ease-in-out;
+  z-index: -1;
 }
-.button-ani:hover{
+
+.button-ani:hover {
   color: #fff;
 }
 

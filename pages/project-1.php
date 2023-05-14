@@ -51,6 +51,9 @@
                 </p>
                 <a href="#">Read More</a>
             </div>
+            <div class="home_second-section-grid-img utility_background-property">
+
+            </div>
         </div>
         <div class="home_second-section-numbers utility_grid utility_grid-4">
             <div class="home_second-section-numbers-col">
@@ -300,7 +303,7 @@
 
     <section class="home_third-section utility_background-property">
         <div class="parent_section-headings utility_flex-total-center">
-            <h2>Photo Tour</h2>
+            <h2 style="color:var(--dark-color);">Photo Tour</h2>
         </div>
 
         <div class="slideshow-container">
