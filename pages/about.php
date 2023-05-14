@@ -44,10 +44,21 @@
                     RESIDENTIAL COMPLEX
                 </h2>
                 <p class="text-second">
-                    Each apartments has been individually designed to maximise space and
-                    light. Smart Home Technology installed as standard in each apartment
-                    putting you in total control of your home at the touch of a button
-                    from wherever you might be.
+                    Step into our world, where the future of apartment living is already a reality. Our team of
+                    experienced and visionary apartment builders is dedicated to crafting exceptional living spaces
+                    designed specifically for the future era. We are passionate about innovation and sustainability,
+                    and we believe that building for the future is not just a goal but a necessity.
+                    Our focus is on quality, affordability, and customer service, with the aim of delivering an
+                    unparalleled living experience to our residents. Our approach to apartment building is inspired
+                    by the future era of living, where modern design and sustainable practices come together to
+                    create a better world.
+                    Innovation is at the heart of what we do, and we are continuously pushing the limits to explore
+                    new possibilities. We are committed to provide sustainability, comfort and privacy of a luxurious
+                    home, complemented by the modern amenities and hassle-free living of an upscale apartment.
+                    At our company, we are building a community where luxury, futuristic living, modernity and
+                    community are at the forefront. We believe that everyone deserves to live in a comfortable,
+                    modern, and sustainable living space, and we are committed to bringing this vision to life for our
+                    residents.
                 </p>
                 <a href="#">Read More</a>
             </div>

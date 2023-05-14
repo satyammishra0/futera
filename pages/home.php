@@ -109,31 +109,31 @@
 
     <div class="slideshow-container">
       <div class="mySlides fade">
-        <img src="../assets/images/slider-img-1.jpg" style="width: 70vw;" />
+        <img src="../assets/images/slider-img-1.jpg" />
       </div>
 
       <div class="mySlides fade">
-        <img src="../assets/images/slider-img-2.jpg" style="width: 70vw;" />
+        <img src="../assets/images/slider-img-2.jpg" />
       </div>
 
       <div class="mySlides fade">
-        <img src="../assets/images/slider-img-3.jpg" style="width: 70vw;" />
+        <img src="../assets/images/slider-img-3.jpg" />
       </div>
 
       <div class="mySlides fade">
-        <img src="../assets/images/home-bg.jpg" style="width: 70vw;" />
+        <img src="../assets/images/home-bg.jpg" />
       </div>
 
       <div class="mySlides fade">
-        <img src="../assets/images/slider-img-3.jpg" style="width: 70vw;" />
+        <img src="../assets/images/slider-img-3.jpg" />
       </div>
 
       <div class="mySlides fade">
-        <img src="../assets/images/slider-img-3.jpg" style="width: 70vw;" />
+        <img src="../assets/images/slider-img-3.jpg" />
       </div>
 
       <div class="mySlides fade">
-        <img src="../assets/images/slider-img-3.jpg" style="width: 70vw;" />
+        <img src="../assets/images/slider-img-3.jpg" />
       </div>
       <a class="prev" onclick="plusSlides(-1)">
         <p>Previous</p>

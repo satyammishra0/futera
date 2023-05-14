@@ -12,7 +12,7 @@
 .slideshow-container {
   position: relative;
   margin: auto;
-  padding: 0 15%;
+  padding: 0 18%;
 }
 
 /* Next & previous buttons */
@@ -40,12 +40,12 @@
 
 .prev {
   z-index: 100;
-  left: 7%;
+  left: 10%;
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 5.9%;
+  right: 10%;
   border-radius: 3px 0 0 3px;
 }
 
