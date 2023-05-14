@@ -376,7 +376,7 @@
     <div class="home_sixth-section-overlay"></div>
     <div class="home_sixth-section-top-content">
       <p class="utility_heading-caption"> Apartment Neiborhoods</p>
-      <h2> Where Community and Convenience Converge, Your Perfect Neighborhood
+      <h2> Where Community and Convenience<br> Converge, Your Perfect Neighborhood
         Awaits
       </h2>
     </div>
