@@ -37,11 +37,12 @@
     <section class="gallery-section">
 
         <div class="photo-selection utility_flex-total-center">
-            <div class="photo-selection-div active-service button-ani" id="all-img">ALL</div>
-            <div class="photo-selection-div button-ani" id="building-process-img">BUILDING PROCESS</div>
-            <div class="photo-selection-div button-ani" id="envoirnment-img">ENVOIRNMENT</div>
-            <div class="photo-selection-div button-ani" id="views-img">VIEWS</div>
-            <div class="photo-selection-div button-ani" id="visualizing-complex-img">VISUALING COMPLEX</div>
+            <div class="photo-selection-div active-service button-ani" id="all-img">ELEVATIONS</div>
+            <div class="photo-selection-div button-ani" id="building-process-img">BUILDING ENTRANCE</div>
+            <div class="photo-selection-div button-ani" id="envoirnment-img">GROUND FLOOR</div>
+            <div class="photo-selection-div button-ani" id="views-img">FLOOR</div>
+            <div class="photo-selection-div button-ani" id="visualizing-complex-img">APARTMENT UNTIS</div>
+            <div class="photo-selection-div button-ani" id="terrace-img">TERRACE</div>
         </div>
 
         <div class="gallery-grid gallery-grid-active" name="all-img">
@@ -76,6 +77,15 @@
         </div>
 
         <div class="gallery-grid " name="visualizing-complex-img">
+            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
+        </div>
+
+        <div class="gallery-grid " name="terrace-img">
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
             <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
