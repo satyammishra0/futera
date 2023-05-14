@@ -44,8 +44,12 @@
                 <div class="animities-services-grid-img utility_background-property">
 
                 </div>
-                <div class="animities-services-grid-content utility_grid-center">
-                    <p>Cras fringilla, justo ut elementum porta, est erat tincidunt dolor, eget finibus tortor turpis dignissim sem. Praesent rutrum dolor massa, nec tristique ex ultrices at. Nulla est neque, imperdiet at nisi.</p>
+                <div class="animities-services-grid-content ">
+                    <h2>GYM PROVISION</h2>
+                    <p>Achieve your fitness goals with ease in a motivating environment. Whether you're an
+                        avid fitness enthusiast or simply looking to stay active, our gym provision ensures a
+                        space to add the equipment you need for a rewarding workout experience.
+                    </p>
                 </div>
             </div>
 
@@ -53,8 +57,11 @@
                 <div class="animities-services-grid-img utility_background-property">
 
                 </div>
-                <div class="animities-services-grid-content utility_grid-center">
-                    <p>Cras fringilla, justo ut elementum porta, est erat tincidunt dolor, eget finibus tortor turpis dignissim sem. Praesent rutrum dolor massa, nec tristique ex ultrices at. Nulla est neque, imperdiet at nisi.</p>
+                <div class="animities-services-grid-content ">
+                    <h2>children's play area</h2>
+                    <p>Our children's play area is a haven of fun and excitement. With engaging play structures
+                        and games, it's the perfect space for kids to let their imagination soar and create lasting
+                        memories of joy and laughter.</p>
                 </div>
             </div>
 
@@ -62,8 +69,11 @@
                 <div class="animities-services-grid-img utility_background-property">
 
                 </div>
-                <div class="animities-services-grid-content utility_grid-center">
-                    <p>Cras fringilla, justo ut elementum porta, est erat tincidunt dolor, eget finibus tortor turpis dignissim sem. Praesent rutrum dolor massa, nec tristique ex ultrices at. Nulla est neque, imperdiet at nisi.</p>
+                <div class="animities-services-grid-content ">
+                    <h2>terrace garden</h2>
+                    <p>Escape to our tropical-inspired terrace garden, a serene oasis with lush greenery and
+                        cozy sit-out areas. Perfect for quality time with family and friends, it's the ideal spot to
+                        unwind and rejuvenate.</p>
                 </div>
             </div>
 
@@ -71,13 +81,93 @@
                 <div class="animities-services-grid-img utility_background-property">
 
                 </div>
-                <div class="animities-services-grid-content utility_grid-center">
-                    <p>Cras fringilla, justo ut elementum porta, est erat tincidunt dolor, eget finibus tortor turpis dignissim sem. Praesent rutrum dolor massa, nec tristique ex ultrices at. Nulla est neque, imperdiet at nisi.</p>
+                <div class="animities-services-grid-content ">
+                    <h2>outdoor sitout area</h2>
+                    <p>Our terrace garden boasts inviting sit-out areas amidst tropical greenery, creating a
+                        tranquil space for families and friends to relax, unwind, and find solace from the stresses
+                        of everyday life.</p>
+                </div>
+            </div>
+
+            <div class="animities-services-grid utility_grid ">
+                <div class="animities-services-grid-img utility_background-property">
+
+                </div>
+                <div class="animities-services-grid-content ">
+                    <h2>lobby room</h2>
+                    <p>Our elegantly designed lobby room welcomes visitors and offers residents a comfortable
+                        space to relax, read the newspaper, or simply unwind. A place where warmth and
+                        comfort embrace every moment</p>
+                </div>
+            </div>
+
+            <div class="animities-services-grid utility_grid ">
+                <div class="animities-services-grid-img utility_background-property">
+
+                </div>
+                <div class="animities-services-grid-content ">
+                    <h2>multipurpose room</h2>
+                    <p>Our versatile multipurpose room, nestled in the scenic roof garden, provides the perfect
+                        setting for hosting parties, practicing yoga, and organizing various events. A space that
+                        adapts to your every need.</p>
+                </div>
+            </div>
+
+            <div class="animities-services-grid utility_grid ">
+                <div class="animities-services-grid-img utility_background-property">
+
+                </div>
+                <div class="animities-services-grid-content ">
+                    <h2>Tropical Plantation</h2>
+                    <p>Immerse yourself in the lush greenery of our Tropical Plantation, spanning across the
+                        rooftop, ground floor and at every level in the building. Delight in the vibrant greenery,
+                        fostering a serene and rejuvenating ambiance throughout the entire building.
+                    </p>
+                </div>
+            </div>
+
+            <div class="animities-services-grid utility_grid ">
+                <div class="animities-services-grid-img utility_background-property">
+
+                </div>
+                <div class="animities-services-grid-content ">
+                    <h2>water softener</h2>
+                    <p>Our advanced water softener system ensures the highest quality water throughout the
+                        building. Say goodbye to hard water issues as this innovative technology provides you
+                        with silky-smooth, clean, and refreshing water for all your daily needs.</p>
+                </div>
+            </div>
+
+            <div class="animities-services-grid utility_grid ">
+                <div class="animities-services-grid-img utility_background-property">
+
+                </div>
+                <div class="animities-services-grid-content ">
+                    <h2>CCTV monitoring</h2>
+                    <p>Our reliable CCTV monitoring system safeguards our city-center apartment complex,
+                        enabling quick response to unforeseen events. Rest easy knowing your safety is our
+                        priority.</p>
+                </div>
+            </div>
+
+            <div class="animities-services-grid utility_grid ">
+                <div class="animities-services-grid-img utility_background-property">
+
+                </div>
+                <div class="animities-services-grid-content ">
+                    <h2>24 Hours Power Backup</h2>
+                </div>
+            </div>
+
+            <div class="animities-services-grid utility_grid ">
+                <div class="animities-services-grid-img utility_background-property">
+
+                </div>
+                <div class="animities-services-grid-content ">
+                    <h2>Electrical Battery Charging Provision</h2>
                 </div>
             </div>
         </div>
-
-
     </section>
 
     <!--------------------------- -->

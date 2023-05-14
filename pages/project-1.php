@@ -38,15 +38,19 @@
     <section class="home_second-section">
         <div class="home_second-section-grid utility_grid">
             <div class="home_second-section-grid-content">
-                <p class="utility_heading-caption">Futera Aurem</p>
+                <p class="utility_heading-caption">Futera Aevum</p>
                 <h2 class="utility_main-heading">
                     Your own slice of paradise, <br> an entire floor to call your own
                 </h2>
                 <p class="text-second">
-                    Each apartments has been individually designed to maximise space and
-                    light. Smart Home Technology installed as standard in each apartment
-                    putting you in total control of your home at the touch of a button
-                    from wherever you might be.
+                    Welcome to Aevum, a pioneering residential project by Futera that embodies the essence of
+                    future living in the vibrant neighborhood of Kompally. Nestled amidst the bustling city, Aevum
+                    offers an oasis of peace and tranquility. With its unique floor living concept, residents enjoy the
+                    luxury of an entire floor to themselves. Strategically located, Aevum provides easy access to
+                    prestigious educational institutions, world-class healthcare facilities, vibrant entertainment
+                    centers, diverse dining options, high-end shopping malls, and the upcoming IT district.
+                    Experience the epitome of modernity and sophistication with our exceptional amenities and
+                    embrace a futuristic lifestyle at Aevums
                 </p>
                 <a href="#">Read More</a>
             </div>
@@ -87,35 +91,52 @@
             <div class="home_fifth-section-content-grid utility_grid utility_grid-3">
                 <div class="home_fifth-section-content-grid-one">
                     <i class="bx bx-wifi"></i>
-                    <a href="">FREE HEIGHT SPEED WI-FI </a>
+                    <a href="">gym provision </a>
                 </div>
                 <div class="home_fifth-section-content-grid-one">
                     <i class='bx bxs-shower'></i>
-                    <a href="">LUXURY APPLICANCES </a>
+                    <a href="">play area </a>
                 </div>
                 <div class="home_fifth-section-content-grid-one">
                     <i class='bx bxs-bowl-hot'></i>
-                    <a href="">OUTDOOR BBQ AREA </a>
+                    <a href="">terrace garden </a>
                 </div>
                 <div class="home_fifth-section-content-grid-one">
                     <i class='bx bxs-car-garage'></i>
-                    <a href="">PARKING PLACE</a>
+                    <a href="">sitout area</a>
                 </div>
                 <div class="home_fifth-section-content-grid-one">
                     <i class='bx bx-water'></i>
-                    <a href="">SWIMMING POOL </a>
+                    <a href="">lobby room </a>
                 </div>
                 <div class="home_fifth-section-content-grid-one">
                     <i class='bx bxs-basket'></i>
-                    <a href="">WASHER DRY</a>
+                    <a href="">multipurpose room</a>
                 </div>
                 <div class="home_fifth-section-content-grid-one">
                     <i class="bx bx-wifi"></i>
-                    <a href="">FREE HEIGHT SPEED WI-FI </a>
+                    <a href="">tropical planatation </a>
                 </div>
                 <div class="home_fifth-section-content-grid-one">
                     <i class="bx bx-wifi"></i>
-                    <a href="">FREE HEIGHT SPEED WI-FI </a>
+                    <a href="">water softener </a>
+                </div>
+
+                <div class="home_fifth-section-content-grid-one">
+                    <i class='bx bx-water'></i>
+                    <a href="">cctv monitoring </a>
+                </div>
+                <div class="home_fifth-section-content-grid-one">
+                    <i class='bx bxs-basket'></i>
+                    <a href="">24 hour power backup</a>
+                </div>
+                <div class="home_fifth-section-content-grid-one">
+                    <i class="bx bx-wifi"></i>
+                    <a href="">electric vehicle charging</a>
+                </div>
+                <div class="home_fifth-section-content-grid-one">
+                    <i class="bx bx-wifi"></i>
+                    <a href="">outdoor yoga</a>
                 </div>
             </div>
         </div>
@@ -138,27 +159,23 @@
                         <h4>Monterey</h4>
                         <div class="utility_flex-center-between">
                             <p>Home</p>
-                            <p>6</p>
+                            <p>4</p>
                         </div>
                         <div class="utility_flex-center-between">
-                            <p>Room</p>
+                            <p>Total Unti area</p>
+                            <p>1850</p>
+                        </div>
+                        <div class="utility_flex-center-between">
+                            <p>Unit per floor</p>
+                            <p>1</p>
+                        </div>
+                        <div class="utility_flex-center-between">
+                            <p>Bedroom</p>
                             <p>3</p>
                         </div>
                         <div class="utility_flex-center-between">
-                            <p>Windows</p>
-                            <p>6</p>
-                        </div>
-                        <div class="utility_flex-center-between">
-                            <p>Total Sq. Km</p>
-                            <p>120</p>
-                        </div>
-                        <div class="utility_flex-center-between">
-                            <p>Parking</p>
-                            <p>YES</p>
-                        </div>
-                        <div class="utility_flex-center-between">
                             <p>Price</p>
-                            <p>$2500</p>
+                            <p>90 Lakhs</p>
                         </div>
                         <button class="">
                             <a href="">Schedule a tour</a>

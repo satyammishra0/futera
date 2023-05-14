@@ -127,7 +127,7 @@
 
 .home_second-section-grid-img {
   position: relative;
-  height: 50vh;
+  /* height: 50vh; */
   background-image: url("../images/home-second-section.jpg");
 }
 
@@ -295,7 +295,7 @@ swiper-slide img {
 /* ----------------------- */
 
 .home_fifth-section {
-  height: 100vh;
+  /* height: 100vh; */
   padding: 5% 10%;
   background-image: url("../images/bg_services.jpg");
 }
@@ -312,18 +312,20 @@ swiper-slide img {
   color: var(--white);
   font-size: 36px;
   letter-spacing: 2px;
-  margin: 5% 0;
+  margin-bottom: 5%;
   text-transform: uppercase;
 }
 
 .home_fifth-section-content-grid-one {
   background-color: #13162b;
   padding: 20%;
+  margin-right: 10%;
+  margin-bottom: 10%;
   padding-right: 25%;
 }
 
 .home_fifth-section-content-grid.utility_grid-3 {
-  grid-gap: 5%;
+  grid-gap: 0;
 }
 
 .home_fifth-section-content-grid-one>i {
@@ -339,6 +341,7 @@ swiper-slide img {
   color: var(--greenish-blue);
   margin-top: 2%;
   transition: all 0.5s;
+  text-transform: uppercase;
 }
 
 .home_fifth-section-content-grid-one>a:hover {

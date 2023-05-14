@@ -13,12 +13,12 @@
 }
 
 .animities-services-grid {
-    margin-bottom: 5%;
+    margin: 5% 5% 5% 0%;
     grid-template-columns: 30% 1fr;
 }
 
-.animties-services-parent {
-    margin-top: 5%;
+.animities-services .utility_grid-2 {
+    gap: 0;
 }
 
 .animities-services-grid-img {
@@ -29,6 +29,15 @@
 .animities-services-grid-content {
     background-color: var(--white);
     padding: 5%;
+}
+
+.animities-services-grid-content>h2 {
+    margin-bottom: 10px;
+    text-align: left !important;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--greenish-blue)
 }
 
 .animities-services-grid-content>p {

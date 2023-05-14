@@ -43,24 +43,30 @@
                     INTRODUCING A NEW<br />
                     RESIDENTIAL COMPLEX
                 </h2>
+                <style>
+                    #more {
+                        display: none;
+                    }
+                </style>
                 <p class="text-second">
                     Step into our world, where the future of apartment living is already a reality. Our team of
                     experienced and visionary apartment builders is dedicated to crafting exceptional living spaces
-                    designed specifically for the future era. We are passionate about innovation and sustainability,
-                    and we believe that building for the future is not just a goal but a necessity.
-                    Our focus is on quality, affordability, and customer service, with the aim of delivering an
-                    unparalleled living experience to our residents. Our approach to apartment building is inspired
-                    by the future era of living, where modern design and sustainable practices come together to
-                    create a better world.
-                    Innovation is at the heart of what we do, and we are continuously pushing the limits to explore
-                    new possibilities. We are committed to provide sustainability, comfort and privacy of a luxurious
-                    home, complemented by the modern amenities and hassle-free living of an upscale apartment.
-                    At our company, we are building a community where luxury, futuristic living, modernity and
-                    community are at the forefront. We believe that everyone deserves to live in a comfortable,
-                    modern, and sustainable living space, and we are committed to bringing this vision to life for our
-                    residents.
+                    designed specifically for the future era. <span id="dots">...</span><span id="more">We are passionate about innovation and sustainability,
+                        and we believe that building for the future is not just a goal but a necessity.
+                        Our focus is on quality, affordability, and customer service, with the aim of delivering an
+                        unparalleled living experience to our residents. Our approach to apartment building is inspired
+                        by the future era of living, where modern design and sustainable practices come together to
+                        create a better world.
+                        Innovation is at the heart of what we do, and we are continuously pushing the limits to explore
+                        new possibilities. We are committed to provide sustainability, comfort and privacy of a luxurious
+                        home, complemented by the modern amenities and hassle-free living of an upscale apartment.
+                        At our company, we are building a community where luxury, futuristic living, modernity and
+                        community are at the forefront. We believe that everyone deserves to live in a comfortable,
+                        modern, and sustainable living space, and we are committed to bringing this vision to life for our
+                        residents.
+                    </span>
                 </p>
-                <a href="#">Read More</a>
+                <a href="#" onclick="myFunction()" id="myBtn">Read More</a>
             </div>
             <div class="home_second-section-grid-img utility_background-property">
                 <a href="#">Gallery</a>
@@ -145,6 +151,23 @@
     <!--------------------------- -->
     <?php include '../includes/links.php'; ?>
     <script src="../assets/js/home-slider.js"></script>
+    <script>
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
 </body>
 
 </html>
