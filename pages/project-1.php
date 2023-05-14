@@ -371,10 +371,12 @@
                 <h2>PROXIMITY</h2>
             </div>
             <div class="home_fifth-section-content-grid utility_grid utility_grid-3">
-                <div class="home_fifth-section-content-grid-one">
+                <div class="home_fifth-section-content-grid-one proximity-section-child-content">
                     <i class='bx bxs-school'></i>
-                    <a href="">SCHOOLS </a>
-                    <p>1.5km</p>
+                    <div>
+                        <a href="">SCHOOLS </a>
+                        <p>1.5km</p>
+                    </div>
                 </div>
                 <div class="home_fifth-section-content-grid-one">
                     <i class='bx bx-plus-medical'></i>

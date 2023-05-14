@@ -53,9 +53,27 @@
 .proximity-section-overlay .home_fifth-section-content-grid {
     padding: 0 15%;
 }
-
-.proximity-section-overlay .home_fifth-section-content-grid-one>p {
+.proximity-section-overlay
+.home_fifth-section-content-grid-one {
+    padding: 20%;
+}
+.proximity-section-overlay .home_fifth-section-content-grid-one>div>p {
     color: var(--white);
     font-size: 18px;
     font-weight: bold;
+}
+.proximity-section-overlay .home_fifth-section-content-grid-one>i{
+    font-size:50px;
+}
+.proximity-section-overlay .home_fifth-section-content-grid-one>div>a {
+    font-size: 14px;
+    width: 10%;
+    font-family: var(--font-pt-sans);
+    color: var(--greenish-blue);
+    margin-top: 2%;
+    transition: all 0.5s;
+    text-transform: uppercase;
+}
+.proximity-section-child-content{
+    display: flex;
 }
