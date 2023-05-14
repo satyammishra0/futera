@@ -28,7 +28,7 @@
     <!------------ First Section  -->
     <!--------------------------- -->
     <?php
-    $page_title = "Project 1";
+    $page_title = "Project Aevum";
     include '../includes/header-section.php'; ?>
 
 
