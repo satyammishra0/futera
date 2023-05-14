@@ -378,30 +378,40 @@
                         <p>1.5km</p>
                     </div>
                 </div>
-                <div class="home_fifth-section-content-grid-one">
+                <div class="home_fifth-section-content-grid-one proximity-section-child-content">
                     <i class='bx bx-plus-medical'></i>
-                    <a href="">HOSPITALS</a>
-                    <p>1.5km</p>
+                    <div>
+                        <a href="">HOSPITALS</a>
+                        <p>1.5km</p>
+                    </div>
                 </div>
-                <div class="home_fifth-section-content-grid-one">
+                <div class="home_fifth-section-content-grid-one proximity-section-child-content">
                     <i class='bx bxs-building-house'></i>
-                    <a href="">SHOPPING MALLS </a>
-                    <p>1.5km</p>
+                    <div>
+                        <a href="">SHOPPING MALLS </a>
+                        <p>1.5km</p>
+                    </div>
                 </div>
-                <div class="home_fifth-section-content-grid-one">
+                <div class="home_fifth-section-content-grid-one proximity-section-child-content">
                     <i class='bx bxs-cable-car'></i>
-                    <a href="">NATIONAL HIGHWAY</a>
-                    <p>1.5km</p>
+                    <div>
+                        <a href="">NATIONAL HIGHWAY</a>
+                        <p>1.5km</p>
+                    </div>
                 </div>
-                <div class="home_fifth-section-content-grid-one">
+                <div class="home_fifth-section-content-grid-one proximity-section-child-content">
                     <i class='bx bxs-store-alt'></i>
-                    <a href="">BUISNESS DISTRICT </a>
-                    <p>1.5km</p>
+                    <div>
+                        <a href="">BUISNESS DISTRICT </a>
+                        <p>1.5km</p>
+                    </div>
                 </div>
-                <div class="home_fifth-section-content-grid-one">
+                <div class="home_fifth-section-content-grid-one proximity-section-child-content">
                     <i class='bx bxs-buildings'></i>
-                    <a href="">IT PARKS</a>
-                    <p>1.5km</p>
+                    <div>
+                        <a href="">IT PARKS</a>
+                        <p>1.5km</p>
+                    </div>
                 </div>
             </div>
         </div>
