@@ -40,8 +40,7 @@
             <div class="home_second-section-grid-content">
                 <p class="utility_heading-caption">Futera Aurem</p>
                 <h2 class="utility_main-heading">
-                    YOUR OWN SENSE OF PARADISE<br />
-                    FLOOR TO CALL YOUR OWN
+                    Your own slice of paradise, <br> an entire floor to call your own
                 </h2>
                 <p class="text-second">
                     Each apartments has been individually designed to maximise space and
@@ -74,7 +73,7 @@
             </div>
         </div>
         <div class="home_second-section-price">
-            <p>Price starts from 90 Lakhs</p>
+            <p>Prices starting from <span style="color:var(--greenish-blue);cursor:pointer;">98 Lakhs</span></p>
         </div>
     </section>
 
@@ -109,6 +108,14 @@
                 <div class="home_fifth-section-content-grid-one">
                     <i class='bx bxs-basket'></i>
                     <a href="">WASHER DRY</a>
+                </div>
+                <div class="home_fifth-section-content-grid-one">
+                    <i class="bx bx-wifi"></i>
+                    <a href="">FREE HEIGHT SPEED WI-FI </a>
+                </div>
+                <div class="home_fifth-section-content-grid-one">
+                    <i class="bx bx-wifi"></i>
+                    <a href="">FREE HEIGHT SPEED WI-FI </a>
                 </div>
             </div>
         </div>

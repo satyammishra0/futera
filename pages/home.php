@@ -34,7 +34,7 @@
   <!------------ First Section  -->
   <!--------------------------- -->
   <section class="home_first-section utility_flex-total-center utility_background-property">
-    <div class="home_first-content" data-aos="zoom-in-up">
+    <div class="home_first-content" data-aos="zoom-in" data-aos-duration="1500">
       <p class="utility_heading-caption">Find The Best</p>
       <h1>MODERN APARTMENT IN A NEW RESIDENTIAL COMPLEX</h1>
       <button class="home_first-content-button">
@@ -127,22 +127,24 @@
       <div class="mySlides fade">
         <img src="../assets/images/slider-img-3.jpg" style="width: 70vw;" />
       </div>
+
+      <div class="mySlides fade">
+        <img src="../assets/images/slider-img-3.jpg" style="width: 70vw;" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="../assets/images/slider-img-3.jpg" style="width: 70vw;" />
+      </div>
       <a class="prev" onclick="plusSlides(-1)">
-        <p>Prev</p>
-        <p>Photo</p>
+        <p>Previous</p>
       </a>
       <a class="next" onclick="plusSlides(1)">
         <p>Next</p>
-        <p>Photo</p>
+
       </a>
     </div>
     <br />
 
-    <div style="text-align: center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
   </section>
 
   <!--------------------------- -->
@@ -181,7 +183,7 @@
             </div>
             <div class="utility_flex-center-between">
               <p>Price</p>
-              <p>$2500</p>
+              <p><span style="color:var(--greenish-blue);font-weight:bold;">$2500</span></p>
             </div>
 
             <button class="button-ani">
@@ -369,49 +371,23 @@
   <!------------ Sixth Section -->
   <!--------------------------- -->
   <section class="home_sixth-section utility_background-property">
-    <div class="parent_section-headings utility_flex-total-center">
-
-      <h2>News & article</h2>
+    <div class="home_sixth-section-overlay"></div>
+    <div class="home_sixth-section-top-content">
+      <p class="utility_heading-caption"> Apartment Neiborhoods</p>
+      <h2> STUNNING LUXURY RENTAL APARTMENTS, <br>DESIGNED FOR LIFE
+      </h2>
     </div>
-
-    <div class="home_sixth-section-grid utility_grid utility_grid-3">
-      <div class="home_sixth-section-grid-card">
-        <div class="home_sixth-section-grid-card-img">
-          <img src="../assets/images/home-bg.jpg" alt="">
-        </div>
-        <div class="home_sixth-section-grid-card-content">
-          <h2><a href=""> START OF INSTALLATION OF WATER AND HEATING SYSTEMS</a></h2>
-          <p class="date-content">12 Jun 2020</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus error, aperiam veniam quia Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus error, aperiam</p>
-          <a href="">Learn More</a>
-        </div>
-      </div>
-      <div class="home_sixth-section-grid-card">
-        <div class="home_sixth-section-grid-card-img">
-          <img src="../assets/images/home-bg.jpg" alt="">
-        </div>
-        <div class="home_sixth-section-grid-card-content">
-          <h2><a href=""> START OF INSTALLATION OF WATER AND HEATING SYSTEMS</a></h2>
-          <p class="date-content">12 Jun 2020</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus error, aperiam veniam quia Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus error, aperiam</p>
-          <a href="">Learn More</a>
-        </div>
-      </div>
-      <div class="home_sixth-section-grid-card">
-        <div class="home_sixth-section-grid-card-img">
-          <img src="../assets/images/home-bg.jpg" alt="">
-        </div>
-        <div class="home_sixth-section-grid-card-content">
-          <h2><a href=""> START OF INSTALLATION OF WATER AND HEATING SYSTEMS</a></h2>
-          <p class="date-content">12 Jun 2020</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus error, aperiam veniam quia Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus error, aperiam</p>
-          <a href="">Learn More</a>
-        </div>
-      </div>
+    <div class="north-bridge  tooltip" title="North Bridge">
+      <p><span></span></p>
     </div>
-
-    <div class="home_sixth-section-btn utility_flex-total-center">
-      <button class="utility_main-button button-ani"><a href="#">Read More</a></button>
+    <div class="south-bridge  tooltip" title="South Bridge">
+      <p><span></span></p>
+    </div>
+    <div class="parliament tooltip" title="Parliament">
+      <p><span></span></p>
+    </div>
+    <div class="public-library  tooltip" title="Public Library">
+      <p><span></span></p>
     </div>
   </section>
 

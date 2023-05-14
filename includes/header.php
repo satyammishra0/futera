@@ -29,24 +29,24 @@
         <ul class="nav-list utility_flex utility_flex-center-center">
             <li class="nav-links"><a href="../pages/home.php"> HOME</a></li>
             <li class="nav-links"><a href="../pages/about.php"> ABOUT</a></li>
-            <li class="nav-links"><a href="../pages/gallery.php"> GALLERY</a></li>
             <li class="nav-links">
                 <a href="../pages/gallery.php"> PROJECTS</a>
                 <div class="sub-menu sub-menu-car" id="sub_menu">
                     <div class="sub-menu-child w-100 ">
                         <ul class="w-100 py-2">
                             <li class="w-100">
-                                <a class="w-100" href="../pages/project-1.php">Project 1</a>
+                                <a class="w-100" href="../pages/project-1.php">Project Aevum</a>
                             </li>
                             <li class="w-100">
-                                <a class="w-100" href="../pages/project-2.php">Project 2</a>
+                                <a class="w-100" href="../pages/project-2.php">Project Aria</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </li>
+            <li class="nav-links"><a href="../pages/amenities.php"> AMENITIES</a></li>
+            <li class="nav-links"><a href="../pages/gallery.php"> GALLERY</a></li>
             <li class="nav-links"><a href="../pages/contact.php"> CONTACTS</a></li>
-            <li class="nav-links"><a href="../pages/anemities.php"> ANEMITIES</a></li>
         </ul>
     </nav>
     <!-- --------------------- -->
