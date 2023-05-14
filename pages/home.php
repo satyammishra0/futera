@@ -34,7 +34,7 @@
   <!------------ First Section  -->
   <!--------------------------- -->
   <section class="home_first-section utility_flex-total-center utility_background-property">
-    <div class="home_first-content" data-aos="zoom-in" data-aos-duration="1500">
+    <div class="home_first-content" data-aos="fade-up" data-aos-duration="1000">
       <p class="utility_heading-caption">Find the Best</p>
       <h1>Innovative Apartments For The Future Era of Living</h1>
       <button class="home_first-content-button">
@@ -110,31 +110,46 @@
 
     <div class="slideshow-container">
       <div class="mySlides fade">
-        <img src="../assets/images/slider-img-1.jpg" />
+        <img src="../Futera/futera-1.jpg" />
       </div>
 
       <div class="mySlides fade">
-        <img src="../assets/images/slider-img-2.jpg" />
+        <img src="../Futera/futera-2.jpg" />
       </div>
 
       <div class="mySlides fade">
-        <img src="../assets/images/slider-img-3.jpg" />
+        <img src="../Futera/futera-3.jpg" />
       </div>
 
       <div class="mySlides fade">
-        <img src="../assets/images/home-bg.jpg" />
+        <img src="../Futera/futera-7.jpg" />
       </div>
 
       <div class="mySlides fade">
-        <img src="../assets/images/slider-img-3.jpg" />
+        <img src="../Futera/futera-4.jpg" />
       </div>
 
       <div class="mySlides fade">
-        <img src="../assets/images/slider-img-3.jpg" />
+        <img src="../Futera/futera-5.jpg" />
       </div>
 
       <div class="mySlides fade">
-        <img src="../assets/images/slider-img-3.jpg" />
+        <img src="../Futera/futera-6.jpg" />
+      </div>
+      <div class="mySlides fade">
+        <img src="../Futera/futera-7.jpg" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="../Futera/futera-8.jpg" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="../Futera/futera-9.jpg" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="../Futera/futera-10.jpg" />
       </div>
       <a class="prev" onclick="plusSlides(-1)">
         <p>Previous</p>

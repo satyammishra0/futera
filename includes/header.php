@@ -22,7 +22,7 @@
 <header class="header width-100 utility_flex-center-between">
     <div class="header-logo">
         <a href="../pages/home.php">
-            <img src="../assets/images/logo.webp" alt="Header logo" />
+            <img src="../assets/images/logo.jpg" alt="Header logo" />
         </a>
     </div>
     <nav>
