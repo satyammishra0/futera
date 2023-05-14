@@ -65,11 +65,12 @@
 .nav-links {
   transition: 0.3s;
   position: relative;
+  padding:10px 0;
 }
 
 .sub-menu {
   position: absolute;
-  /* margin-top: 12px; */
+  margin-top: 10px;
   height: fit-content;
   /* padding: 10px 5px; */
   overflow: hidden;
