@@ -10,33 +10,7 @@
   position: sticky;
   width: 100%;
   top: 0;
-  background-color: transparent;
-
-}
-
-.header:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100px;
-  /* Adjust this height as needed */
-  background-color: transparent;
-  z-index: -1;
-}
-
-.header:after {
-  content: "";
-  position: absolute;
-  top: 100px;
-  /* Adjust this height to match the height of the transparent section */
-  left: 0;
-  width: 100%;
-  height: calc(100% - 100px);
-  /* Adjust this calculation as needed */
-  background-color: blue;
-  z-index: -1;
+  background-color: var(--dark-blue);
 }
 
 .header-logo>a>h2 {

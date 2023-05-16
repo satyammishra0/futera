@@ -22,7 +22,7 @@
 <header class="header sticky-header width-100 utility_flex-center-between sticky-header">
     <div class="header-logo">
         <a href="../pages/home.php">
-            <img src="../assets/images/logo.jpg" alt="Header logo" />
+            <img src="../assets/images/new-logo.png" alt="Header logo" />
         </a>
     </div>
     <nav>
