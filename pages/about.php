@@ -124,12 +124,10 @@
                 <img src="../assets/images/slider-img-3.jpg" style="width: 100%" />
             </div>
             <a class="prev" onclick="plusSlides(-1)">
-                <p>Prev</p>
-                <p>Photo</p>
+                <p>Prev.</p>
             </a>
             <a class="next" onclick="plusSlides(1)">
                 <p>Next</p>
-                <p>Photo</p>
             </a>
         </div>
         <br />
