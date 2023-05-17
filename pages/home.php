@@ -105,12 +105,12 @@
 
   <section class="home_third-section utility_background-property">
     <div class="parent_section-headings utility_flex-total-center">
-      <h2>Photo Tour</h2>
+      <h2>Photo & Video Tour</h2>
     </div>
 
     <div class="slideshow-container">
       <div class="mySlides fade">
-        <img src="../Futera/futera-1.jpg" />
+        <iframe width="100%" height="200%" src="https://www.youtube.com/embed/nzfI4oiG2BM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
 
       <div class="mySlides fade">
@@ -145,11 +145,11 @@
       </div>
 
       <div class="mySlides fade">
-        <img src="../Futera/futera-9.jpg" />
+        <iframe width="100%" height="200%" src="https://www.youtube.com/embed/nzfI4oiG2BM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
 
       <div class="mySlides fade">
-        <img src="../Futera/futera-10.jpg" />
+        <iframe width="100%" height="200%" src="https://www.youtube.com/embed/nzfI4oiG2BM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
       <a class="prev" onclick="plusSlides(-1)">
         <p>Previous</p>
@@ -381,6 +381,10 @@
           <a href="">Water Softener</a>
         </div>
       </div>
+
+      <button class="button-ani">
+        <a href="./amenities.php">Know More</a>
+      </button>
     </div>
   </section>
 

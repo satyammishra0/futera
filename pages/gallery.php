@@ -28,6 +28,7 @@
     <!------------ First Section  -->
     <!--------------------------- -->
     <?php
+    $img_path = "Futera/futera-1.jpg";
     $page_title = "Gallery";
     include '../includes/header-section.php'; ?>
 

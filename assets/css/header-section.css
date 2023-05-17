@@ -1,3 +1,23 @@
+.top-header-bg {
+  background-image: url(../../Futera/futera-10.jpg);
+  height: 55vh;
+  position: relative;
+}
+
+.top-header-bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000ab;
+}
+
+.top-header-bg-overlay>h2 {
+  font-size: 45px;
+  color: #fff;
+}
+
 /* --------------------- */
 /* Header desing For mobile */
 /* --------------------- */

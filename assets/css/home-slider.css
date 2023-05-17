@@ -8,6 +8,12 @@
   vertical-align: middle;
 }
 
+.mySlides>iframe {
+  height: 400px;
+  width: 100%;
+  vertical-align: middle;
+}
+
 /* Slideshow container */
 .slideshow-container {
   position: relative;
