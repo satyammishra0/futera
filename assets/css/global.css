@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Antonio", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --greenish-blue: #3fb9be;
+  --light-black: #3f4346;
+  --slight-blue: #a0b2be;
+  --black: #000;
+  --white: #fff;
+  --gray: #e0e0e0;
+  --section-padding: 5%;
+  --font-antonio: "Antonio", sans-serif;
+  --font-pt-sans: "PT Sans Narrow", sans-serif;
+  /* --dark-blue: #0d101f; */
+  --dark-blue: #b84e16;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+input {
+  outline: none;
+}
+
+textarea {
+  outline: none;
+}
