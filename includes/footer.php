@@ -27,9 +27,8 @@
                 <input type="email" placeholder="Your Email">
                 <select name="Projects" id="Projects">
                     <option value="Projects">Projects</option>
-                    <option value="Projects1">Project1</option>
-                    <option value="Projects2">Project2</option>
-                    <option value="Projects3">Projects3</option>
+                    <option value="Projects1">Project Aveum</option>
+                    <option value="Projects2">Projects Aria </option>
                 </select>
                 <textarea placeholder="Your Message" name="" id="" cols="30" rows="10"></textarea>
                 <div class="utility_flex-total-center">
@@ -39,7 +38,7 @@
         </div>
     </div>
     <div class="last-footer utility_flex-total-center">
-        <p>ThemeREX © 2023 . All rights reserved. Terms of use and Privacy Policy</p>
+        <p>Futera © 2023 . All rights reserved. Terms of use and Privacy Policy</p>
     </div>
 </footer>
 
