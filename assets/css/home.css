@@ -335,9 +335,6 @@ swiper-slide img {
   text-transform: uppercase;
 }
 
-.home_fifth-section-content-grid-one>a:hover {
-  color: var(--white);
-}
 
 .home_fifth-section-content>button {
   cursor: pointer;
@@ -574,6 +571,10 @@ swiper-slide img {
   .home_fourth-section-grid-content>div {
     width: 100%;
     margin: 0;
+  }
+
+  .home_fourth-section-grid {
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .swiper-button-prev:after {
