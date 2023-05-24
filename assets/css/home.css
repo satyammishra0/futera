@@ -18,6 +18,7 @@
 
 .home_first-content>h1 {
   font-weight: 700;
+  width: 100%;
   font-size: 44px;
   margin: 5% 0;
 }
@@ -68,7 +69,7 @@
 .home_second-section-grid {
   grid-template-columns: repeat(2, 1fr);
   gap: 15%;
-  padding-bottom: 10%;
+  /* padding-bottom: 10%; */
 }
 
 .home_second-section-grid-content>h2 {
@@ -94,8 +95,17 @@
 
 .home_second-section-grid-img {
   position: relative;
-  /* height: 50vh; */
-  background-image: url("../../Futera/futera-6.jpg");
+  height: 50vh;
+  /* background-image: url("../../Futera/futera-6.jpg"); */
+}
+
+.home_second-section-grid-img>img {
+  height: 100%;
+  width: 100%;
+}
+
+.myslides {
+  display: none;
 }
 
 .home_second-section-grid-img>a {
@@ -174,6 +184,11 @@
 .home_fourth-section {
   padding: 5% 10%;
 }
+
+.home_fourth-section .parent_section-headings {
+  padding-bottom: 0;
+}
+
 
 .home_fourth-section-grid {
   padding: 0 10%;
@@ -288,7 +303,16 @@ swiper-slide img {
   padding: 20%;
   margin-right: 10%;
   margin-bottom: 10%;
-  padding-right: 25%;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.home_fifth-section-content-grid-one:hover {
+  background-color: var(--dark-orange);
+}
+
+.home_fifth-section-content-grid-one:hover a {
+  color: var(--white);
 }
 
 .home_fifth-section-content-grid.utility_grid-3 {

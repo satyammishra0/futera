@@ -47,11 +47,11 @@
   <!------------ Explore Btn  -->
   <!--------------------------- -->
   <!-- <div class="explore">
-      <a href="#">
-        <p>Explore More</p>
-        <i class="bx bx-down-arrow-alt"></i
-      ></a>
-    </div> -->
+    <a href="#">
+      <p>Explore More</p>
+      <i class="bx bx-down-arrow-alt"></i>
+    </a>
+  </div> -->
 
 
   <!--------------------------- -->
@@ -74,13 +74,17 @@
         </p>
         <a href="./about.php">Read More</a>
       </div>
-      <div class="home_second-section-grid-img utility_background-property">
+      <div class="home_second-section-grid-img w3-content w3-section">
+        <img src="../Futera/futera-6.jpg" class="mySlides" alt="Slider img">
+        <img src="../Futera/futera-7.jpg" class="mySlides" alt="Slider img">
+        <img src="../Futera/futera-8.jpg" class="mySlides" alt="Slider img">
+        <img src="../Futera/futera-9.jpg" class="mySlides" alt="Slider img">
 
         <a class="button-ani" href="./gallery.php">Gallery</a>
       </div>
     </div>
 
-    <div class="home_second-section-numbers utility_grid utility_grid-4" id="counter">
+    <!-- <div class="home_second-section-numbers utility_grid utility_grid-4" id="counter">
       <div class="home_second-section-numbers-col">
         <h2 id="counter-element" class="counter-value" data-count="300">1</h2>
         <p>Luxe Apartments</p>
@@ -97,7 +101,7 @@
         <h2 class="counter-value" data-count="800">1</h2>
         <p>Happy Customers</p>
       </div>
-    </div>
+    </div> -->
   </section>
   <!--------------------------- -->
   <!------------ Slider (Third)-->
@@ -203,7 +207,7 @@
             </div>
 
             <button class="button-ani">
-              <a href="">Schedule a tour</a>
+              <a href="../.cpanel.yml" download>Download Brochure</a>
             </button>
 
           </div>
@@ -608,6 +612,29 @@
     }
 
     /////////////////////////////////////////////////////////////////////////////
+  </script>
+
+  <script>
+    // ---------------------------------
+    // Second section carousel JS
+    // ---------------------------------
+
+    var slideIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > x.length) {
+        slideIndex = 1
+      }
+      x[slideIndex - 1].style.display = "block";
+      setTimeout(carousel, 1500); // Change image every 2 seconds
+    }
   </script>
 </body>
 
