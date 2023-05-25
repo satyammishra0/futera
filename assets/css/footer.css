@@ -1,3 +1,52 @@
+#myBtntotop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 1000;
+  border: none;
+  outline: none;
+  background-color: var(--dark-orange);
+  /* cursor: pointer; */
+  border-radius: 4px;
+  animation: action 1s infinite alternate;
+  transition: all 0.3s linear;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+#myBtntotop {
+  padding: 10px;
+}
+
+#myBtntotop>a>i {
+  color: white;
+  font-size: 30px;
+}
+
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-15px);
+  }
+}
+
+#myBtntotop:hover {
+  background-color: var(--greenish-blue);
+}
+
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-15px);
+  }
+}
+
 /* ----------------------- */
 /* ---------Footer   */
 /* ----------------------- */

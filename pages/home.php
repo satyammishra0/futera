@@ -20,7 +20,10 @@
   <link rel="stylesheet" href="../assets/css/home.css" />
   <!-- <link rel="stylesheet" href="../assets/css/home-slider.css" /> -->
   <link rel="stylesheet" href="../assets/css/video-slider.css" />
-
+  <!--------------------------- -->
+  <!------------ ALL Links -->
+  <!--------------------------- -->
+  <?php include '../includes/links.php'; ?>
 
 </head>
 
@@ -473,10 +476,6 @@
   <?php include '../includes/footer.php'; ?>
 
 
-  <!--------------------------- -->
-  <!------------ ALL Links -->
-  <!--------------------------- -->
-  <?php include '../includes/links.php'; ?>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
