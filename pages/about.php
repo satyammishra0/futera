@@ -61,25 +61,6 @@
                 <a class="button-ani" href="./gallery.php">Gallery</a>
             </div>
         </div>
-
-        <!-- <div class="home_second-section-numbers utility_grid utility_grid-4" id="counter">
-      <div class="home_second-section-numbers-col">
-        <h2 id="counter-element" class="counter-value" data-count="300">1</h2>
-        <p>Luxe Apartments</p>
-      </div>
-      <div class="home_second-section-numbers-col">
-        <h2 class="counter-value" data-count="200">0</h2>
-        <p>Bedroom</p>
-      </div>
-      <div class="home_second-section-numbers-col">
-        <h2 class="counter-value" data-count="800">1</h2>
-        <p>Square Areas</p>
-      </div>
-      <div class="home_second-section-numbers-col">
-        <h2 class="counter-value" data-count="800">1</h2>
-        <p>Happy Customers</p>
-      </div>
-    </div> -->
     </section>
 
     <!--------------------------- -->
@@ -153,6 +134,29 @@
                 btnText.innerHTML = "Read less";
                 moreText.style.display = "inline";
             }
+        }
+    </script>
+
+    <script>
+        // ---------------------------------
+        // Second section carousel JS
+        // ---------------------------------
+
+        var slideIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > x.length) {
+                slideIndex = 1
+            }
+            x[slideIndex - 1].style.display = "block";
+            setTimeout(carousel, 1500); // Change image every 2 seconds
         }
     </script>
 </body>

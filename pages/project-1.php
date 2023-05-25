@@ -54,8 +54,13 @@
                 </p>
                 <a href="#">Read More</a>
             </div>
-            <div class="home_second-section-grid-img utility_background-property">
+            <div class="home_second-section-grid-img w3-content w3-section">
+                <img src="../Futera/futera-6.jpg" class="mySlides" alt="Slider img">
+                <img src="../Futera/futera-7.jpg" class="mySlides" alt="Slider img">
+                <img src="../Futera/futera-8.jpg" class="mySlides" alt="Slider img">
+                <img src="../Futera/futera-9.jpg" class="mySlides" alt="Slider img">
 
+                <a class="button-ani" href="./gallery.php">Gallery</a>
             </div>
         </div>
         <div class="home_second-section-numbers utility_grid utility_grid-4">
@@ -387,6 +392,28 @@
     <!--------------------------- -->
     <?php include '../includes/links.php'; ?>
 
+    <script>
+        // ---------------------------------
+        // Second section carousel JS
+        // ---------------------------------
+
+        var slideIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > x.length) {
+                slideIndex = 1
+            }
+            x[slideIndex - 1].style.display = "block";
+            setTimeout(carousel, 1500); // Change image every 2 seconds
+        }
+    </script>
 
 </body>
 

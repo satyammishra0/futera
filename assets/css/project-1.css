@@ -85,6 +85,10 @@
     text-transform: uppercase;
 }
 
+.proximity-section-overlay .parent_section-headings>h2 {
+    color: var(--white);
+}
+
 .proximity-section-child-content {
     display: flex;
 }
