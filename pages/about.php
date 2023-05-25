@@ -18,7 +18,7 @@
     <!------------ CSS Files -->
     <!--------------------------- -->
     <link rel="stylesheet" href="../assets/css/home.css" />
-    <link rel="stylesheet" href="../assets/css/home-slider.css" />
+    <link rel="stylesheet" href="../assets/css/video-slider.css" />
 
 </head>
 
@@ -53,10 +53,10 @@
                 <a href="./about.php">Read More</a>
             </div>
             <div class="home_second-section-grid-img w3-content w3-section">
-                <img src="../Futera/futera-6.jpg" class="mySlides" alt="Slider img">
-                <img src="../Futera/futera-7.jpg" class="mySlides" alt="Slider img">
-                <img src="../Futera/futera-8.jpg" class="mySlides" alt="Slider img">
-                <img src="../Futera/futera-9.jpg" class="mySlides" alt="Slider img">
+                <img src="../Futera/futera-6.jpg" class="mySlide" alt="Slider img">
+                <img src="../Futera/futera-7.jpg" class="mySlide" alt="Slider img">
+                <img src="../Futera/futera-8.jpg" class="mySlide" alt="Slider img">
+                <img src="../Futera/futera-9.jpg" class="mySlide" alt="Slider img">
 
                 <a class="button-ani" href="./gallery.php">Gallery</a>
             </div>
@@ -73,40 +73,69 @@
             <h2>Photo Tour</h2>
         </div>
 
-        <div class="slideshow-container">
-            <div class="mySlides fade">
-                <img src="../assets/images/slider-img-1.jpg" style="width: 100%" />
-            </div>
+        <div class="page-5">
+            <div class="page-5-box">
+                <div class="prev icon" id="left"><span>prev <br>video</span><i class='bx bx-left-arrow-alt'></i></div>
+                <div class="slide">
+                    <div class="slide-box slide-box1">
+                        <div class="dark">
+                            <div class="play">
+                                <div class="img">
+                                    <img id="icon-1" src="../assets/images/icons8-play-100.png" alt="">
+                                    <img id="icon-2" src="../assets/images/icons8-play-101.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-page">
+                            <iframe class="responsive-iframe" width="560" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="slide-box slide-box2">
+                        <div class="dark">
+                            <div class="play">
+                                <div class="img">
+                                    <img id="icon-1" src="../assets/images/icons8-play-100.png" alt="">
+                                    <img id="icon-2" src="../assets/images/icons8-play-101.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-page">
+                            <iframe class="responsive-iframe" width="560" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="slide-box slide-box3">
+                        <div class="dark">
+                            <div class="play">
+                                <div class="img">
+                                    <img id="icon-1" src="../assets/images/icons8-play-100.png" alt="">
+                                    <img id="icon-2" src="../assets/images/icons8-play-101.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-page">
 
-            <div class="mySlides fade">
-                <img src="../assets/images/slider-img-2.jpg" style="width: 100%" />
-            </div>
+                            <iframe class="responsive-iframe" width="560" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="slide-box slide-box4">
+                        <div class="dark">
+                            <div class="play">
+                                <div class="img">
+                                    <img id="icon-1" src="../assets/images/icons8-play-100.png" alt="">
+                                    <img id="icon-2" src="../assets/images/icons8-play-101.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-page">
 
-            <div class="mySlides fade">
-                <img src="../assets/images/slider-img-3.jpg" style="width: 100%" />
+                            <iframe class="responsive-iframe" width="560" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="next icon" id="right"><span>next <br>video</span><i class='bx bx-right-arrow-alt'></i></div>
             </div>
-
-            <div class="mySlides fade">
-                <img src="../assets/images/home-bg.jpg" style="width: 100%" />
-            </div>
-
-            <div class="mySlides fade">
-                <img src="../assets/images/slider-img-3.jpg" style="width: 100%" />
-            </div>
-            <a class="prev" onclick="plusSlides(-1)">
-                <p>Prev.</p>
-            </a>
-            <a class="next" onclick="plusSlides(1)">
-                <p>Next</p>
-            </a>
         </div>
-        <br />
 
-        <div style="text-align: center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
     </section>
 
 
@@ -118,7 +147,7 @@
     <!------------ ALL Links -->
     <!--------------------------- -->
     <?php include '../includes/links.php'; ?>
-    <script src="../assets/js/home-slider.js"></script>
+    <!-- <script src="../assets/js/home-slider.js"></script> -->
     <script>
         function myFunction() {
             var dots = document.getElementById("dots");
@@ -147,7 +176,7 @@
 
         function carousel() {
             var i;
-            var x = document.getElementsByClassName("mySlides");
+            var x = document.getElementsByClassName("mySlide");
             for (i = 0; i < x.length; i++) {
                 x[i].style.display = "none";
             }
@@ -159,6 +188,8 @@
             setTimeout(carousel, 1500); // Change image every 2 seconds
         }
     </script>
+
+    <script src="../assets/js/video-slider.js"></script>
 </body>
 
 </html>
