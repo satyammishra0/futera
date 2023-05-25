@@ -1,0 +1,9 @@
+RewriteEngine on
+
+Options -Indexes
+
+# This rule alow user to access file
+RewriteCond %{REQUEST_FILENAME} !-f
+#=============================================================================================================
+#
+ErrorDocument 404 http://localhost/saaol/Futera/pages/404.php

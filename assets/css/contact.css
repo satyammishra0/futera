@@ -1,0 +1,102 @@
+/* ----------------------- */
+/* ---------First Section  */
+/* ----------------------- */
+.contact-details {
+  padding: 10% 25%;
+  background-image: url("../images/bg_contacts.jpg");
+}
+
+.contact-details-grid-content > i {
+  font-size: 65px;
+  color: var(--greenish-blue);
+  margin-bottom: 5%;
+}
+
+.contact-details-grid-content > p {
+  font-size: 13px;
+  line-height: 1.5;
+  font-family: var(--font-pt-sans);
+}
+
+/* ----------------------- */
+/* ---------Second Section  */
+/* ----------------------- */
+.contact-form-section {
+  padding: 5% 10%;
+}
+
+.contact-form-section > h2 {
+  font-size: 44px;
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+  z-index: 100;
+  font-size: 36px;
+  letter-spacing: 2px;
+  margin: 5% 0;
+  text-transform: uppercase;
+}
+
+.contact-form-section > form {
+  padding: 0% 25%;
+}
+
+.contact-form-section > form > input {
+  width: 49%;
+  color: #a0b2be;
+  border-color: #f4f9fc;
+  background-color: #f4f9fc;
+  border: none;
+  padding: 10px 4px;
+}
+
+.contact-form-section > form > textarea {
+  width: 100%;
+  height: 200px;
+  margin-top: 5%;
+  color: #a0b2be;
+  border-color: #f4f9fc;
+  background-color: #f4f9fc;
+  padding: 10px 4px;
+  border: none;
+  outline: none;
+}
+.contact-form-section > form > div {
+  margin-top: 5%;
+}
+
+.contact-form-section > form > div > button {
+  cursor: pointer;
+  display: inline-block;
+  text-transform: uppercase;
+  white-space: nowrap;
+  padding: 1.75em 3em;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: normal;
+  letter-spacing: 5px;
+  border: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(to bottom, #13162b 50%, #3fb9be 50%) no-repeat
+    scroll right bottom / 100% 210% #3fb9be !important;
+}
+/* ----------------------- */
+/* ---------Map Section  */
+/* ----------------------- */
+.map-section > iframe {
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .contact-details {
+    padding: 10%;
+  }
+  .contact-details-grid-content {
+    margin-bottom: 5%;
+  }
+  .contact-form-section > form {
+    padding: 0 10%;
+  }
+}

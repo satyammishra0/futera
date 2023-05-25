@@ -1,0 +1,47 @@
+/* ----------------------- */
+/* ---------Services section  */
+/* ----------------------- */
+
+.animities-services {
+    padding: 5% 10%;
+    background-image: url(../images/bg_contacts.jpg);
+}
+
+.animities-services>p,
+.animities-services>h2 {
+    text-align: center;
+}
+
+.animities-services-grid {
+    margin: 5% 5% 5% 0%;
+    grid-template-columns: 30% 1fr;
+}
+
+.animities-services .utility_grid-2 {
+    gap: 0;
+}
+
+.animities-services-grid-img {
+    height: 25vh;
+    background-image: url(../images/slider-img-1.jpg);
+}
+
+.animities-services-grid-content {
+    background-color: var(--white);
+    padding: 5%;
+}
+
+.animities-services-grid-content>h2 {
+    margin-bottom: 10px;
+    text-align: left !important;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--greenish-blue)
+}
+
+.animities-services-grid-content>p {
+    font-size: 14px;
+    color: #3f4346;
+    font-family: var(--font-pt-sans);
+}

@@ -1,0 +1,181 @@
+.mySlides {
+  display: none;
+}
+
+.mySlides>img {
+  height: 400px;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.mySlides>iframe {
+  height: 400px;
+  width: 100%;
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+  padding: 0 18%;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  width: 8vw;
+  height: 80%;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: var(--dark-blue);
+}
+
+.prev {
+  z-index: 100;
+  left: 10%;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 10%;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev>p:first-child,
+.next>P:first-child {
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.prev>p:last-child,
+.next>P:last-child {
+  font-family: var(--font-antonio);
+  font-size: 24px;
+  margin-top: 2%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: var(--greenish-blue);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+
+  .slideshow-container {
+    padding: 0;
+  }
+
+  .home_fourth-section-gridss.utility_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .home_fourth-section-grid {
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+  }
+
+  .mySlides>iframe {
+    height: 300px;
+  }
+
+  .mySlides>img {
+    height: 300px;
+  }
+
+  .prev {
+    width: 15vw;
+  }
+
+  .next {
+    width: 15vw;
+  }
+
+  .next {
+    right: -8%;
+  }
+
+  .prev {
+    right: 90%;
+  }
+
+
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
