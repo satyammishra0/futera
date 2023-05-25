@@ -60,20 +60,20 @@
 
 
 <script>
-    window.addEventListener('scroll', function() {
+    function updateHeaderColor() {
         if (window.innerWidth >= 600) {
-            const main_website_header = document.getElementById('main_website_header');
+            var header = document.getElementById('myHeader');
             var scrollPosition = window.scrollY || document.documentElement.scrollTop;
 
             if (scrollPosition >= (0.5 * window.innerHeight)) {
                 main_website_header.style.backgroundColor = "#b84e16";
-
             } else {
                 main_website_header.style.backgroundColor = "transparent";
             }
-        } else {
-            const main_website_header = document.getElementById('main_website_header');
-            main_website_header.style.backgroundColor = "#b84e16";
         }
-    });
+    }
+
+    window.addEventListener('scroll', updateHeaderColor);
+    window.addEventListener('DOMContentLoaded', updateHeaderColor);
+    window.addEventListener('resize', updateHeaderColor);
 </script>

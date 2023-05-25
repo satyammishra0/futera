@@ -34,8 +34,8 @@
   top: 0;
   z-index: 111111111111111111111111111;
   left: 0;
-  /* background-color: var(--dark-blue); */
-  background-color: transparent;
+  background-color: var(--dark-blue);
+  /* background-color: transparent; */
 }
 
 .header-logo>a>h2 {
