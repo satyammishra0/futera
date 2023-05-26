@@ -75,7 +75,7 @@
 
         <div class="page-5">
             <div class="page-5-box">
-                <div class="prev icon" id="left"><span>prev <br>video</span><i class='bx bx-left-arrow-alt'></i></div>
+                <div class="prev icon" id="left"><span>Previous</span><i class='bx bx-left-arrow-alt'></i></div>
                 <div class="slide">
                     <div class="slide-box slide-box1">
                         <div class="dark">
@@ -132,7 +132,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="next icon" id="right"><span>next <br>video</span><i class='bx bx-right-arrow-alt'></i></div>
+                <div class="next icon" id="right"><span>Next</span><i class='bx bx-right-arrow-alt'></i></div>
             </div>
         </div>
 
