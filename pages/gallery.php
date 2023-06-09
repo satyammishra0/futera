@@ -38,62 +38,76 @@
     <section class="gallery-section">
 
         <div class="photo-selection utility_flex-total-center">
-            <div class="photo-selection-div active-service button-ani" id="all-img">ELEVATIONS</div>
-            <div class="photo-selection-div button-ani" id="building-process-img">BUILDING ENTRANCE</div>
-            <div class="photo-selection-div button-ani" id="envoirnment-img">GROUND FLOOR</div>
-            <div class="photo-selection-div button-ani" id="views-img">FLOOR</div>
-            <div class="photo-selection-div button-ani" id="visualizing-complex-img">APARTMENT UNTIS</div>
-            <div class="photo-selection-div button-ani" id="terrace-img">TERRACE</div>
+            <div class="photo-selection-div active-service button-ani" id="all-img">ALL</div>
+            <div class="photo-selection-div button-ani" id="interior-img">INTERIOR</div>
+            <div class="photo-selection-div button-ani" id="exterior-img">EXTERIOR</div>
+            <div class="photo-selection-div button-ani" id="videos-img">VIDEOS</div>
+            <div class="photo-selection-div button-ani" id="work-progress-img">WORK PROGRESS</div>
         </div>
 
         <div class="gallery-grid gallery-grid-active" name="all-img">
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Aerial-left.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Aerial-right-night.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Ariel-right-Day.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Balcony-2.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Balcony.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/compound-wall-day.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/compound-wall-Night.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Front-Day.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Front-Night.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Left-ISO-Day.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Left-ISO-Night.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/lobby.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Right-ISO -2.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Right-ISO.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Terrace-day.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Terrace-Entry.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Terrace-Night.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Terrace-view -2.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Terrace-view-2.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Terrace-view.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Totlot.png" alt="Slider Image"></div>
         </div>
 
-        <div class="gallery-grid " name="building-process-img">
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
+        <div class="gallery-grid" name="interior-img">
+            <div class="gallery-grid-img"> <img src="../file2/Dining-2.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file2/Dining.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file2/guest-Bedroom.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file2/Kids-Bedroom.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file2/Kitchen-2.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file2/Kitchen.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file2/Living-room-2.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file2/Living-Room.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file2/Master-Bedroom.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file2/Master-Bedroom2.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file2/Revised-Master-Bedroom.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file2/Toilet.png" alt="Slider Image"></div>
+
         </div>
 
-        <div class="gallery-grid " name="envoirnment-img">
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
+        <div class="gallery-grid " name="exterior-img">
+            <div class="gallery-grid-img"> <img src="../file1/Aerial-left.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Aerial-right-night.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Ariel-right-Day.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/compound-wall-day.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/compound-wall-Night.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Front-Day.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Front-Night.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Left-ISO-Day.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Left-ISO-Night.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Right-ISO -2.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Right-ISO.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Terrace-day.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Terrace-Entry.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img src="../file1/Terrace-Night.png" alt="Slider Image"></div>
         </div>
 
-        <div class="gallery-grid " name="views-img">
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
+        <div class="gallery-grid " name="videos-img">
         </div>
 
-        <div class="gallery-grid " name="visualizing-complex-img">
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
+        <div class="gallery-grid " name="work-progress-img">
         </div>
 
-        <div class="gallery-grid " name="terrace-img">
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../assets/images/home-bg.jpg" alt="Slider Image"></div>
-        </div>
     </section>
     <!--------------------------- -->
     <!------------ Footer -->
