@@ -85,7 +85,6 @@
         <img src="../Futera/futera-7.jpg" class="mySlide" alt="Slider img">
         <img src="../Futera/futera-8.jpg" class="mySlide" alt="Slider img">
         <img src="../Futera/futera-9.jpg" class="mySlide" alt="Slider img">
-
         <a class="button-ani" href="./gallery.php">Gallery</a>
       </div>
     </div>
@@ -499,7 +498,7 @@
         slideIndex = 1
       }
       x[slideIndex - 1].style.display = "block";
-      setTimeout(carousel, 1500); // Change image every 2 seconds
+      setTimeout(carousel, 1000); // Change image every 2 seconds
     }
   </script>
 
