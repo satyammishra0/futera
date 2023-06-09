@@ -18,7 +18,6 @@
   <!------------ CSS Files -->
   <!--------------------------- -->
   <link rel="stylesheet" href="../assets/css/home.css" />
-  <!-- <link rel="stylesheet" href="../assets/css/home-slider.css" /> -->
   <link rel="stylesheet" href="../assets/css/video-slider.css" />
   <!--------------------------- -->
   <!------------ ALL Links -->
