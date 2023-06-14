@@ -1,12 +1,10 @@
 <?php
-function validate_mobile($mobile)
-{
-    return preg_match('/^[0-9]{10}+$/', $mobile);
-}
+
 //  -------------------------
 // Getting the user data 
 // -------------------------
 
+$url = $_POST['pageurl'];
 $userName = $_POST['username'];
 $userNo = $_POST['usermobile'];
 $userMessage = $_POST['usermessage'];
@@ -43,7 +41,7 @@ if (isset($submitBtn)) {
                 // SuccessFull Redirection
                 // -------------------------
                 $successMessage = "Mail sent successfully !! We will connect you shortly .";
-                header('Location:contact.php?successMessage=' . $successMessage);
+                header('Location:' . $url . '?successMessage=' . $successMessage);
             }
         }
     }
@@ -53,7 +51,7 @@ if (isset($submitBtn)) {
     // -------------------------
     else {
         $error = "Some Fields are empty !! Please retry";
-        header('Location:contact.php?error=' . $error);
+        header('Location:' . $url . '?error=' . $error);
     }
 }
 
@@ -62,7 +60,7 @@ if (isset($submitBtn)) {
 // -------------------------
 else {
     $error = "Please fill the details";
-    header('Location:contact.php?error=' . $error);
+    header('Location:' . $url . '?error=' . $error);
 }
 
 // Handle response on home page and add js to managae titlle

@@ -61,7 +61,7 @@
 
     <section class="contact-form-section">
         <h2>Contact Us</h2>
-        <form action="form_check.php">
+        <form action="./form_check.php">
             <input type="text" placeholder="Your Name" name="username">
             <input type="text" placeholder="Your Email" name="usermobile">
             <textarea type="text" placeholder="Your Message" name="usermessage"></textarea>

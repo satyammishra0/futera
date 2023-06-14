@@ -95,16 +95,16 @@
             <h2>STUNNING LUXURY RENTAL APARTMENTS, DESIGNED FOR LIFE</h2>
             <div class="home_fifth-section-content-grid utility_grid utility_grid-3">
                 <div class="home_fifth-section-content-grid-one">
-                    <i class="bx bx-wifi"></i>
-                    <a href="">gym provision </a>
-                </div>
-                <div class="home_fifth-section-content-grid-one">
                     <i class='bx bxs-shower'></i>
                     <a href="">play area </a>
                 </div>
                 <div class="home_fifth-section-content-grid-one">
                     <i class='bx bxs-bowl-hot'></i>
                     <a href="">terrace garden </a>
+                </div>
+                <div class="home_fifth-section-content-grid-one">
+                    <i class="bx bx-wifi"></i>
+                    <a href="">tropical planatation </a>
                 </div>
                 <div class="home_fifth-section-content-grid-one">
                     <i class='bx bxs-car-garage'></i>
@@ -119,17 +119,16 @@
                     <a href="">multipurpose room</a>
                 </div>
                 <div class="home_fifth-section-content-grid-one">
+                    <i class='bx bx-water'></i>
+                    <a href="">cctv monitoring </a>
+                </div>
+                <div class="home_fifth-section-content-grid-one">
                     <i class="bx bx-wifi"></i>
-                    <a href="">tropical planatation </a>
+                    <a href="">gym provision </a>
                 </div>
                 <div class="home_fifth-section-content-grid-one">
                     <i class="bx bx-wifi"></i>
                     <a href="">water softener </a>
-                </div>
-
-                <div class="home_fifth-section-content-grid-one">
-                    <i class='bx bx-water'></i>
-                    <a href="">cctv monitoring </a>
                 </div>
                 <div class="home_fifth-section-content-grid-one">
                     <i class='bx bxs-basket'></i>
@@ -353,7 +352,7 @@
                     <i class='bx bxs-building-house'></i>
                     <div>
                         <a href="">SHOPPING MALLS </a>
-                        <p>1.5km</p>
+                        <p>2.0km</p>
                     </div>
                 </div>
                 <div class="home_fifth-section-content-grid-one proximity-section-child-content">
@@ -374,7 +373,35 @@
                     <i class='bx bxs-buildings'></i>
                     <div>
                         <a href="">IT PARKS</a>
+                        <p>4.0km</p>
+                    </div>
+                </div>
+                <div class="home_fifth-section-content-grid-one proximity-section-child-content">
+                    <i class='bx bxs-store-alt'></i>
+                    <div>
+                        <a href="">ORR</a>
+                        <p>5.0km</p>
+                    </div>
+                </div>
+                <div class="home_fifth-section-content-grid-one proximity-section-child-content">
+                    <i class='bx bxs-buildings'></i>
+                    <div>
+                        <a href="">RAILWAY STATION</a>
+                        <p>4.0km</p>
+                    </div>
+                </div>
+                <div class="home_fifth-section-content-grid-one proximity-section-child-content">
+                    <i class='bx bxs-store-alt'></i>
+                    <div>
+                        <a href="">D MART </a>
                         <p>1.5km</p>
+                    </div>
+                </div>
+                <div class="home_fifth-section-content-grid-one proximity-section-child-content">
+                    <i class='bx bxs-buildings'></i>
+                    <div>
+                        <a href="">METRO</a>
+                        <p>3.5km</p>
                     </div>
                 </div>
             </div>

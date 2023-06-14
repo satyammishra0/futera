@@ -28,10 +28,11 @@
           </div>
           <div class="footer-grid-form utility_flex-total-center">
               <h2>Enquiry</h2>
-              <form action="">
-                  <input type="text" placeholder="Your Name" >
+              <form action="../pages/form_check-home.php" method="post">
+                  <input type="text" placeholder="Your Name">
                   <input type="text" placeholder="Your Mobile">
                   <input type="email" placeholder="Your Email">
+                  <input type="hidden" name="pageurl" value="<?= $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>">
                   <select name="Projects" id="Projects">
                       <option value="Projects">Projects</option>
                       <option value="Projects1">Project Aveum</option>
