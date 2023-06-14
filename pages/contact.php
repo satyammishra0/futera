@@ -37,19 +37,19 @@
     <section class="contact-details utility_background-property">
         <div class="contact-details-grid utility_grid utility_grid-3">
             <div class="contact-details-grid-content utility_grid utility_grid-center">
-                <i class='bx bx-map-pin'></i>
-                <p>176.W D street name</p>
-                <p>www.yourwebsite.com</p>
+                <i class='bx bxs-phone-call'></i>
+                <p>+91 9966 906 906</p>
+                <!-- <p>www.futeragroup.com</p> -->
+            </div>
+            <div class="contact-details-grid-content utility_grid utility_grid-center">
+                <i class='bx bxs-envelope'></i>
+                <p>contact@futeragroup.com</p>
+                <!-- <p>www.futeragroup.com</p> -->
             </div>
             <div class="contact-details-grid-content utility_grid utility_grid-center">
                 <i class='bx bx-map-pin'></i>
-                <p>176.W D street name</p>
-                <p>www.yourwebsite.com</p>
-            </div>
-            <div class="contact-details-grid-content utility_grid utility_grid-center">
-                <i class='bx bx-map-pin'></i>
-                <p>176.W D street name</p>
-                <p>www.yourwebsite.com</p>
+                <p>Vaishnaoi Enclave Petbasheerabad Village, Kompally, Hyderabad 500067</p>
+                <!-- <p>www.futeragroup.com</p> -->
             </div>
         </div>
 
@@ -61,12 +61,26 @@
 
     <section class="contact-form-section">
         <h2>Contact Us</h2>
-        <form action="">
-            <input type="text" placeholder="Your Name">
-            <input type="text" placeholder="Your Email">
-            <textarea type="text" placeholder="Your Message"></textarea>
+        <form action="form_check.php">
+            <input type="text" placeholder="Your Name" name="username">
+            <input type="text" placeholder="Your Email" name="usermobile">
+            <textarea type="text" placeholder="Your Message" name="usermessage"></textarea>
             <div class="utility_flex-total-center">
-                <button type="submit">Submit</button>
+                <button type="submit" name="submitbtn">Submit</button>
+            </div>
+            <div class="success-message">
+                <?php
+                if (isset($_GET['successMessage'])) {
+                    echo $_GET['successMessage'];
+                }
+                ?>
+            </div>
+            <div class="error-message">
+                <?php
+                if (isset($_GET['error'])) {
+                    echo $_GET['error'];
+                }
+                ?>
             </div>
         </form>
     </section>
@@ -76,7 +90,7 @@
     <!------------ MAp Section -->
     <!--------------------------- -->
     <section class="map-section">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387194.0624612241!2d-74.30933914058495!3d40.69701925381924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1682802076924!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.803984567535!2d78.47337717406558!3d17.516868033392544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9aaa6fc2da9d%3A0x63195234f3f41a40!2sPetbasheerabad%2C%20Jeedimetla%2C%20Hyderabad%2C%20Telangana%20500067!5e0!3m2!1sen!2sin!4v1686738609872!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
     <!--------------------------- -->
     <!------------ Footer -->
