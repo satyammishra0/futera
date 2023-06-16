@@ -11,14 +11,15 @@
   border-radius: 4px;
   animation: action 1s infinite alternate;
   transition: all 0.3s linear;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 #myBtntotop {
   padding: 10px;
 }
 
-#myBtntotop>a>i {
+#myBtntotop > a > i {
   color: white;
   font-size: 30px;
 }
@@ -61,7 +62,7 @@
   flex-direction: column;
 }
 
-.footer-grid-contact>h2 {
+.footer-grid-contact > h2 {
   font-size: 28px;
   margin-bottom: 5%;
 }
@@ -70,14 +71,14 @@
   color: #969fa6;
 }
 
-.footer-grid-contact>ul>li {
+.footer-grid-contact > ul > li {
   font-size: 14px;
   font-family: var(--font-pt-sans);
   margin: 7% 0;
   text-align: center;
 }
 
-.footer-grid-contact>ul>li>a {
+.footer-grid-contact > ul > li > a {
   color: var(--white);
 }
 
@@ -90,7 +91,7 @@
   gap: 5px;
 }
 
-.footer-social-icons>a {
+.footer-social-icons > a {
   padding: 10px;
   background-color: vaR(--greenish-blue);
   color: var(--white);
@@ -102,7 +103,7 @@
   padding: 10% 0;
 }
 
-.footer-grid-map>iframe {
+.footer-grid-map > iframe {
   height: 100%;
   width: 100%;
 }
@@ -112,7 +113,7 @@
   flex-direction: column;
 }
 
-.footer-grid-form>form>input {
+.footer-grid-form > form > input {
   color: #969fa6;
   border-color: #1a1e3b;
   background-color: #13162b;
@@ -124,7 +125,7 @@
   width: 94%;
 }
 
-.footer-grid-form>form>textarea {
+.footer-grid-form > form > textarea {
   color: #969fa6;
   border-color: #1a1e3b;
   background-color: #13162b;
@@ -137,7 +138,7 @@
   width: 94%;
 }
 
-.footer-grid-form>form>select {
+.footer-grid-form > form > select {
   color: #969fa6;
   border-color: #1a1e3b;
   background-color: #13162b;
@@ -149,7 +150,7 @@
   width: 94%;
 }
 
-.footer-grid-form>button {
+.footer-grid-form > button {
   cursor: pointer;
   display: inline-block;
   text-transform: uppercase;
@@ -159,10 +160,11 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin-top: 5%;
-  background: linear-gradient(to bottom, #13162b 50%, #3fb9be 50%) no-repeat scroll right bottom / 100% 210% #3fb9be !important;
+  background: linear-gradient(to bottom, #13162b 50%, #3fb9be 50%) no-repeat
+    scroll right bottom / 100% 210% #3fb9be !important;
 }
 
-.footer-grid-form>button>a {
+.footer-grid-form > button > a {
   padding: 4px 10px;
   line-height: 2;
   font-weight: 500;
@@ -171,20 +173,18 @@
   color: var(--white);
 }
 
-
 input[type="email"] {
   width: 94%;
   display: block;
 }
 
-.footer-grid-form>h2 {
+.footer-grid-form > h2 {
   font-size: 28px;
   color: var(--white);
   margin-bottom: 5%;
 }
 
-
-.footer-grid-form>form>div>button {
+.footer-grid-form > form > div > button {
   cursor: pointer;
   display: inline-block;
   text-transform: uppercase;
@@ -194,10 +194,11 @@ input[type="email"] {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin-top: 5%;
-  background: linear-gradient(to bottom, #13162b 50%, #3fb9be 50%) no-repeat scroll right bottom / 100% 210% #3fb9be !important;
+  background: linear-gradient(to bottom, #13162b 50%, #3fb9be 50%) no-repeat
+    scroll right bottom / 100% 210% #3fb9be !important;
 }
 
-.footer-grid-form>form>div>button>a {
+.footer-grid-form > form > div > button > a {
   padding: 4px 10px;
   line-height: 2;
   font-weight: 500;
@@ -219,14 +220,13 @@ form.utility_flex-total-center {
   background-color: var(--black);
 }
 
-.last-footer>p {
+.last-footer > p {
   font-size: 13px;
   color: var(--white);
   font-family: var(--font-pt-sans);
 }
 
 @media screen and (max-width: 700px) {
-
   .footer-grid-contact,
   .footer-grid-form {
     padding: 5% 0;

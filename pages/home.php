@@ -46,6 +46,8 @@
         <a href="./about.php">Learn More</a>
       </button>
     </div>
+
+    <button><a href="#home_second-section">Explore More</a></button>
   </section>
 
   <!--------------------------- -->
@@ -62,7 +64,7 @@
   <!--------------------------- -->
   <!------------ Second Section  -->
   <!--------------------------- -->
-  <section class="home_second-section">
+  <section class="home_second-section" id="home_second-section">
     <div class="home_second-section-grid utility_grid">
       <div class="home_second-section-grid-content">
         <p class="utility_heading-caption">Luxury Apartments</p>
@@ -329,6 +331,18 @@
           <i class='bx bxs-basket'></i>
           <a href="">Water Softener</a>
         </div>
+        <div class="home_fifth-section-content-grid-one">
+          <i class='bx bxs-car-garage'></i>
+          <a href="">Outdoor Sitout Area</a>
+        </div>
+        <div class="home_fifth-section-content-grid-one">
+          <i class='bx bx-water'></i>
+          <a href="">Tropical Plantation</a>
+        </div>
+        <div class="home_fifth-section-content-grid-one">
+          <i class='bx bxs-basket'></i>
+          <a href="">Water Softener</a>
+        </div>
       </div>
 
       <button class="button-ani">
@@ -341,7 +355,7 @@
   <!------------ video slider Section -->
   <!--------------------------- -->
   <div class="page-5">
-    <div class="parent_section-headings utility_flex-total-center">
+    <div class="utility_flex-total-center">
       <h2>Photo & Video Tour</h2>
     </div>
     <div class="page-5">
@@ -398,7 +412,6 @@
               </div>
             </div>
             <div class="video-page">
-
               <iframe class="responsive-iframe" width="560" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
           </div>
@@ -418,7 +431,7 @@
         Awaits
       </h2>
     </div>
-    <div class="north-bridge  tooltip" title="North Bridge">
+    <!-- <div class="north-bridge  tooltip" title="North Bridge">
       <p><span></span></p>
     </div>
     <div class="south-bridge  tooltip" title="South Bridge">
@@ -429,7 +442,7 @@
     </div>
     <div class="public-library  tooltip" title="Public Library">
       <p><span></span></p>
-    </div>
+    </div> -->
   </section>
   <!--  -->
   <!--------------------------- -->
@@ -497,7 +510,7 @@
         slideIndex = 1
       }
       x[slideIndex - 1].style.display = "block";
-      setTimeout(carousel, 1000); // Change image every 2 seconds
+      setTimeout(carousel, 4000); // Change image every 2 seconds
     }
   </script>
 
