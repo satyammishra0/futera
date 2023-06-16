@@ -362,6 +362,7 @@
       <div class="page-5-box">
         <div class="prev icon" id="left"><span>Previous</span><i class='bx bx-left-arrow-alt'></i></div>
         <div class="slide">
+
           <div class="slide-box slide-box1">
             <div class="dark">
               <div class="play">
@@ -415,6 +416,34 @@
               <iframe class="responsive-iframe" width="560" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
           </div>
+          <div class="slide-box slide-box3">
+            <div class="dark">
+              <div class="play">
+                <div class="img">
+                  <img id="icon-1" src="../assets/images/icons8-play-100.png" alt="">
+                  <img id="icon-2" src="../assets/images/icons8-play-101.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="video-page">
+
+              <iframe class="responsive-iframe" width="560" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="slide-box slide-box4">
+            <div class="dark">
+              <div class="play">
+                <div class="img">
+                  <img id="icon-1" src="../assets/images/icons8-play-100.png" alt="">
+                  <img id="icon-2" src="../assets/images/icons8-play-101.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="video-page">
+              <iframe class="responsive-iframe" width="560" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+
         </div>
         <div class="next icon" id="right"><span>Next</span><i class='bx bx-right-arrow-alt'></i></div>
       </div>
