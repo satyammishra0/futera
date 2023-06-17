@@ -161,6 +161,11 @@
   display: block;
 }
 
+.slide-box {
+  background-position: cover;
+  background-size: cover;
+}
+
 .slide-box1 {
   background-image: url("../images/slider-img-1.jpg");
 }

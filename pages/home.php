@@ -303,45 +303,58 @@
   <!--------------------------- -->
   <section class="home_fifth-section utility_background-property">
     <div class="home_fifth-section-content">
+
       <p class="utility_heading-caption">Apartments Amenities</p>
       <h2>Embrace Your Futuristic Lifestyle with Exceptional Amenities Ahead
       </h2>
       <div class="home_fifth-section-content-grid utility_grid utility_grid-3">
         <div class="home_fifth-section-content-grid-one">
-          <i class="bx bx-wifi"></i>
-          <a href="">Children Playarea </a>
-        </div>
-        <div class="home_fifth-section-content-grid-one">
           <i class='bx bxs-shower'></i>
-          <a href="">Terrace Garden</a>
+          <a href="">play area </a>
         </div>
         <div class="home_fifth-section-content-grid-one">
           <i class='bx bxs-bowl-hot'></i>
-          <a href="">Outdoor Sitout Area</a>
+          <a href="">terrace garden </a>
+        </div>
+        <div class="home_fifth-section-content-grid-one">
+          <i class="bx bx-wifi"></i>
+          <a href="">tropical planatation </a>
         </div>
         <div class="home_fifth-section-content-grid-one">
           <i class='bx bxs-car-garage'></i>
-          <a href="">Outdoor Sitout Area</a>
+          <a href="">sitout area</a>
         </div>
         <div class="home_fifth-section-content-grid-one">
           <i class='bx bx-water'></i>
-          <a href="">Tropical Plantation</a>
+          <a href="">lobby room </a>
         </div>
         <div class="home_fifth-section-content-grid-one">
           <i class='bx bxs-basket'></i>
-          <a href="">Water Softener</a>
-        </div>
-        <div class="home_fifth-section-content-grid-one">
-          <i class='bx bxs-car-garage'></i>
-          <a href="">Outdoor Sitout Area</a>
+          <a href="">multipurpose room</a>
         </div>
         <div class="home_fifth-section-content-grid-one">
           <i class='bx bx-water'></i>
-          <a href="">Tropical Plantation</a>
+          <a href="">cctv monitoring </a>
+        </div>
+        <div class="home_fifth-section-content-grid-one">
+          <i class="bx bx-wifi"></i>
+          <a href="">gym provision </a>
+        </div>
+        <div class="home_fifth-section-content-grid-one">
+          <i class="bx bx-wifi"></i>
+          <a href="">water softener </a>
         </div>
         <div class="home_fifth-section-content-grid-one">
           <i class='bx bxs-basket'></i>
-          <a href="">Water Softener</a>
+          <a href="">24 hour power backup</a>
+        </div>
+        <div class="home_fifth-section-content-grid-one">
+          <i class="bx bx-wifi"></i>
+          <a href="">electric vehicle charging</a>
+        </div>
+        <div class="home_fifth-section-content-grid-one">
+          <i class="bx bx-wifi"></i>
+          <a href="">outdoor yoga</a>
         </div>
       </div>
 
