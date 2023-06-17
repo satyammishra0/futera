@@ -397,17 +397,178 @@
                         <p>1.5km</p>
                     </div>
                 </div>
-                <div class="home_fifth-section-content-grid-one proximity-section-child-content">
-                    <i class='bx bx-train'></i>
-                    <div>
-                        <a href="">METRO</a>
-                        <p>3.5km</p>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
 
+    <!--------------------------- -->
+    <!-------- PROJECT HIGHLIGHT -->
+    <!--------------------------- -->
+    <section class="project-highlight">
+        <div class="parent_section-headings utility_flex-total-center">
+            <h2>PROJECT HIGHLIGHT</h2>
+        </div>
+        <div class="project-highlight-grid utility_grid utility_grid-2">
+            <details open>
+                <summary>
+                    Structure
+                </summary>
+                <div>
+                    <ul>
+                        <li>
+                            R.C.C Framed Structure
+                        </li>
+                    </ul>
+                </div>
+            </details>
+            <details>
+                <summary>
+                    Stair Case
+                </summary>
+                <div>
+                    <ul>
+                        <li>Granite steps with railing</li>
+                    </ul>
+                </div>
+            </details>
+            <details>
+                <summary>
+                    Sit Out/ Balcony
+                </summary>
+                <div>
+                    <ul>
+                        <li>MS railing</li>
+                    </ul>
+                </div>
+            </details>
+            <details>
+                <summary>
+                    Windows
+                </summary>
+                <div>
+                    <ul>
+                        <li>UPVC Windows</li>
+                    </ul>
+                </div>
+            </details>
+
+            <details>
+                <summary>
+                    Super Structure
+                </summary>
+                <div>
+                    <ul>
+                        <li>All extended walls will be 9 inches with double plastering and all internal walls will be 4 inches with red brick</li>
+                    </ul>
+                </div>
+            </details>
+            <details>
+                <summary>
+                    Doors
+                </summary>
+                <div>
+                    <ul>
+                        <li>Main door frames of teak wood and polished venner shutter door will be given. </li>
+                        <li>Internal doors sal wood frames with waterproof flush shutters.</li>
+                    </ul>
+                </div>
+            </details>
+            <details>
+                <summary>
+                    Bathroom
+                </summary>
+                <div>
+                    <ul>
+                        <li> I Tiles dado up to slab height. </li>
+                        <li>I All sanitary ware of CERA/JAQUAR or equivalent make. </li>
+                        <li> I All C.P fittings are of JAQUAR or standard make. </li>
+                    </ul>
+                </div>
+            </details>
+
+            <details>
+                <summary>
+                    Flooring
+                </summary>
+                <div>
+                    <ul>
+                        <li> Living & Dining vitrified tiles of the JHONSON / KAJARIA or equivalent standard brand</li>
+                        <li> Bedrooms & Kitchen: 2x2' size vitrified tiles of JHONSON / KAJARIA or equivalent standard brand</li>
+                        <li> Toilets, balcony & utilities anti-skid ceramic tiles of standard brand</li>
+                        <li> Corridor will be granite</li>
+                        <li> Kitchen: Stainless steel sink with 3 height DADO tiles</li>
+                        <li> Utility DADO tiles</li>
+                    </ul>
+                </div>
+            </details>
+            <details>
+                <summary>
+                    Telecom
+                </summary>
+                <div>
+                    <ul>
+                        <li>Telephone and intercom points in Hall and security room in the cellar</li>
+                    </ul>
+                </div>
+            </details>
+            <details>
+                <summary>
+                    Painting
+                </summary>
+                <div>
+                    <ul>
+                        <li>All external & internal walls- acrylic emulsion paints with putty finishs</li>
+                    </ul>
+                </div>
+            </details>
+            <details>
+                <summary>
+                    Water Supply
+                </summary>
+                <div>
+                    <ul>
+                        <li>Separate municipal water provision in the kitchen</li>
+                    </ul>
+                </div>
+            </details>
+            <details>
+                <summary>
+                    Lift
+                </summary>
+                <div>
+                    <ul>
+                        <li>Standard make granite cladding For Lift in all Floor lobbies</li>
+                    </ul>
+                </div>
+            </details>
+            <details>
+                <summary>
+                    Lift
+                </summary>
+                <div>
+                    <ul>
+                        <li>Standard make granite cladding For Lift in all Floor lobbies</li>
+                    </ul>
+                </div>
+            </details>
+            <details>
+                <summary>
+                    Electrical
+                </summary>
+                <div>
+                    <ul>
+                        <li>Concealed copper
+                            wiring with PVC insulated wires of FINOLEX/HAVELLS/
+                            POLYCAB or equivalent make and modular switches of legrand, schneider or equivalent make</li>
+                        <li>Power points for the chimney, refrigerator, microwave oven, mixer/grinder, water purifier, exhaust fan in the kitchen, and washing machine in utility areas</li>
+                        <li>Power points for the geyser and exhaust fan will be provided in the bathrooms</li>
+                        <li>Provision for AC points in all bedrooms and hall
+                            TV point in hall and master bedroom</li>
+                    </ul>
+                </div>
+            </details>
+        </div>
+    </section>
     <!--------------------------- -->
     <!------------ Footer  -->
     <!--------------------------- -->

@@ -28,7 +28,7 @@
     <!------------ First Section  -->
     <!--------------------------- -->
     <?php
-    $page_title = "Anemities";
+    $page_title = "Amenities";
     include '../includes/header-section.php'; ?>
 
     <!--------------------------- -->
@@ -37,7 +37,7 @@
     <section class="animities-services utility_background-property">
         <p class="utility_heading-caption">More About</p>
         <h2 class="utility_main-heading">
-            OUR SERVICES
+            OUR AMENITIES
         </h2>
         <div class="animties-services-parent utility_grid utility_grid-2">
             <div class="animities-services-grid utility_grid ">
@@ -54,7 +54,7 @@
             </div>
 
             <div class="animities-services-grid utility_grid ">
-                <div class="animities-services-grid-img utility_background-property">
+                <div class="animities-services-grid-img-1 utility_background-property">
 
                 </div>
                 <div class="animities-services-grid-content ">
@@ -66,7 +66,7 @@
             </div>
 
             <div class="animities-services-grid utility_grid ">
-                <div class="animities-services-grid-img utility_background-property">
+                <div class="animities-services-grid-img-2 utility_background-property">
 
                 </div>
                 <div class="animities-services-grid-content ">
@@ -78,7 +78,7 @@
             </div>
 
             <div class="animities-services-grid utility_grid ">
-                <div class="animities-services-grid-img utility_background-property">
+                <div class="animities-services-grid-img-3 utility_background-property">
 
                 </div>
                 <div class="animities-services-grid-content ">
@@ -90,7 +90,7 @@
             </div>
 
             <div class="animities-services-grid utility_grid ">
-                <div class="animities-services-grid-img utility_background-property">
+                <div class="animities-services-grid-img-4 utility_background-property">
 
                 </div>
                 <div class="animities-services-grid-content ">
@@ -102,7 +102,7 @@
             </div>
 
             <div class="animities-services-grid utility_grid ">
-                <div class="animities-services-grid-img utility_background-property">
+                <div class="animities-services-grid-img-5 utility_background-property">
 
                 </div>
                 <div class="animities-services-grid-content ">
@@ -114,7 +114,7 @@
             </div>
 
             <div class="animities-services-grid utility_grid ">
-                <div class="animities-services-grid-img utility_background-property">
+                <div class="animities-services-grid-img-6 utility_background-property">
 
                 </div>
                 <div class="animities-services-grid-content ">
@@ -127,7 +127,7 @@
             </div>
 
             <div class="animities-services-grid utility_grid ">
-                <div class="animities-services-grid-img utility_background-property">
+                <div class="animities-services-grid-img-7 utility_background-property">
 
                 </div>
                 <div class="animities-services-grid-content ">
@@ -139,7 +139,7 @@
             </div>
 
             <div class="animities-services-grid utility_grid ">
-                <div class="animities-services-grid-img utility_background-property">
+                <div class="animities-services-grid-img-8 utility_background-property">
 
                 </div>
                 <div class="animities-services-grid-content ">
@@ -151,7 +151,7 @@
             </div>
 
             <div class="animities-services-grid utility_grid ">
-                <div class="animities-services-grid-img utility_background-property">
+                <div class="animities-services-grid-img-9 utility_background-property">
 
                 </div>
                 <div class="animities-services-grid-content ">
@@ -160,7 +160,7 @@
             </div>
 
             <div class="animities-services-grid utility_grid ">
-                <div class="animities-services-grid-img utility_background-property">
+                <div class="animities-services-grid-img-9 utility_background-property">
 
                 </div>
                 <div class="animities-services-grid-content ">
@@ -168,188 +168,6 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <!--------------------------- -->
-    <!------------ Fourth Section -->
-    <!--------------------------- -->
-    <section class="home_fourth-section">
-        <div class="parent_section-headings utility_flex-total-center">
-
-            <h2>Apartment plans</h2>
-        </div>
-
-        <swiper-container class="mySwiper" navigation="true">
-            <swiper-slide>
-                <div class="home_fourth-section-grid utility_grid">
-                    <div class="home_fourth-section-grid-content">
-                        <h4>Monterey</h4>
-                        <div class="utility_flex-center-between">
-                            <p>Home</p>
-                            <p>6</p>
-                        </div>
-                        <div class="utility_flex-center-between">
-                            <p>Room</p>
-                            <p>3</p>
-                        </div>
-                        <div class="utility_flex-center-between">
-                            <p>Windows</p>
-                            <p>6</p>
-                        </div>
-                        <div class="utility_flex-center-between">
-                            <p>Total Sq. Km</p>
-                            <p>120</p>
-                        </div>
-                        <div class="utility_flex-center-between">
-                            <p>Parking</p>
-                            <p>YES</p>
-                        </div>
-                        <div class="utility_flex-center-between">
-                            <p>Price</p>
-                            <p>$2500</p>
-                        </div>
-                        <button class="">
-                            <a href="">Schedule a tour</a>
-                        </button>
-                    </div>
-                    <div class="home_fourth-section-grid-img">
-                        <img src="../assets/images/apartement-plan-1.webp" alt="">
-                    </div>
-                </div>
-            </swiper-slide>
-            <swiper-slide>
-                <div class="home_fourth-section-grid utility_grid">
-                    <div class="home_fourth-section-grid-content">
-                        <h4>Monterey</h4>
-                        <div class="utility_flex-center-between">
-                            <p>Floor</p>
-                            <p>6</p>
-                        </div>
-                        <div class="utility_flex-center-between">
-                            <p>Floor</p>
-                            <p>6</p>
-                        </div>
-                        <div class="utility_flex-center-between">
-                            <p>Floor</p>
-                            <p>6</p>
-                        </div>
-                        <div class="utility_flex-center-between">
-                            <p>Floor</p>
-                            <p>6</p>
-                        </div>
-                        <div class="utility_flex-center-between">
-                            <p>Floor</p>
-                            <p>6</p>
-                        </div>
-                        <button class="utility_main-button">
-                            <a href="">Schedule a tour</a>
-                        </button>
-                    </div>
-                    <div class="home_fourth-section-grid-img">
-                        <img src="../assets/images/apartement-plan-1.webp" alt="">
-                    </div>
-                </div>
-            </swiper-slide>
-            <swiper-slide>
-                <div class="home_fourth-section-grid utility_grid">
-                    <div class="home_fourth-section-grid-content">
-                        <h4>Monterey</h4>
-                        <div class="utility_flex-center-between">
-                            <p>Floor</p>
-                            <p>6</p>
-                        </div>
-                        <div class="utility_flex-center-between">
-                            <p>Floor</p>
-                            <p>6</p>
-                        </div>
-                        <div class="utility_flex-center-between">
-                            <p>Floor</p>
-                            <p>6</p>
-                        </div>
-                        <div class="utility_flex-center-between">
-                            <p>Floor</p>
-                            <p>6</p>
-                        </div>
-                        <div class="utility_flex-center-between">
-                            <p>Floor</p>
-                            <p>6</p>
-                        </div>
-                        <button class="utility_main-button">
-                            <a href="">Schedule a tour</a>
-                        </button>
-                    </div>
-                    <div class="home_fourth-section-grid-img">
-                        <img src="../assets/images/apartement-plan-1.webp" alt="">
-                    </div>
-                </div>
-            </swiper-slide>
-            <swiper-slide>
-                <div class="home_fourth-section-grid utility_grid">
-                    <div class="home_fourth-section-grid-content">
-                        <h4>Monterey</h4>
-                        <div class="utility_flex-center-between">
-                            <p>Floor</p>
-                            <p>6</p>
-                        </div>
-                        <div class="utility_flex-center-between">
-                            <p>Floor</p>
-                            <p>6</p>
-                        </div>
-                        <div class="utility_flex-center-between">
-                            <p>Floor</p>
-                            <p>6</p>
-                        </div>
-                        <div class="utility_flex-center-between">
-                            <p>Floor</p>
-                            <p>6</p>
-                        </div>
-                        <div class="utility_flex-center-between">
-                            <p>Floor</p>
-                            <p>6</p>
-                        </div>
-                        <button class="utility_main-button">
-                            <a href="">Schedule a tour</a>
-                        </button>
-                    </div>
-                    <div class="home_fourth-section-grid-img">
-                        <img src="../assets/images/apartement-plan-1.webp" alt="">
-                    </div>
-                </div>
-            </swiper-slide>
-            <swiper-slide>
-                <div class="home_fourth-section-grid utility_grid">
-                    <div class="home_fourth-section-grid-content">
-                        <h4>Monterey</h4>
-                        <div class="utility_flex-center-between">
-                            <p>Floor</p>
-                            <p>6</p>
-                        </div>
-                        <div class="utility_flex-center-between">
-                            <p>Floor</p>
-                            <p>6</p>
-                        </div>
-                        <div class="utility_flex-center-between">
-                            <p>Floor</p>
-                            <p>6</p>
-                        </div>
-                        <div class="utility_flex-center-between">
-                            <p>Floor</p>
-                            <p>6</p>
-                        </div>
-                        <div class="utility_flex-center-between">
-                            <p>Floor</p>
-                            <p>6</p>
-                        </div>
-                        <button class="utility_main-button">
-                            <a href="">Schedule a tour</a>
-                        </button>
-                    </div>
-                    <div class="home_fourth-section-grid-img">
-                        <img src="../assets/images/apartement-plan-1.webp" alt="">
-                    </div>
-                </div>
-            </swiper-slide>
-        </swiper-container>
     </section>
 
     <!--------------------------- -->

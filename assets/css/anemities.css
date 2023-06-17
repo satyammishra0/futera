@@ -4,8 +4,6 @@
 
 .animities-services {
   padding: 5% 10%;
-  background-color: var(--gray-bg);
-  /* background-image: url(../images/bg_contacts.jpg); */
 }
 
 .animities-services > p,
@@ -24,7 +22,52 @@
 
 .animities-services-grid-img {
   height: 25vh;
-  background-image: url(../images/slider-img-1.jpg);
+  background-image: url(../../anemities/gym-room.jpg);
+}
+
+.animities-services-grid-img-1 {
+  height: 25vh;
+  background-image: url(../../anemities/children-playarea.jpg);
+}
+
+.animities-services-grid-img-2 {
+  height: 25vh;
+  background-image: url(../../anemities/terrace-garden.jpg);
+}
+
+.animities-services-grid-img-3 {
+  height: 25vh;
+  background-image: url(../../anemities/outdoor-sitout-area.jpg);
+}
+
+.animities-services-grid-img-4 {
+  height: 25vh;
+  background-image: url(../../anemities/lobby-room.jpg);
+}
+
+.animities-services-grid-img-5 {
+  height: 25vh;
+  background-image: url(../../anemities/multipurpose-room.jpg);
+}
+
+.animities-services-grid-img-6 {
+  height: 25vh;
+  background-image: url(../../anemities/tropical-plantation.jpg);
+}
+
+.animities-services-grid-img-7 {
+  height: 25vh;
+  background-image: url(../../anemities/water-softener.jpg);
+}
+
+.animities-services-grid-img-8 {
+  height: 25vh;
+  background-image: url(../../anemities/cctv.jpg);
+}
+
+.animities-services-grid-img-9 {
+  height: 25vh;
+  background-image: url(../../anemities/power-backup.jpg);
 }
 
 .animities-services-grid-content {
