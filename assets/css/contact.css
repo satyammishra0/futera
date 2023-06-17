@@ -3,7 +3,7 @@
 /* ----------------------- */
 .contact-details {
   padding: 10% 25%;
-  background-image: url("../images/bg_contacts.jpg");
+  background-color: var(--gray-bg);
 }
 
 .contact-details-grid-content > i {
@@ -24,6 +24,15 @@
 /* ----------------------- */
 .contact-form-section {
   padding: 5% 10%;
+}
+
+input::placeholder {
+  color: var(--black);
+  opacity: 0.8;
+}
+textarea::placeholder {
+  color: var(--black);
+  opacity: 0.8;
 }
 
 .contact-form-section > h2 {

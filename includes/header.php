@@ -65,8 +65,8 @@
             var header = document.getElementById('myHeader');
             var scrollPosition = window.scrollY || document.documentElement.scrollTop;
 
-            if (scrollPosition >= (0.5 * window.innerHeight)) {
-                main_website_header.style.backgroundColor = "#b84e16";
+            if (scrollPosition >= (0.2 * window.innerHeight)) {
+                main_website_header.style.backgroundColor = "#000";
             } else {
                 main_website_header.style.backgroundColor = "transparent";
             }

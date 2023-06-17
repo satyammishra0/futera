@@ -28,11 +28,11 @@ function dragup() {
 let icon = document.getElementsByClassName("icon");
 let sliderbox = item.getElementsByClassName("slide-box");
 let total = sliderbox.length;
-console.log(total);
+// console.log(total);
 firstImg = item.getElementsByClassName("slide-box")[0];
 let srcremove = document.getElementsByClassName("responsive-iframe");
 let srcopen = srcremove[0].src;
-console.log(srcopen);
+// console.log(srcopen);
 let currentActive = 0;
 for (let i = 0; i < icon.length; i++) {
   icon[i].addEventListener("click", function () {
@@ -48,7 +48,7 @@ for (let i = 0; i < icon.length; i++) {
         item.scrollLeft = 0;
         return;
       }
-      console.log(currentActive);
+      // console.log(currentActive);
       item.scrollLeft += firstImgWidth;
     } else {
       if (currentActive == 0) {
@@ -56,7 +56,7 @@ for (let i = 0; i < icon.length; i++) {
         return;
       }
       currentActive -= 1;
-      console.log(currentActive);
+      // console.log(currentActive);
       item.scrollLeft -= firstImgWidth;
     }
   });

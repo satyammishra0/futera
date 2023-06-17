@@ -51,14 +51,17 @@
 /* ----------------------- */
 /* ---------Footer   */
 /* ----------------------- */
+footer {
+  background-color: var(--gray-bg);
+}
+
 .footer-grid {
   height: 100%;
   width: 100%;
-  background-color: var(--dark-blue);
 }
 
 .footer-grid-contact {
-  color: var(--white);
+  color: var(--black);
   flex-direction: column;
 }
 
@@ -68,7 +71,7 @@
 }
 
 .footer-grid-address {
-  color: #969fa6;
+  color: var(--black);
 }
 
 .footer-grid-contact > ul > li {
@@ -79,11 +82,7 @@
 }
 
 .footer-grid-contact > ul > li > a {
-  color: var(--white);
-}
-
-.footer-main-address {
-  color: var(--white);
+  color: var(--black);
 }
 
 .footer-social-icons {
@@ -109,45 +108,50 @@
 }
 
 .footer-grid-form {
-  padding-top: 5%;
+  padding: 5% 0;
   flex-direction: column;
 }
 
+::placeholder {
+  color: vaR(--white);
+  opacity: 0.6;
+}
+
 .footer-grid-form > form > input {
-  color: #969fa6;
-  border-color: #1a1e3b;
-  background-color: #13162b;
-  border: 2px solid #eee;
+  color: var(--white);
+  background-color: var(--dark-orange);
   font-size: 1em;
   line-height: 1.2em;
   font-style: normal;
+  border: 2px solid #eee;
   padding: 10px;
   width: 94%;
+  outline: none;
 }
 
 .footer-grid-form > form > textarea {
-  color: #969fa6;
-  border-color: #1a1e3b;
-  background-color: #13162b;
-  border: 2px solid #eee;
+  color: var(--white);
+  background-color: var(--dark-orange);
   font-size: 1em;
   line-height: 1.2em;
   font-style: normal;
+  border: 2px solid #eee;
   padding: 10px;
   height: 100px;
   width: 94%;
+  outline: none;
 }
 
 .footer-grid-form > form > select {
-  color: #969fa6;
-  border-color: #1a1e3b;
-  background-color: #13162b;
+  color: var(--white);
+  background-color: var(--dark-orange);
   border: 2px solid #eee;
   font-size: 1em;
   line-height: 1.2em;
   font-style: normal;
   padding: 10px;
   width: 94%;
+  outline: none;
 }
 
 .footer-grid-form > button {
@@ -180,7 +184,6 @@ input[type="email"] {
 
 .footer-grid-form > h2 {
   font-size: 28px;
-  color: var(--white);
   margin-bottom: 5%;
 }
 

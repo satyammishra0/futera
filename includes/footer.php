@@ -1,7 +1,7 @@
   <!--------------------------- -->
   <!------------ Back to Top -->
   <!--------------------------- -->
-  <button onclick="topFunction()" id="myBtntotop" title="Go to top"><a href="https://wa.me/+91 1234567890" target="_blank"><i class='bx bxl-whatsapp'></i></a></button>
+  <button id="myBtntotop" title="Go to top"><a href="https://wa.me/+919966906906" target="_blank"><i class='bx bxl-whatsapp'></i></a></button>
   <!--------------------------- -->
   <!------------ Footer Section -->
   <!--------------------------- -->

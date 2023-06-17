@@ -53,7 +53,7 @@
   <!--------------------------- -->
   <!------------ Second Section  -->
   <!--------------------------- -->
-  <section class="home_second-section " id="home_second-section">
+  <section class="home_second-section" id="home_second-section">
     <div class="home_second-section-grid utility_grid">
       <div class="home_second-section-grid-content">
         <p class="utility_heading-caption">Luxury Apartments</p>
