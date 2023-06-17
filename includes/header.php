@@ -46,7 +46,7 @@
             </li>
             <li class="nav-links"><a href="../pages/amenities.php"> AMENITIES</a></li>
             <li class="nav-links"><a href="../pages/gallery.php"> GALLERY</a></li>
-            <li class="nav-links"><a href="../pages/contact.php"> CONTACTS</a></li>
+            <li class="nav-links"><a href="../pages/contact.php"> CONTACT</a></li>
         </ul>
     </nav>
     <!-- --------------------- -->

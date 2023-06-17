@@ -95,51 +95,51 @@
             <h2>STUNNING LUXURY RENTAL APARTMENTS, DESIGNED FOR LIFE</h2>
             <div class="home_fifth-section-content-grid utility_grid utility_grid-3">
                 <div class="home_fifth-section-content-grid-one">
-                    <i class='bx bxs-shower'></i>
+                    <i class='bx bxs-home'></i>
                     <a href="">play area </a>
                 </div>
                 <div class="home_fifth-section-content-grid-one">
-                    <i class='bx bxs-bowl-hot'></i>
+                    <i class='bx bx-leaf'></i>
                     <a href="">terrace garden </a>
                 </div>
                 <div class="home_fifth-section-content-grid-one">
-                    <i class="bx bx-wifi"></i>
+                    <i class='bx bxs-leaf'></i>
                     <a href="">tropical planatation </a>
                 </div>
                 <div class="home_fifth-section-content-grid-one">
-                    <i class='bx bxs-car-garage'></i>
+                    <i class='bx bx-chair'></i>
                     <a href="">sitout area</a>
                 </div>
                 <div class="home_fifth-section-content-grid-one">
-                    <i class='bx bx-water'></i>
+                    <i class='bx bxs-cable-car'></i>
                     <a href="">lobby room </a>
                 </div>
                 <div class="home_fifth-section-content-grid-one">
-                    <i class='bx bxs-basket'></i>
+                    <i class='bx bxs-bed'></i>
                     <a href="">multipurpose room</a>
                 </div>
                 <div class="home_fifth-section-content-grid-one">
-                    <i class='bx bx-water'></i>
+                    <i class='bx bxs-camera-home'></i>
                     <a href="">cctv monitoring </a>
                 </div>
                 <div class="home_fifth-section-content-grid-one">
-                    <i class="bx bx-wifi"></i>
+                    <i class='bx bx-dumbbell'></i>
                     <a href="">gym provision </a>
                 </div>
                 <div class="home_fifth-section-content-grid-one">
-                    <i class="bx bx-wifi"></i>
+                    <i class='bx bx-water'></i>
                     <a href="">water softener </a>
                 </div>
                 <div class="home_fifth-section-content-grid-one">
-                    <i class='bx bxs-basket'></i>
+                    <i class='bx bxs-car-battery'></i>
                     <a href="">24 hour power backup</a>
                 </div>
                 <div class="home_fifth-section-content-grid-one">
-                    <i class="bx bx-wifi"></i>
+                    <i class='bx bxs-car-battery'></i>
                     <a href="">electric vehicle charging</a>
                 </div>
                 <div class="home_fifth-section-content-grid-one">
-                    <i class="bx bx-wifi"></i>
+                    <i class='bx bx-street-view'></i>
                     <a href="">outdoor yoga</a>
                 </div>
             </div>
@@ -384,7 +384,7 @@
                     </div>
                 </div>
                 <div class="home_fifth-section-content-grid-one proximity-section-child-content">
-                    <i class='bx bxs-buildings'></i>
+                    <i class='bx bxs-train'></i>
                     <div>
                         <a href="">RAILWAY STATION</a>
                         <p>4.0km</p>
@@ -398,7 +398,7 @@
                     </div>
                 </div>
                 <div class="home_fifth-section-content-grid-one proximity-section-child-content">
-                    <i class='bx bxs-buildings'></i>
+                    <i class='bx bx-train'></i>
                     <div>
                         <a href="">METRO</a>
                         <p>3.5km</p>
@@ -438,7 +438,7 @@
                 slideIndex = 1
             }
             x[slideIndex - 1].style.display = "block";
-            setTimeout(carousel, 1500); // Change image every 2 seconds
+            setTimeout(carousel, 4000); // Change image every 2 seconds
         }
     </script>
 
