@@ -1,10 +1,7 @@
 let item = document.getElementsByClassName("slide")[0];
 item.addEventListener("mousemove", move);
-item.addEventListener("touchmove", move);
 item.addEventListener("mousedown", dragdown);
-item.addEventListener("touchstart", dragdown);
 item.addEventListener("mouseup", dragup);
-item.addEventListener("touchend", dragup);
 let down = false;
 let prevpage;
 let prevscroll;
@@ -13,29 +10,29 @@ function move(e) {
   if (!down) {
     return;
   } else {
-    let position = (e.pageX || e.touches[0].pageX) - prevpage;
-    // console.log(position)
+    let position = e.pageX - prevpage;
     item.scrollLeft = prevscroll - position;
   }
 }
 function dragdown(e) {
   down = true;
-  prevpage = e.pageX || e.touches[0].pageX;
+  prevpage = e.pageX;
   prevscroll = item.scrollLeft;
 }
 function dragup() {
   down = false;
-  // console.log(prevpage)
-  // console.log(prevscroll )
 }
 
 ////////////////////////////////////////////////////////////////////////////////
 
 let icon = document.getElementsByClassName("icon");
+let sliderbox = item.getElementsByClassName("slide-box");
+let total = sliderbox.length;
+console.log(total);
 firstImg = item.getElementsByClassName("slide-box")[0];
 let srcremove = document.getElementsByClassName("responsive-iframe");
 let srcopen = srcremove[0].src;
-// console.log(srcopen)
+console.log(srcopen);
 let currentActive = 0;
 for (let i = 0; i < icon.length; i++) {
   icon[i].addEventListener("click", function () {
@@ -46,12 +43,12 @@ for (let i = 0; i < icon.length; i++) {
     let firstImgWidth = firstImg.clientWidth;
     if (i == 1) {
       currentActive += 1;
-      if (currentActive == 4) {
+      if (currentActive == total) {
         currentActive = 0;
         item.scrollLeft = 0;
         return;
       }
-      // console.log(currentActive)
+      console.log(currentActive);
       item.scrollLeft += firstImgWidth;
     } else {
       if (currentActive == 0) {
@@ -59,7 +56,7 @@ for (let i = 0; i < icon.length; i++) {
         return;
       }
       currentActive -= 1;
-      // console.log(currentActive)
+      console.log(currentActive);
       item.scrollLeft -= firstImgWidth;
     }
   });
@@ -67,8 +64,7 @@ for (let i = 0; i < icon.length; i++) {
 
 ////////////////////////////////////////////////////////////////////////////////
 let slidebox = document.getElementsByClassName("slide-box");
-let play = document.querySelectorAll(".dark .img");
-console.log(play);
+let play = document.querySelectorAll(".dark i");
 let videopage = document.querySelectorAll(".slide-box .video-page");
 
 for (let i = 0; i < slidebox.length; i++) {
@@ -82,9 +78,7 @@ for (let i = 0; i < slidebox.length; i++) {
   });
   play[i].addEventListener("click", function () {
     videopage[i].classList.add("block-vedio");
-    console.log(videopage[i]);
     srcremove[i].src = srcopen;
-    console.log(srcremove[i].src);
   });
 }
 

@@ -177,6 +177,63 @@
   background-image: url("../images/home-second-section.jpg");
 }
 
+/* Images added later acc to client */
+.slide-box5 {
+  background-image: url("../../file1/Aerial-right-night.png");
+}
+
+.slide-box6 {
+  background-image: url("../../file1/Balcony-2.png");
+}
+
+.slide-box7 {
+  background-image: url("../../file1/compound-wall-day.png");
+}
+
+.slide-box8 {
+  background-image: url("../../file1/Left-ISO-Day.png");
+}
+
+.slide-box9 {
+  background-image: url("../../file1/Terrace-day.png");
+}
+
+.slide-box10 {
+  background-image: url("../../file1/Terrace-view-2.png");
+}
+
+.slide-box11 {
+  background-image: url("../../file1/Terrace-Night.png");
+}
+
+.slide-box12 {
+  background-image: url("../../file2/Dining.png");
+}
+
+.slide-box13 {
+  background-image: url("../../file2/Kitchen-2.png");
+}
+
+.slide-box14 {
+  background-image: url("../../file2/Living-room-2.png");
+}
+
+.slide-box15 {
+  background-image: url("../../file2/Master-Bedroom2.png");
+}
+
+.slide-box16 {
+  background-image: url("../../file2/Toilet.png");
+}
+
+.slide-box17 {
+  background-image: url("../../Futera/futera-11.jpg");
+}
+
+.slide-box18 {
+  background-image: url("../../Futera/futera-13.jpg");
+}
+
 @media screen and (max-width: 1100px) {
   .slide {
     height: 300px;
