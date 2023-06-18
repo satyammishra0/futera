@@ -29,18 +29,17 @@
           <div class="footer-grid-form utility_flex-total-center">
               <h2>Enquiry</h2>
               <form action="../pages/form_check-home.php" method="post">
-                  <input type="text" placeholder="Your Name">
-                  <input type="text" placeholder="Your Mobile">
-                  <input type="email" placeholder="Your Email">
+                  <input type="text" placeholder="Your Name" name="username">
+                  <input type="text" placeholder="Your Mobile" name="usermobile">
+                  <input type="email" placeholder="Your Email" name="useremail">
                   <input type="hidden" name="pageurl" value="<?= $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>">
                   <select name="Projects" id="Projects">
-                      <option value="Projects">Projects</option>
-                      <option value="Projects1">Project Aveum</option>
-                      <option value="Projects2">Projects Aria </option>
+                      <option value="Projects Aveum">Project Aveum</option>
+                      <option value="Projects Aria">Projects Aria </option>
                   </select>
-                  <textarea placeholder="Your Message" name="" id="" cols="30" rows="10"></textarea>
+                  <input type="message" placeholder="Your Message" name="usermessage">
                   <div class="utility_flex-total-center">
-                      <button type="submit" style="border: 1px solid var(--white);" class="button-ani"><a href="#">Schedule a tour</a></button>
+                      <input type="submit" style="border: 1px solid var(--white);" name="submitbtn" class="submit-btn-form" value="Schedule a tour">
                   </div>
               </form>
           </div>

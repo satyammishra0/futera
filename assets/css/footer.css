@@ -215,6 +215,19 @@ form.utility_flex-total-center {
   align-items: start;
 }
 
+.submit-btn-form {
+  cursor: pointer;
+  display: inline-block;
+  text-transform: uppercase;
+  border: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 5%;
+  padding: 10px;
+  background-color: #3fb9be;
+}
+
 /* ----------------------- */
 /* ---------Footer Strip  */
 /* ----------------------- */
