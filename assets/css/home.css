@@ -233,7 +233,7 @@
 
 .home_fourth-section-grid-content > div {
   margin-bottom: 1.5%;
-  width: 60%;
+  width: 90%;
   border-bottom: 1px solid #ddd;
   font-size: 16px;
   padding: 6px 0;
@@ -246,7 +246,6 @@
 
 .home_fourth-section-grid-content > button {
   cursor: pointer;
-  display: inline-block;
   text-transform: uppercase;
   border: none;
   -webkit-box-sizing: border-box;

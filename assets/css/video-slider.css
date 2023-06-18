@@ -160,8 +160,9 @@
 }
 
 .slide-box {
-  background-position: cover;
-  background-size: cover;
+  background-position: center;
+  /* background-size: contain; */
+  background-repeat: no-repeat;
 }
 
 .slide-box1 {
