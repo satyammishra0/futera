@@ -81,6 +81,12 @@
         align-items: center;
         justify-content: center;
     }
+
+    @media screen and (max-width: 700px) {
+        .swiper-overlay {
+            font-size: 18px;
+        }
+    }
 </style>
 
 
