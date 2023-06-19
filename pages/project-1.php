@@ -174,12 +174,32 @@
                         <a href="">SCHOOLS </a>
                         <p>1.5km</p>
                     </div>
+
+                    <div class="proximity-hover">
+                        <h3>Nearby Schools</h3>
+                        <ol>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                        </ol>
+                    </div>
                 </div>
                 <div class="home_fifth-section-content-grid-one proximity-section-child-content">
                     <i class='bx bx-plus-medical'></i>
                     <div>
                         <a href="">HOSPITALS</a>
                         <p>1.5km</p>
+                    </div>
+
+                    <div class="proximity-hover">
+                        <h3>Nearby Schools</h3>
+                        <ol>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                        </ol>
                     </div>
                 </div>
                 <div class="home_fifth-section-content-grid-one proximity-section-child-content">
@@ -188,12 +208,34 @@
                         <a href="">SHOPPING MALLS </a>
                         <p>2.0km</p>
                     </div>
+
+
+                    <div class="proximity-hover">
+                        <h3>Nearby Schools</h3>
+                        <ol>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                        </ol>
+                    </div>
                 </div>
                 <div class="home_fifth-section-content-grid-one proximity-section-child-content">
                     <i class='bx bxs-cable-car'></i>
                     <div>
                         <a href="">NATIONAL HIGHWAY</a>
                         <p>1.5km</p>
+                    </div>
+
+
+                    <div class="proximity-hover">
+                        <h3>Nearby Schools</h3>
+                        <ol>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                        </ol>
                     </div>
                 </div>
                 <div class="home_fifth-section-content-grid-one proximity-section-child-content">
@@ -202,12 +244,34 @@
                         <a href="">BUISNESS DISTRICT </a>
                         <p>1.5km</p>
                     </div>
+
+
+                    <div class="proximity-hover">
+                        <h3>Nearby Schools</h3>
+                        <ol>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                        </ol>
+                    </div>
                 </div>
                 <div class="home_fifth-section-content-grid-one proximity-section-child-content">
                     <i class='bx bxs-buildings'></i>
                     <div>
                         <a href="">IT PARKS</a>
                         <p>4.0km</p>
+                    </div>
+
+
+                    <div class="proximity-hover">
+                        <h3>Nearby Schools</h3>
+                        <ol>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                        </ol>
                     </div>
                 </div>
                 <div class="home_fifth-section-content-grid-one proximity-section-child-content">
@@ -216,6 +280,17 @@
                         <a href="">ORR</a>
                         <p>5.0km</p>
                     </div>
+
+
+                    <div class="proximity-hover">
+                        <h3>Nearby Schools</h3>
+                        <ol>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                        </ol>
+                    </div>
                 </div>
                 <div class="home_fifth-section-content-grid-one proximity-section-child-content">
                     <i class='bx bxs-train'></i>
@@ -223,12 +298,34 @@
                         <a href="">RAILWAY STATION</a>
                         <p>4.0km</p>
                     </div>
+
+
+                    <div class="proximity-hover">
+                        <h3>Nearby Schools</h3>
+                        <ol>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                        </ol>
+                    </div>
                 </div>
                 <div class="home_fifth-section-content-grid-one proximity-section-child-content">
                     <i class='bx bxs-store-alt'></i>
                     <div>
                         <a href="">D MART </a>
                         <p>1.5km</p>
+                    </div>
+
+
+                    <div class="proximity-hover">
+                        <h3>Nearby Schools</h3>
+                        <ol>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                            <li>DPS R.K. Puram</li>
+                        </ol>
                     </div>
                 </div>
             </div>
