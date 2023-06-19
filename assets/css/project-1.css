@@ -90,6 +90,46 @@
 
 .proximity-section-child-content {
   display: flex;
+  position: relative;
+}
+
+.proximity-hover {
+  position: absolute;
+  top: -40%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--dark-orange);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  opacity: 0;
+  visibility: visible;
+  transition: all 0.5s;
+}
+
+.proximity-hover > h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 3%;
+}
+
+.proximity-hover > ol > li {
+  list-style-type: upper-roman !important;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  line-height: 24px;
+}
+
+.proximity-section-child-content:hover .proximity-hover {
+  opacity: 1;
+  top: 0;
+  overflow: auto;
+  visibility: visible;
 }
 
 /* ----------------------- */
