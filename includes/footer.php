@@ -17,8 +17,8 @@
                   <li><strong>Email:</strong> <a href="mailto:contact@futeragroup.com"> contact@futeragroup.com</a></li>
               </ul>
               <div class="footer-social-icons utility_flex-total-center">
-                  <a href="" style="border: 1px solid var(--white);" class="button-ani"><i class='bx bxl-instagram'></i></a>
-                  <a href="" style="border: 1px solid var(--white);" class="button-ani"><i class='bx bxl-facebook-square'></i></a>
+                  <a href="https://www.instagram.com/futeragroup/" style="border: 1px solid var(--white);" class="button-ani"><i class='bx bxl-instagram'></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=100092867637067" style="border: 1px solid var(--white);" class="button-ani"><i class='bx bxl-facebook-square'></i></a>
                   <a href="" style="border: 1px solid var(--white);" class="button-ani"><i class='bx bxl-youtube'></i></a>
               </div>
           </div>
