@@ -78,7 +78,7 @@ footer {
   font-size: 14px;
   font-family: var(--font-pt-sans);
   margin: 7% 0;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .footer-grid-contact > ul > li > a {

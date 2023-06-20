@@ -94,22 +94,22 @@
     <swiper-slide>
         <div class="home_fourth-section-grid utility_grid">
             <div class="home_fourth-section-grid-content">
-                <h4>Monterey</h4>
+                <h4>Aveum- Floor Plan</h4>
                 <div class="utility_flex-center-between">
-                    <p>Home</p>
-                    <p>6</p>
+                    <p>Blocks</p>
+                    <p>2</p>
                 </div>
                 <div class="utility_flex-center-between">
-                    <p>Room</p>
-                    <p>3</p>
+                    <p>Floors Per Blocks</p>
+                    <p>4</p>
                 </div>
                 <div class="utility_flex-center-between">
-                    <p>Windows</p>
-                    <p>6</p>
+                    <p>Units Per Floor</p>
+                    <p>1</p>
                 </div>
                 <div class="utility_flex-center-between">
-                    <p>Total Sq. Km</p>
-                    <p>120</p>
+                    <p>Each Unit Area</p>
+                    <p>1900 Sft.</p>
                 </div>
                 <div class="utility_flex-center-between">
                     <p>Parking</p>
@@ -117,7 +117,7 @@
                 </div>
                 <div class="utility_flex-center-between">
                     <p>Price</p>
-                    <p><span style="color:var(--greenish-blue);font-weight:bold;">$2500</span></p>
+                    <p><span style="color:var(--greenish-blue);font-weight:bold;">98 Lakhs</span> Onwards</p>
                 </div>
 
                 <button class="button-ani">
@@ -126,47 +126,13 @@
 
             </div>
             <div class="home_fourth-section-grid-img">
-                <img src="../assets/images/apartement-plan-1.webp" alt="">
+                <img src="../assets/images/floor-plan.jpg" alt="">
             </div>
         </div>
     </swiper-slide>
     <swiper-slide>
-        <div class="home_fourth-section-grid utility_grid">
-            <div class="home_fourth-section-grid-content">
-                <h4>Monterey</h4>
-                <div class="utility_flex-center-between">
-                    <p>Home</p>
-                    <p>6</p>
-                </div>
-                <div class="utility_flex-center-between">
-                    <p>Room</p>
-                    <p>3</p>
-                </div>
-                <div class="utility_flex-center-between">
-                    <p>Windows</p>
-                    <p>6</p>
-                </div>
-                <div class="utility_flex-center-between">
-                    <p>Total Sq. Km</p>
-                    <p>120</p>
-                </div>
-                <div class="utility_flex-center-between">
-                    <p>Parking</p>
-                    <p>YES</p>
-                </div>
-                <div class="utility_flex-center-between">
-                    <p>Price</p>
-                    <p><span style="color:var(--greenish-blue);font-weight:bold;">$2500</span></p>
-                </div>
-
-                <button class="button-ani">
-                    <a href="../.cpanel.yml" download>Download Brochure</a>
-                </button>
-
-            </div>
-            <div class="home_fourth-section-grid-img">
-                <img src="../assets/images/apartement-plan-1.webp" alt="">
-            </div>
+        <div class="home_fourth-section-grids ">
+            <img src="../Futera/futera-11.jpg" style="height:50vh; width:80%;" alt="">
         </div>
     </swiper-slide>
     <swiper-slide>
@@ -289,7 +255,10 @@
 <swiper-container class="mySwiper2" space-between="10" slides-per-view="4" free-mode="true" watch-slides-progress="true">
     <swiper-slide class="swiper-parent-overlay">
         <div class="swiper-overlay">
-            <h2>Monterey</h2>
+            <h2>Aveum
+            </h2>
+            <br>
+            <h4> Floor Plan</h4>
         </div>
         <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
     </swiper-slide>
