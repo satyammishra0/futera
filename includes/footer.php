@@ -29,7 +29,7 @@
               <h2>Enquiry</h2>
               <form action="../pages/form_check-home.php" method="post">
                   <input type="text" placeholder="Your Name" name="username">
-                  <input type="text" placeholder="Your Mobile" name="usermobile">
+                  <input type="number" placeholder="Your Mobile" name="usermobile">
                   <input type="email" placeholder="Your Email" name="useremail">
                   <input type="hidden" name="pageurl" value="<?= $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>">
                   <select name="Projects" id="Projects" value="Project">

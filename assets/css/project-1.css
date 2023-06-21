@@ -118,7 +118,7 @@
 }
 
 .proximity-hover > ol > li {
-  list-style-type: upper-roman !important;
+  list-style-type: circle;
   font-size: 15px;
   letter-spacing: 0.5px;
   word-spacing: 1px;
