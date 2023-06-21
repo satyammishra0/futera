@@ -78,8 +78,17 @@
         color: var(--white);
         font-size: 25px;
         display: flex;
-        align-items: center;
+        flex-direction: column;
         justify-content: center;
+    }
+
+    .swiper-overlay>h2 {
+        font-size: 20px;
+    }
+
+
+    .swiper-overlay>h4 {
+        font-size: 15px;
     }
 
     @media screen and (max-width: 700px) {
@@ -132,124 +141,18 @@
     </swiper-slide>
     <swiper-slide>
         <div class="home_fourth-section-grids ">
-            <img src="../Futera/futera-11.jpg" style="height:50vh; width:80%;" alt="">
+            <img src="../Futera/futera-11.jpg" style="height:75vh; width:100%; margin:auto;" alt="">
         </div>
     </swiper-slide>
     <swiper-slide>
-        <div class="home_fourth-section-grid utility_grid">
-            <div class="home_fourth-section-grid-content">
-                <h4>Monterey</h4>
-                <div class="utility_flex-center-between">
-                    <p>Home</p>
-                    <p>6</p>
-                </div>
-                <div class="utility_flex-center-between">
-                    <p>Room</p>
-                    <p>3</p>
-                </div>
-                <div class="utility_flex-center-between">
-                    <p>Windows</p>
-                    <p>6</p>
-                </div>
-                <div class="utility_flex-center-between">
-                    <p>Total Sq. Km</p>
-                    <p>120</p>
-                </div>
-                <div class="utility_flex-center-between">
-                    <p>Parking</p>
-                    <p>YES</p>
-                </div>
-                <div class="utility_flex-center-between">
-                    <p>Price</p>
-                    <p><span style="color:var(--greenish-blue);font-weight:bold;">$2500</span></p>
-                </div>
-
-                <button class="button-ani">
-                    <a href="../.cpanel.yml" download>Download Brochure</a>
-                </button>
-
-            </div>
-            <div class="home_fourth-section-grid-img">
-                <img src="../assets/images/apartement-plan-1.webp" alt="">
-            </div>
-        </div>
-    </swiper-slide><swiper-slide>
-        <div class="home_fourth-section-grid utility_grid">
-            <div class="home_fourth-section-grid-content">
-                <h4>Monterey</h4>
-                <div class="utility_flex-center-between">
-                    <p>Home</p>
-                    <p>6</p>
-                </div>
-                <div class="utility_flex-center-between">
-                    <p>Room</p>
-                    <p>3</p>
-                </div>
-                <div class="utility_flex-center-between">
-                    <p>Windows</p>
-                    <p>6</p>
-                </div>
-                <div class="utility_flex-center-between">
-                    <p>Total Sq. Km</p>
-                    <p>120</p>
-                </div>
-                <div class="utility_flex-center-between">
-                    <p>Parking</p>
-                    <p>YES</p>
-                </div>
-                <div class="utility_flex-center-between">
-                    <p>Price</p>
-                    <p><span style="color:var(--greenish-blue);font-weight:bold;">$2500</span></p>
-                </div>
-
-                <button class="button-ani">
-                    <a href="../.cpanel.yml" download>Download Brochure</a>
-                </button>
-
-            </div>
-            <div class="home_fourth-section-grid-img">
-                <img src="../assets/images/apartement-plan-1.webp" alt="">
-            </div>
-        </div>
-    </swiper-slide><swiper-slide>
-        <div class="home_fourth-section-grid utility_grid">
-            <div class="home_fourth-section-grid-content">
-                <h4>Monterey</h4>
-                <div class="utility_flex-center-between">
-                    <p>Home</p>
-                    <p>6</p>
-                </div>
-                <div class="utility_flex-center-between">
-                    <p>Room</p>
-                    <p>3</p>
-                </div>
-                <div class="utility_flex-center-between">
-                    <p>Windows</p>
-                    <p>6</p>
-                </div>
-                <div class="utility_flex-center-between">
-                    <p>Total Sq. Km</p>
-                    <p>120</p>
-                </div>
-                <div class="utility_flex-center-between">
-                    <p>Parking</p>
-                    <p>YES</p>
-                </div>
-                <div class="utility_flex-center-between">
-                    <p>Price</p>
-                    <p><span style="color:var(--greenish-blue);font-weight:bold;">$2500</span></p>
-                </div>
-
-                <button class="button-ani">
-                    <a href="../.cpanel.yml" download>Download Brochure</a>
-                </button>
-
-            </div>
-            <div class="home_fourth-section-grid-img">
-                <img src="../assets/images/apartement-plan-1.webp" alt="">
-            </div>
+        <div class="home_fourth-section-grids ">
+            <img src="../Futera/futera-12.jpg" style="height:75vh; width:100%; margin:auto;" alt="">
         </div>
     </swiper-slide>
+    <swiper-slide>
+        <div class="home_fourth-section-grids ">
+            <img src="../Futera/futera-13.jpg" style="height:75vh; width:100%; margin:auto;" alt="">
+        </div>
 </swiper-container>
 
 <swiper-container class="mySwiper2" space-between="10" slides-per-view="4" free-mode="true" watch-slides-progress="true">
@@ -257,34 +160,30 @@
         <div class="swiper-overlay">
             <h2>Aveum
             </h2>
-            <br>
             <h4> Floor Plan</h4>
         </div>
-        <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+        <img src="../assets/images/black-bg.jpg" />
     </swiper-slide>
     <swiper-slide class="swiper-parent-overlay">
         <div class="swiper-overlay">
-            <h2>Vista</h2>
+            <h2>Aveum</h2>
+            <h4> 3d View 1st</h4>
         </div>
-        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+        <img src="../assets/images/black-bg.jpg" />
     </swiper-slide>
     <swiper-slide class="swiper-parent-overlay">
         <div class="swiper-overlay">
             <h2>Pent House</h2>
+            <h4>3d View 2nd</h4>
         </div>
-        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+        <img src="../assets/images/black-bg.jpg" />
     </swiper-slide>
     <swiper-slide class="swiper-parent-overlay">
         <div class="swiper-overlay">
-            <h2>Sea Breeze</h2>
+            <h2>Aveum</h2>
+            <h4>3d View 3rd</h4>
         </div>
-        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-    </swiper-slide>
-    <swiper-slide class="swiper-parent-overlay">
-        <div class="swiper-overlay">
-            <h2>Sunrise</h2>
-        </div>
-        <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+        <img src="../assets/images/black-bg.jpg" />
     </swiper-slide>
 </swiper-container>
 

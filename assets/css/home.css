@@ -272,6 +272,7 @@
 .home_fourth-section-grid-img > img {
   height: 100%;
   width: 100%;
+  padding: 8%;
 }
 
 /* Swwiper Slider */

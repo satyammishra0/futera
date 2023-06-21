@@ -33,7 +33,7 @@
                   <input type="email" placeholder="Your Email" name="useremail">
                   <input type="hidden" name="pageurl" value="<?= $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>">
                   <select name="Projects" id="Projects" value="Project">
-                      <option value="Projects">Project</option>
+                      <option value="" disabled selected hidden>Project</option>
                       <option value="Projects Aveum">Project Aveum</option>
                       <option value="Projects Aria">Projects Aria </option>
                   </select>
