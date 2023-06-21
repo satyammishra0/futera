@@ -250,10 +250,6 @@
     pointer-events: none;
   }
 
-  .mobile-navbar-btn > i {
-    /* color: var(--dark-orange); */
-  }
-
   .active .nav-list {
     opacity: 1;
     visibility: visible;
