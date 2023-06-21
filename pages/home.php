@@ -34,11 +34,52 @@
   include '../includes/header.php'
   ?>
 
+  <!-- ----------------------- -->
+  <!-- Discalimer Box -->
+  <!-- ----------------------- -->
+  <div id="dialog" class="dialog">
+    <div class="dialog-content">
+      <h2>Please agree to the terms and conditions.</h2>
+      <p>
+        The information provided on this website is intended for general purposes
+        only. While we make every effort to ensure the accuracy and timeliness of
+        the information, we recommend contacting our authorized representatives
+        for the latest updates. We do not provide any warranty for the information
+        on this website, and we are not liable for any loss or damage that may
+        occur as a result of using this website. The design, specifications, and
+        other details may change without prior notice. The images and visuals are
+        for representation purposes only and may not reflect the actual designs.
+        <br /><br />
+
+        The purpose of this website is to provide information about the Futera
+        Group, including our projects and initiatives. The information is subject
+        to change, and it should not be considered as an advertisement,
+        invitation, or offer for sale. If you want more information about our
+        projects, please contact our Sales Office or authorized Futera Sales
+        Representative. By providing your contact details on the website, you give
+        us permission to contact you with information about our projects via phone
+        calls, SMS, and emails, even if your number is registered on the Do Not
+        Disturb (DND) Registry.
+
+        <br /><br />
+        We use cookies to improve your browsing experience and personalize the
+        content based on your preferences. By agreeing to our policies, you
+        consent to the use of cookies. You can manage your cookie settings at any
+        time by clicking on 'Cookie Settings'.
+
+        <br /><br />
+        Please note that it's important to consult with a legal professional to
+        ensure compliance with local regulations and specific requirements for
+        your website.
+      </p>
+      <button id="agreeBtn">Agree</button>
+    </div>
+  </div>
+
   <!--------------------------- -->
   <!------------ First Section  -->
   <!--------------------------- -->
   <section class="home_first-section utility_flex-total-center utility_background-property">
-
     <div class="home_first-content" data-aos="fade-up" data-aos-duration="1000">
       <p class="utility_heading-caption">Find the Best</p>
       <h1>Innovative Apartments For The Future Era of Living</h1>
@@ -476,18 +517,6 @@
         Awaits
       </h2>
     </div>
-    <!-- <div class="north-bridge  tooltip" title="North Bridge">
-      <p><span></span></p>
-    </div>
-    <div class="south-bridge  tooltip" title="South Bridge">
-      <p><span></span></p>
-    </div>
-    <div class="parliament tooltip" title="Parliament">
-      <p><span></span></p>
-    </div>
-    <div class="public-library  tooltip" title="Public Library">
-      <p><span></span></p>
-    </div> -->
   </section>
   <!--  -->
   <!--------------------------- -->
@@ -523,7 +552,6 @@
               },
               complete: function() {
                 $this.text(this.countNum);
-                //alert('finished');
               }
 
             });
@@ -562,6 +590,30 @@
 
   <script src="../assets/js/video-slider.js">
 
+  </script>
+
+
+  <!-- ----------------------- -->
+  <!-- Popup JS -->
+  <!-- ----------------------- -->
+  <script>
+    var dialog = document.getElementById('dialog');
+    var agreeBtn = document.getElementById('agreeBtn');
+
+    function hideDialog() {
+      dialog.style.display = 'none'; // Hide the dialog box
+    }
+
+    agreeBtn.addEventListener('click', function() {
+      hideDialog();
+    });
+
+    var dialogShown = localStorage.getItem('dialogShown');
+
+    if (!dialogShown) {
+      dialog.style.display = 'block'; // Show the dialog box
+      localStorage.setItem('dialogShown', 'true');
+    }
   </script>
 </body>
 

@@ -1,9 +1,65 @@
+/* --------------------- */
+/* Discalimer Box starts here */
+/* --------------------- */
+
+.dialog {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dialog-content {
+  background-color: #b84e16;
+  color: #fff;
+  width: 60%;
+  margin: 5% auto;
+  padding: 20px;
+  border-radius: 7px;
+}
+
+.dialog-content > p {
+  font-size: 14px;
+  letter-spacing: 0.8px;
+  line-height: 1.3;
+  word-spacing: 1px;
+  margin-bottom: 3%;
+}
+
+.dialog h2 {
+  text-transform: uppercase;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+.dialog button {
+  padding: 10px 20px;
+  background-color: #3fb9be;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid #fff;
+}
+
+.dialog button:hover {
+  background-color: #b84e16;
+}
+
+/* --------------------- */
+/* TOP Header desing */
+/* --------------------- */
+
 .top-header-bg {
   background-image: url(../../Futera/futera-10.jpg);
   height: 30vh;
   position: relative;
   z-index: -1;
-  /* margin-top: -10%; */
 }
 
 .top-header-bg-overlay {
@@ -24,14 +80,12 @@
 /* Header desing For mobile */
 /* --------------------- */
 
-/* header */
-
 .header {
   padding: 0.5% 10%;
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 111111111111111111111111111;
+  z-index: 1000;
   left: 0;
   background-color: var(--dark-blue);
   /* background-color: transparent; */
@@ -149,6 +203,20 @@
 }
 
 @media screen and (max-width: 768px) {
+  /* ----------------------- */
+  /* ----------- Discalimer */
+  /* ----------------------- */
+  .dialog-content {
+    background-color: #b84e16;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    border-radius: 7px;
+  }
+  /* ----------------------- */
+  /* ----------- Header  */
+  /* ----------------------- */
+
   .mobile-navbar-btn {
     z-index: 999;
     display: block;
