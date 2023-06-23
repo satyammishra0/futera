@@ -1,6 +1,3 @@
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-
 <div>
     <!-- Your form code here -->
     <form action="./form_check.php" method="post" id="myForm">
@@ -17,6 +14,9 @@
         <div class="utility_flex-total-center">
             <input type="submit" name="submitbtn" class="submit-btn-form" value="submit">
         </div>
+        <div class="form-status" id="form-status">
+
+        </div>
     </form>
 </div>
 
@@ -27,7 +27,7 @@
 
             // Get the form data
             var formData = $(this).serialize();
-            console.log(formData);
+            // console.log(formData);
             // Send the AJAX request
             $.ajax({
                 url: './form_check.php',
@@ -35,7 +35,16 @@
                 data: formData,
                 success: function(response) {
                     // Handle the successful response
-                    console.log(response);
+                    let output = JSON.parse(response);
+                    let form_status = document.getElementById("form-status");
+                    if (output.status == 1) {
+                        form_status.innerText = output.message;
+                        form_status.style.color = "green";
+                    } else {
+                        form_status.innerText = output.message;
+                        form_status.style.color = "red";
+                    }
+                    console.log(output.status);
                     // You can perform further actions here, such as displaying a success message
                 },
                 error: function(xhr, status, error) {

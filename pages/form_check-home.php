@@ -1,68 +1,42 @@
 <?php
 
-//  -------------------------
-// Getting the user data 
-// -------------------------
-
 $url = $_POST['pageurl'];
 $userName = $_POST['username'];
 $userNo = $_POST['usermobile'];
 $userMessage = $_POST['usermessage'];
 $userEmail = $_POST['useremail'];
-$submitBtn = $_POST['submitbtn'];
 $selctedProject = $_POST['Projects'];
 
-//  -------------------------
-// IF Submit btn is clicked
-// -------------------------
-if (isset($submitBtn)) {
 
-    //  -------------------------
-    // Fields shouln't be vacened 
-    // -------------------------
-    if (!empty($userName) && !empty($userNo) && !empty($userMessage) && !empty($userEmail)) {
+$output = [];
 
-
-        //  -------------------------
-        // Validation mobile
-        // -------------------------
-        if (filter_var($userEmail, FILTER_VALIDATE_EMAIL)) {
-
-            //  -------------------------
-            // Assigning variables for mail
-            // -------------------------
-
-            $to = "contact@futeragroup.com";
-            $subject = "Website Query for " . $selctedProject;
-            $Message = $userName . "Has sent a new message -- " . $userMessage;
-            $header = "From " . $userName . "with this mail "  . $userEmail . "Mobile no" . $userNo;
-
-
-            if (mail($to, $subject, $Message, $header)) {
-                //  -------------------------
-                // SuccessFull Redirection
-                // -------------------------
-                $successMessage = "Mail sent successfully !! We will connect you shortly .";
-                header('Location:' . $url . '?successMessage=' . $successMessage);
-            }
+if (!empty($userName) && !empty($userNo) && !empty($userMessage) && !empty($userEmail)) {
+    if (filter_var($userEmail, FILTER_VALIDATE_EMAIL) && strlen($userNo) == 10) {
+        $from = $userEmail;
+        $to = "contact@futeragroup.com";
+        $subject = "Website Query for " . $selctedProject;
+        $Message = "" . $userName . " has sent a new message: " . $userMessage . " and his contact number is :" .  $userNo . "</br>";
+        $header = "From: " . $from . "\r\n";
+        if (true) {
+            $successMessage = "Mail sent successfully !! We will connect you shortly .";
+            $output["status"] = 1;
+            $output["message"] = $successMessage;
+            echo json_encode($output);
+        } else {
+            $error = "Details Error";
+            $output["status"] = 0;
+            $output["message"] = $error;
+            echo json_encode($output);
         }
-    }
-
-    //  -------------------------
-    // Redirection to home page 
-    // -------------------------
-    else {
+    } else {
         $error = "Some Fields are empty !! Please retry";
-        header('Location:' . $url . '?error=' . $error);
+        $output["status"] = 0;
+        $output["message"] = $error;
+        echo json_encode($output);
     }
+} else {
+    $error = "Please recheck the entered details";
+    $output["status"] = 0;
+    $output["message"] = $error;
+    echo json_encode($output);
 }
-
-//  -------------------------
-// Redirection to home page 
-// -------------------------
-else {
-    $error = "Please fill the details";
-    header('Location:' . $url . '?error=' . $error);
-}
-
-// Handle response on home page and add js to managae titlle

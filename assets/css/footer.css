@@ -188,6 +188,11 @@ footer {
   color: var(--white);
 }
 
+.form-status {
+  font-size: 12px;
+  text-align: left;
+}
+
 input[type="email"] {
   width: 94%;
   display: block;

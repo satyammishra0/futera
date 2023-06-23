@@ -9,72 +9,46 @@ $userName = $_POST['username'];
 $userNo = $_POST['usermobile'];
 $userMessage = $_POST['usermessage'];
 $userEmail = $_POST['useremail'];
-$submitBtn = $_POST['submitbtn'];
-echo $submitBtn;
 $selctedProject = $_POST['Projects'];
 
+
+$output = [];
+
+
 //  -------------------------
-// IF Submit btn is clicked
+// Fields shouln't be vacened 
 // -------------------------
-if (isset($submitBtn)) {
-
-    //  -------------------------
-    // Fields shouln't be vacened 
-    // -------------------------
-    if (!empty($userName) && !empty($userNo) && !empty($userMessage) && !empty($userEmail)) {
-
-
-        //  -------------------------
-        // Validation mobile
-        // -------------------------
-        if (filter_var($userEmail, FILTER_VALIDATE_EMAIL) && strlen($userNo) == 10) {
-
-            //  -------------------------
-            // Assigning variables for mail
-            // -------------------------
-
-            $from = $userEmail;
-            // $to = "contact@futeragroup.com";
-            $to = "satyam.mishra@saaol.co.in";
-            $subject = "Website Query for " . $selctedProject;
-            $Message = "" . $userName . " has sent a new message: " . $userMessage . " and his contact number is :" .  $userNo . "</br>";
-            $header = "From: " . $from . "\r\n";
-
-            echo $url . "<br>";
-
-            if (true) {
-                //  -------------------------
-                // SuccessFull Redirection
-                // -------------------------
-                $successMessage = "Mail sent successfully !! We will connect you shortly .";
-
-                // header('Location:' . $url);
-                // header('Location:' . $url . '?successMessage=' . urlencode($successMessage));
-            }
+if (!empty($userName) && !empty($userNo) && !empty($userMessage) && !empty($userEmail)) {
+    if (filter_var($userEmail, FILTER_VALIDATE_EMAIL) && strlen($userNo) == 10) {
+        $from = $userEmail;
+        $to = "satyam.mishra@saaol.co.in";
+        $subject = "Website Query for " . $selctedProject;
+        $Message = "" . $userName . " has sent a new message: " . $userMessage . " and his contact number is :" .  $userNo . "</br>";
+        $header = "From: " . $from . "\r\n";
+        if (true) {
+            $successMessage = "Mail sent successfully !! We will connect you shortly .";
+            $output["status"] = 1;
+            $output["message"] = $successMessage;
+            echo json_encode($output);
         } else {
             $error = "Details Error";
-            echo $error;
-            // header('Location:' . $url);
+            $output["status"] = 0;
+            $output["message"] = $error;
+            echo json_encode($output);
         }
-    }
-
-    //  -------------------------
-    // Redirection to home page 
-    // -------------------------
-    else {
+    } else {
         $error = "Some Fields are empty !! Please retry";
-        echo $error;
-        // header('Location:' . $url);
+        $output["status"] = 0;
+        $output["message"] = $error;
+        echo json_encode($output);
     }
+} else {
+    $error = "Last error";
+    $output["status"] = 0;
+    $output["message"] = $error;
+    echo json_encode($output);
 }
 
-//  -------------------------
-// Redirection to home page 
-// -------------------------
-else {
-    $error = "Please fill the details";
-    echo $error;
-    // header('Location:' . $url . '?error=' . $error);
-}
 
-// Handle response on home page and add js to managae titlle
+// mail($to, $subject, $Message, $header)
+// $to = "contact@futeragroup.com";
