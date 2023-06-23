@@ -173,7 +173,7 @@
     </swiper-slide>
     <swiper-slide class="swiper-parent-overlay">
         <div class="swiper-overlay">
-            <h2>Pent House</h2>
+            <h2>Aveum</h2>
             <h4>3d View 2nd</h4>
         </div>
         <img src="../assets/images/black-bg.jpg" />
