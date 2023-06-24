@@ -63,10 +63,10 @@
         <h2>Contact Us</h2>
         <form action="./form_check.php" method="POST">
             <input type="text" placeholder="Your Name" name="username">
-            <input type="text" placeholder="Your Email" name="usermobile">
+            <input type="text" placeholder="Your Email" name="useremail">
             <textarea type="text" placeholder="Your Message" name="usermessage"></textarea>
             <div class="utility_flex-total-center">
-                <button type="submit" name="submitbtn">Submit</button>
+                <input type="submit" name="submitbtn" value="Submit">
             </div>
             <div class="success-message">
                 <?php
