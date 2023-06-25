@@ -540,12 +540,12 @@
 
           <div class="proximity-hover">
             <h3>Nearby Schools</h3>
-            <ol>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-            </ol>
+            <ul>
+              <li>DRS</li>
+              <li>St. Anns</li>
+              <li>Suchitra Academy</li>
+              <li>Delhi Public School</li>
+            </ul>
           </div>
         </div>
         <div class="home_fifth-section-content-grid-one proximity-section-child-content">
@@ -556,13 +556,13 @@
           </div>
 
           <div class="proximity-hover">
-            <h3>Nearby Schools</h3>
-            <ol>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-            </ol>
+            <h3>Nearby Hospitals</h3>
+            <ul>
+              <li>Renova</li>
+              <li>Ankura</li>
+              <li>Russh</li>
+              <li>Harsh Hospital</li>
+            </ul>
           </div>
         </div>
         <div class="home_fifth-section-content-grid-one proximity-section-child-content">
@@ -574,13 +574,13 @@
 
 
           <div class="proximity-hover">
-            <h3>Nearby Schools</h3>
-            <ol>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-            </ol>
+            <h3>Nearby Malls</h3>
+            <ul>
+              <li>Life Style</li>
+              <li>Raichandani Mall</li>
+              <li>Pantaloons</li>
+              <li>Westside</li>
+            </ul>
           </div>
         </div>
         <div class="home_fifth-section-content-grid-one proximity-section-child-content">
@@ -592,31 +592,28 @@
 
 
           <div class="proximity-hover">
-            <h3>Nearby Schools</h3>
-            <ol>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-            </ol>
+            <h3>Nearby Highways</h3>
+            <ul>
+              <li>NH 44 (Nagpur)</li>
+              <li>SH 1 (Karimnagar)</li>
+            </ul>
           </div>
         </div>
         <div class="home_fifth-section-content-grid-one proximity-section-child-content">
           <i class='bx bxs-store-alt'></i>
           <div>
-            <a href="">BUISNESS DISTRICT </a>
+            <a href="">BUISNESS DISTRICT</a>
             <p>1.5km</p>
           </div>
 
 
           <div class="proximity-hover">
-            <h3>Nearby Schools</h3>
-            <ol>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-            </ol>
+            <h3>Buisness District</h3>
+            <ul>
+              <li>Ahwal</li>
+              <li>Suchitra</li>
+              <li>Kompally</li>
+            </ul>
           </div>
         </div>
         <div class="home_fifth-section-content-grid-one proximity-section-child-content">
@@ -628,13 +625,10 @@
 
 
           <div class="proximity-hover">
-            <h3>Nearby Schools</h3>
-            <ol>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-            </ol>
+            <h3>Nearby IT Parks</h3>
+            <ul>
+              <li>Kompally Twin Towers</li>
+            </ul>
           </div>
         </div>
         <div class="home_fifth-section-content-grid-one proximity-section-child-content">
@@ -646,13 +640,10 @@
 
 
           <div class="proximity-hover">
-            <h3>Nearby Schools</h3>
-            <ol>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-            </ol>
+            <h3>Nearby ORR</h3>
+            <ul>
+              <li>City Outer Ring Road</li>
+            </ul>
           </div>
         </div>
         <div class="home_fifth-section-content-grid-one proximity-section-child-content">
@@ -665,12 +656,12 @@
 
           <div class="proximity-hover">
             <h3>Nearby Schools</h3>
-            <ol>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-            </ol>
+            <ul>
+              <li>Bolarum</li>
+              <li>Ahwal</li>
+              <li>Medual</li>
+              <li>Gurdhapochanpally</li>
+            </ul>
           </div>
         </div>
         <div class="home_fifth-section-content-grid-one proximity-section-child-content">
@@ -682,13 +673,10 @@
 
 
           <div class="proximity-hover">
-            <h3>Nearby Schools</h3>
-            <ol>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-              <li>DPS R.K. Puram</li>
-            </ol>
+            <h3>Nearby D-Mart</h3>
+            <ul>
+              <li>Kompally D-Mart</li>
+            </ul>
           </div>
         </div>
       </div>
