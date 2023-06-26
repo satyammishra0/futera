@@ -247,7 +247,7 @@
               <!-- <iframe class="responsive-iframe" width="560" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
               <video autoplay muted controls loop id="vid2" class="responsive-iframe">
-                <source src="../assets/images/banner-video.mp4" type="video/mp4">
+                <source src="../assets/videos/video-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
@@ -268,7 +268,7 @@
 
 
               <video autoplay muted controls loop id="vid2" class="responsive-iframe">
-                <source src="../assets/images/banner-video.mp4" type="video/mp4">
+                <source src="../assets/videos/video-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
@@ -289,7 +289,7 @@
 
 
               <video autoplay muted controls loop id="vid2" class="responsive-iframe">
-                <source src="../assets/images/banner-video.mp4" type="video/mp4">
+                <source src="../assets/videos/video-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
@@ -306,7 +306,7 @@
               <!-- <iframe class="responsive-iframe" width="560" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
               <video autoplay muted controls loop id="vid2" class="responsive-iframe">
-                <source src="../assets/images/banner-video.mp4" type="video/mp4">
+                <source src="../assets/videos/video-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
@@ -324,7 +324,7 @@
               <!-- <iframe class="responsive-iframe" width="560" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
               <video autoplay muted controls loop id="vid2" class="responsive-iframe">
-                <source src="../assets/images/banner-video.mp4" type="video/mp4">
+                <source src="../assets/videos/video-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
@@ -341,7 +341,7 @@
               <!-- <iframe class="responsive-iframe" width="560" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
               <video autoplay muted controls loop id="vid2" class="responsive-iframe">
-                <source src="../assets/images/banner-video.mp4" type="video/mp4">
+                <source src="../assets/videos/video-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
@@ -363,7 +363,7 @@
               <!-- <iframe class="responsive-iframe" width="560" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
               <video autoplay muted controls loop id="vid2" class="responsive-iframe">
-                <source src="../assets/images/../assets/images/banner-video.mp4" type="video/mp4">
+                <source src="../assets/images/../assets/videos/video-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
@@ -380,7 +380,7 @@
               <!-- <iframe class="responsive-iframe" width="560" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
               <video autoplay muted controls loop id="vid2" class="responsive-iframe">
-                <source src="../assets/images/banner-video.mp4" type="video/mp4">
+                <source src="../assets/videos/video-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
@@ -397,7 +397,7 @@
               <!-- <iframe class="responsive-iframe" width="560" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
               <video autoplay muted controls loop id="vid2" class="responsive-iframe">
-                <source src="../assets/images/banner-video.mp4" type="video/mp4">
+                <source src="../assets/videos/video-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
@@ -414,7 +414,7 @@
               <!-- <iframe class="responsive-iframe" width="560" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
               <video autoplay muted controls loop id="vid2" class="responsive-iframe">
-                <source src="../assets/images/banner-video.mp4" type="video/mp4">
+                <source src="../assets/videos/video-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
@@ -431,7 +431,7 @@
               <!-- <iframe class="responsive-iframe" width="560" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
               <video autoplay muted controls loop id="vid2" class="responsive-iframe">
-                <source src="../assets/images/banner-video.mp4" type="video/mp4">
+                <source src="../assets/videos/video-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
@@ -448,7 +448,7 @@
               <!-- <iframe class="responsive-iframe" width="560" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
               <video autoplay muted controls loop id="vid2" class="responsive-iframe">
-                <source src="../assets/images/banner-video.mp4" type="video/mp4">
+                <source src="../assets/videos/video-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
@@ -465,7 +465,7 @@
               <!-- <iframe class="responsive-iframe" width="560" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
               <video autoplay muted controls loop id="vid2" class="responsive-iframe">
-                <source src="../assets/images/banner-video.mp4" type="video/mp4">
+                <source src="../assets/videos/video-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
@@ -482,7 +482,7 @@
               <!-- <iframe class="responsive-iframe" width="560" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
               <video autoplay muted controls loop id="vid2" class="responsive-iframe">
-                <source src="../assets/images/banner-video.mp4" type="video/mp4">
+                <source src="../assets/videos/video-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
@@ -499,7 +499,7 @@
               <!-- <iframe class="responsive-iframe" width="560" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
               <video autoplay muted controls loop id="vid2" class="responsive-iframe">
-                <source src="../assets/images/banner-video.mp4" type="video/mp4">
+                <source src="../assets/videos/video-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
@@ -516,7 +516,7 @@
               <!-- <iframe class="responsive-iframe" width="560" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
               <video autoplay muted controls loop id="vid2" class="responsive-iframe">
-                <source src="../assets/images/banner-video.mp4" type="video/mp4">
+                <source src="../assets/videos/video-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
@@ -533,7 +533,7 @@
               <!-- <iframe class="responsive-iframe" width="560" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
               <video autoplay muted controls loop id="vid2" class="responsive-iframe">
-                <source src="../assets/images/banner-video.mp4" type="video/mp4">
+                <source src="../assets/videos/video-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
@@ -550,7 +550,7 @@
               <!-- <iframe class="responsive-iframe" width="560" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
               <video autoplay muted controls loop id="vid2" class="responsive-iframe">
-                <source src="../assets/images/banner-video.mp4" type="video/mp4">
+                <source src="../assets/videos/video-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
@@ -567,7 +567,7 @@
               <!-- <iframe class="responsive-iframe" width="560" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
               <video autoplay muted controls loop id="vid2" class="responsive-iframe">
-                <source src="../assets/images/banner-video.mp4" type="video/mp4">
+                <source src="../assets/videos/video-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
@@ -584,7 +584,7 @@
               <!-- <iframe class="responsive-iframe" width="560" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
               <video autoplay muted controls loop id="vid2" class="responsive-iframe">
-                <source src="../assets/images/banner-video.mp4" type="video/mp4">
+                <source src="../assets/videos/video-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
