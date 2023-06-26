@@ -75,7 +75,7 @@ textarea::placeholder {
   margin-top: 5%;
 }
 
-.contact-form-section > form > div > button {
+.contact-form-section > form > div > input[type="submit"] {
   cursor: pointer;
   display: inline-block;
   text-transform: uppercase;
