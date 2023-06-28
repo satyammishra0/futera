@@ -50,9 +50,9 @@
             <li class="nav-links"><a href="../pages/gallery.php"> GALLERY</a></li>
             <li class="nav-links"><a href="../pages/contact.php"> CONTACT</a></li>
             <li class="nav-links">
-                <a href="https://www.instagram.com/futeragroup/" target="_blank" class="button-ani"><i style="font-size:18px;" class='bx bxl-instagram'></i></a>
-                <a href="https://www.facebook.com/profile.php?id=100092867637067" target="_blank" class="button-ani"><i style="font-size:18px;" class='bx bxl-facebook-square'></i></a>
-                <a href="#" target="_blank" class="button-ani"><i style="font-size:18px;" class='bx bxl-youtube'></i></a>
+                <a href="https://www.instagram.com/futeragroup/" target="_blank"><i style="font-size:18px;" class='bx bxl-instagram'></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100092867637067" target="_blank"><i style="font-size:18px;" class='bx bxl-facebook-square'></i></a>
+                <a href="https://www.youtube.com/@Futeragroup" target="_blank"><i style="font-size:18px;" class='bx bxl-youtube'></i></a>
             </li>
         </ul>
     </nav>

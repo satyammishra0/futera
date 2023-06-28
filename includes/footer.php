@@ -19,7 +19,7 @@
               <div class="footer-social-icons ">
                   <a target="_blank" href="https://www.instagram.com/futeragroup/" style="border: 1px solid var(--white);" class="button-ani"><i class='bx bxl-instagram'></i></a>
                   <a target="_blank" href="https://www.facebook.com/profile.php?id=100092867637067" style="border: 1px solid var(--white);" class="button-ani"><i class='bx bxl-facebook-square'></i></a>
-                  <a target="_blank" href="" style="border: 1px solid var(--white);" class="button-ani"><i class='bx bxl-youtube'></i></a>
+                  <a target="_blank" href="https://www.youtube.com/@Futeragroup" style="border: 1px solid var(--white);" class="button-ani"><i class='bx bxl-youtube'></i></a>
               </div>
           </div>
           <div class="footer-grid-map">

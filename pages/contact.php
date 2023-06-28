@@ -34,24 +34,55 @@
     <!--------------------------- -->
     <!------------ Second Section -->
     <!--------------------------- -->
-    <section class="contact-details utility_background-property">
-        <div class="contact-details-grid utility_grid utility_grid-3">
-            <div class="contact-details-grid-content utility_grid utility_grid-center">
-                <i class='bx bxs-phone-call'></i>
-                <p>+91 9966 906 906</p>
-                <!-- <p>www.futeragroup.com</p> -->
+    <section class="contact-grid utility_grid utility_grid-2">
+
+        <section class="contact-details utility_background-property">
+            <div class="contact-details-grid ">
+                <div class="contact-details-grid-content utility_grid utility_grid-center">
+                    <i class='bx bxs-phone-call'></i>
+                    <p>+91 9966 906 906</p>
+                    <!-- <p>www.futeragroup.com</p> -->
+                </div>
+                <div class="contact-details-grid-content utility_grid utility_grid-center">
+                    <i class='bx bxs-envelope'></i>
+                    <p>contact@futeragroup.com</p>
+                    <!-- <p>www.futeragroup.com</p> -->
+                </div>
+                <div class="contact-details-grid-content utility_grid utility_grid-center">
+                    <i class='bx bx-map-pin'></i>
+                    <p>Plot no 27,28 Vaishnaoi Enclave Petbasheerabad Village, Kompally, Hyderabad 500067</p>
+                    <!-- <p>www.futeragroup.com</p> -->
+                </div>
             </div>
-            <div class="contact-details-grid-content utility_grid utility_grid-center">
-                <i class='bx bxs-envelope'></i>
-                <p>contact@futeragroup.com</p>
-                <!-- <p>www.futeragroup.com</p> -->
-            </div>
-            <div class="contact-details-grid-content utility_grid utility_grid-center">
-                <i class='bx bx-map-pin'></i>
-                <p>Plot no 27,28 Vaishnaoi Enclave Petbasheerabad Village, Kompally, Hyderabad 500067</p>
-                <!-- <p>www.futeragroup.com</p> -->
-            </div>
-        </div>
+
+        </section>
+
+
+        <section class="contact-form-section">
+            <h2>Contact Us</h2>
+            <form action="./form_check.php" method="POST">
+                <input type="text" placeholder="Your Name" name="username">
+                <input type="text" placeholder="Your Email" name="useremail">
+                <textarea type="text" placeholder="Your Message" name="usermessage"></textarea>
+                <div class="utility_flex-total-center">
+                    <input type="submit" name="submitbtn" value="Submit">
+                </div>
+                <div class="success-message">
+                    <?php
+                    if (isset($_GET['successMessage'])) {
+                        echo $_GET['successMessage'];
+                    }
+                    ?>
+                </div>
+                <div class="error-message">
+                    <?php
+                    if (isset($_GET['error'])) {
+                        echo $_GET['error'];
+                    }
+                    ?>
+                </div>
+            </form>
+        </section>
 
     </section>
 
@@ -59,38 +90,13 @@
     <!------------ Third section -->
     <!--------------------------- -->
 
-    <section class="contact-form-section">
-        <h2>Contact Us</h2>
-        <form action="./form_check.php" method="POST">
-            <input type="text" placeholder="Your Name" name="username">
-            <input type="text" placeholder="Your Email" name="useremail">
-            <textarea type="text" placeholder="Your Message" name="usermessage"></textarea>
-            <div class="utility_flex-total-center">
-                <input type="submit" name="submitbtn" value="Submit">
-            </div>
-            <div class="success-message">
-                <?php
-                if (isset($_GET['successMessage'])) {
-                    echo $_GET['successMessage'];
-                }
-                ?>
-            </div>
-            <div class="error-message">
-                <?php
-                if (isset($_GET['error'])) {
-                    echo $_GET['error'];
-                }
-                ?>
-            </div>
-        </form>
-    </section>
 
 
     <!--------------------------- -->
     <!------------ MAp Section -->
     <!--------------------------- -->
     <section class="map-section">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.803984567535!2d78.47337717406558!3d17.516868033392544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9aaa6fc2da9d%3A0x63195234f3f41a40!2sPetbasheerabad%2C%20Jeedimetla%2C%20Hyderabad%2C%20Telangana%20500067!5e0!3m2!1sen!2sin!4v1686738609872!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3104.8368963774255!2d78.4920263755859!3d17.522900216636174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDMxJzIyLjMiTiA3OMKwMjknMzcuNiJF!5e0!3m2!1sen!2sin!4v1687271338403!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
     <!--------------------------- -->
     <!------------ Footer -->

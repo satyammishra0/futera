@@ -13,7 +13,7 @@
 
 .animities-services-grid {
   border: 0.8px solid var(--gray);
-  margin: 5% 5% 5% 0%;
+  margin: 5% 5% 0% 0%;
   grid-template-columns: 30% 1fr;
 }
 

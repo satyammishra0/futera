@@ -409,21 +409,7 @@
                 </div>
             </details>
 
-            <details>
-                <summary>
-                    Flooring
-                </summary>
-                <div>
-                    <ul>
-                        <li> Living & Dining vitrified tiles of the JHONSON / KAJARIA or equivalent standard brand</li>
-                        <li> Bedrooms & Kitchen: 2x2' size vitrified tiles of JHONSON / KAJARIA or equivalent standard brand</li>
-                        <li> Toilets, balcony & utilities anti-skid ceramic tiles of standard brand</li>
-                        <li> Corridor will be granite</li>
-                        <li> Kitchen: Stainless steel sink with 3 height DADO tiles</li>
-                        <li> Utility DADO tiles</li>
-                    </ul>
-                </div>
-            </details>
+
             <details>
                 <summary>
                     Telecom
@@ -471,6 +457,21 @@
                 <div>
                     <ul>
                         <li>Standard make granite cladding For Lift in all Floor lobbies</li>
+                    </ul>
+                </div>
+            </details>
+            <details>
+                <summary>
+                    Flooring
+                </summary>
+                <div>
+                    <ul>
+                        <li> Living & Dining vitrified tiles of the JHONSON / KAJARIA or equivalent standard brand</li>
+                        <li> Bedrooms & Kitchen: 2x2' size vitrified tiles of JHONSON / KAJARIA or equivalent standard brand</li>
+                        <li> Toilets, balcony & utilities anti-skid ceramic tiles of standard brand</li>
+                        <li> Corridor will be granite</li>
+                        <li> Kitchen: Stainless steel sink with 3 height DADO tiles</li>
+                        <li> Utility DADO tiles</li>
                     </ul>
                 </div>
             </details>

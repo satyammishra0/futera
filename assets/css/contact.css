@@ -2,8 +2,12 @@
 /* ---------First Section  */
 /* ----------------------- */
 .contact-details {
-  padding: 10% 25%;
+  padding: 5% 25%;
   background-color: var(--gray-bg);
+}
+
+.contact-details-grid-content {
+  margin-bottom: 5%;
 }
 
 .contact-details-grid-content > i {
@@ -23,7 +27,7 @@
 /* ---------Second Section  */
 /* ----------------------- */
 .contact-form-section {
-  padding: 5% 10%;
+  padding: 0% 5%;
 }
 
 input::placeholder {
@@ -47,13 +51,9 @@ textarea::placeholder {
   text-transform: uppercase;
 }
 
-.contact-form-section > form {
-  padding: 0% 25%;
-}
-
 .contact-form-section > form > input {
   width: 49%;
-  color: #a0b2be;
+  color: #181818;
   border-color: #f4f9fc;
   background-color: #f4f9fc;
   border: none;
@@ -108,5 +108,8 @@ textarea::placeholder {
   }
   .contact-form-section > form {
     padding: 0 10%;
+  }
+  .contact-form-section {
+    padding: 10% 0;
   }
 }

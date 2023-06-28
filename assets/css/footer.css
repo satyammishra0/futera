@@ -85,7 +85,6 @@ footer {
   font-size: 14px;
   font-family: var(--font-pt-sans);
   margin: 3% 0;
-  /* text-align: center; */
 }
 
 .footer-grid-contact > ul > li > a {
@@ -93,7 +92,6 @@ footer {
 }
 
 .footer-social-icons {
-  /* margin-top: 8%; */
   gap: 5px;
   display: flex;
 }
@@ -121,6 +119,11 @@ footer {
 }
 
 ::placeholder {
+  color: vaR(--white);
+  opacity: 0.6;
+}
+
+select::placeholder {
   color: vaR(--white);
   opacity: 0.6;
 }
@@ -153,7 +156,8 @@ footer {
 }
 
 .footer-grid-form > form > select {
-  color: var(--white);
+  color: #aaa;
+  font-weight: 500;
   background-color: black;
   border: 2px solid #eee;
   font-size: 1em;
