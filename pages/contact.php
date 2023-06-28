@@ -48,7 +48,7 @@
             </div>
             <div class="contact-details-grid-content utility_grid utility_grid-center">
                 <i class='bx bx-map-pin'></i>
-                <p>Vaishnaoi Enclave Petbasheerabad Village, Kompally, Hyderabad 500067</p>
+                <p>Plot no 27,28 Vaishnaoi Enclave Petbasheerabad Village, Kompally, Hyderabad 500067</p>
                 <!-- <p>www.futeragroup.com</p> -->
             </div>
         </div>

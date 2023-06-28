@@ -178,7 +178,7 @@
                     <div class="proximity-hover">
                         <h3>Nearby Schools</h3>
                         <ul>
-                            <li>DRS</li>
+                            <li>DRS International</li>
                             <li>St. Anns</li>
                             <li>Suchitra Academy</li>
                             <li>Delhi Public School</li>
@@ -195,9 +195,9 @@
                     <div class="proximity-hover">
                         <h3>Nearby Hospitals</h3>
                         <ul>
-                            <li>Renova</li>
-                            <li>Ankura</li>
-                            <li>Russh</li>
+                            <li>Renova Hospital</li>
+                            <li>Ankura Hospital</li>
+                            <li>Russh Hospital</li>
                             <li>Harsh Hospital</li>
                         </ul>
                     </div>
@@ -247,9 +247,10 @@
                     <div class="proximity-hover">
                         <h3>Buisness District</h3>
                         <ul>
-                            <li>Ahwal</li>
+                            <li>Alwal</li>
                             <li>Suchitra</li>
                             <li>Kompally</li>
+                            <li>Medchal</li>
                         </ul>
                     </div>
                 </div>
@@ -292,26 +293,28 @@
 
 
                     <div class="proximity-hover">
-                        <h3>Nearby Schools</h3>
+                        <h3>Railway Stations</h3>
                         <ul>
                             <li>Bolarum</li>
-                            <li>Ahwal</li>
-                            <li>Medual</li>
-                            <li>Gurdhapochanpally</li>
+                            <li>Alwal</li>
+                            <li>Medchal</li>
+                            <li>Gundlapochampally</li>
                         </ul>
                     </div>
                 </div>
                 <div class="home_fifth-section-content-grid-one proximity-section-child-content">
                     <i class='bx bxs-store-alt'></i>
                     <div>
-                        <a href="">D MART </a>
+                        <a href="">Super Markets </a>
                         <p>1.5km</p>
                     </div>
 
 
                     <div class="proximity-hover">
-                        <h3>Nearby D-Mart</h3>
+                        <h3>Nearby Super Markets</h3>
                         <ul>
+                            <li>Metro</li>
+                            <li>Ratnadeep</li>
                             <li>Kompally D-Mart</li>
                         </ul>
                     </div>

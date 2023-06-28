@@ -14,13 +14,13 @@ if (isset($submitBtn)) {
     if (!empty($userName) && !empty($userNo) && !empty($userMessage)) {
         if (filter_var($userNo, FILTER_VALIDATE_EMAIL)) {
             $to = "contact@futeragroup.com";
-            $subject = "Website Query";
+            $subject = "Futera Website Enquiry";
             $Message = $userName . "Has sent a new message -- " . $userMessage;
             $header = "From " . $userName;
 
 
             if (mail($to, $subject, $Message, $header)) {
-                $successMessage = "Mail sent successfully !! We will connect you shortly .";
+                $successMessage = "Message sent successfully! Our team will contact at the earliest.";
                 header('Location:contact.php?successMessage=' . $successMessage);
             }
         } else {

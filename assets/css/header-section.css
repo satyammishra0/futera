@@ -14,8 +14,8 @@
 }
 
 .dialog-content {
-  background-color: #b84e16;
-  color: #fff;
+  /* background-color: #b84e16; */
+  background-color: #767676;
   width: 60%;
   margin: 5% auto;
   padding: 20px;
@@ -23,7 +23,7 @@
 }
 
 .dialog-content > p {
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: 0.8px;
   line-height: 1.3;
   word-spacing: 1px;
@@ -38,7 +38,7 @@
 
 .dialog button {
   padding: 10px 20px;
-  background-color: #3fb9be;
+  background-color: #000;
   color: #fff;
   border: none;
   border-radius: 5px;

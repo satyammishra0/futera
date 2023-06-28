@@ -14,11 +14,11 @@ if (!empty($userName) && !empty($userNo) && !empty($userMessage) && !empty($user
     if (filter_var($userEmail, FILTER_VALIDATE_EMAIL) && strlen($userNo) == 10) {
         $from = $userEmail;
         $to = "contact@futeragroup.com";
-        $subject = "Website Query for " . $selctedProject;
+        $subject = "Futera Website Enquiry for " . $selctedProject;
         $Message = "" . $userName . " has sent a new message: " . $userMessage . " and his contact number is :" .  $userNo . "</br>";
         $header = "From: " . $from . "\r\n";
         if (true) {
-            $successMessage = "Mail sent successfully !! We will connect you shortly .";
+            $successMessage = "Message sent successfully! Our team will contact at the earliest.";
             $output["status"] = 1;
             $output["message"] = $successMessage;
             echo json_encode($output);

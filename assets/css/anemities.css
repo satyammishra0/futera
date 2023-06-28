@@ -12,6 +12,7 @@
 }
 
 .animities-services-grid {
+  border: 0.8px solid var(--gray);
   margin: 5% 5% 5% 0%;
   grid-template-columns: 30% 1fr;
 }
@@ -72,7 +73,7 @@
 
 .animities-services-grid-content {
   background-color: var(--white);
-  padding: 5%;
+  padding: 2% 5%;
 }
 
 .animities-services-grid-content > h2 {

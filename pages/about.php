@@ -66,11 +66,11 @@
     <!--------------------------- -->
     <!------------ Slider (Third)-->
     <!--------------------------- -->
-    <div class="page-5">
+    <div class="page-5" style="background-color: #fff;">
         <div class="utility_flex-total-center">
             <h2>Photo & Video Tour</h2>
         </div>
-        <div class="page-5">
+        <div class="page-5" style="background-color: #fff;">
             <div class="page-5-box">
                 <div class="prev icon" id="left"><span>Previous</span><i class='bx bx-left-arrow-alt'></i></div>
                 <div class="slide">

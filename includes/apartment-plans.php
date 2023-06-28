@@ -33,7 +33,7 @@
     }
 
     .mySwiper {
-        height: 80%;
+        height: 55vh;
         width: 100%;
     }
 
@@ -91,6 +91,19 @@
         font-size: 15px;
     }
 
+    .home_fourth-section-grids {
+        overflow: hidden;
+        height: 75vh;
+        width: 100%;
+        margin: auto;
+    }
+
+    .home_fourth-section-grids>img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
     @media screen and (max-width: 700px) {
         .swiper-overlay {
             font-size: 18px;
@@ -122,11 +135,11 @@
                 </div>
                 <div class="utility_flex-center-between">
                     <p>Parking</p>
-                    <p>YES</p>
+                    <p>Yes</p>
                 </div>
                 <div class="utility_flex-center-between">
                     <p>Price</p>
-                    <p><span style="color:var(--greenish-blue);font-weight:bold;">98 Lakhs</span> Onwards</p>
+                    <p><span style="color:var(--greenish-blue);font-weight:bold;">98 Lakhs</span> <small style="font-size:9px;">Onwards</small></p>
                 </div>
 
                 <button class="button-ani">
@@ -141,17 +154,17 @@
     </swiper-slide>
     <swiper-slide>
         <div class="home_fourth-section-grids ">
-            <img src="../Futera/futera-11.jpg" style="height:75vh; width:100%; margin:auto;" alt="">
+            <img src="../Futera/futera-11.jpg" style="" alt="">
         </div>
     </swiper-slide>
     <swiper-slide>
         <div class="home_fourth-section-grids ">
-            <img src="../Futera/futera-12.jpg" style="height:75vh; width:100%; margin:auto;" alt="">
+            <img src="../Futera/futera-12.jpg" style="" alt="">
         </div>
     </swiper-slide>
     <swiper-slide>
         <div class="home_fourth-section-grids ">
-            <img src="../Futera/futera-13.jpg" style="height:75vh; width:100%; margin:auto;" alt="">
+            <img src="../Futera/futera-13.jpg" style="" alt="">
         </div>
 </swiper-container>
 
@@ -167,21 +180,21 @@
     <swiper-slide class="swiper-parent-overlay">
         <div class="swiper-overlay">
             <h2>Aveum</h2>
-            <h4> 3d View 1st</h4>
+            <h4> 3D View 1</h4>
         </div>
         <img src="../assets/images/black-bg.jpg" />
     </swiper-slide>
     <swiper-slide class="swiper-parent-overlay">
         <div class="swiper-overlay">
             <h2>Aveum</h2>
-            <h4>3d View 2nd</h4>
+            <h4>3D View 2</h4>
         </div>
         <img src="../assets/images/black-bg.jpg" />
     </swiper-slide>
     <swiper-slide class="swiper-parent-overlay">
         <div class="swiper-overlay">
             <h2>Aveum</h2>
-            <h4>3d View 3rd</h4>
+            <h4>3D View 3</h4>
         </div>
         <img src="../assets/images/black-bg.jpg" />
     </swiper-slide>
