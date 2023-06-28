@@ -328,11 +328,15 @@
     <!-------- PROJECT HIGHLIGHT -->
     <!--------------------------- -->
     <section class="project-highlight">
-        <div class="parent_section-headings utility_flex-total-center">
+        <div class="parent_section-headings utility_flex-center-between">
             <h2>PROJECT HIGHLIGHT</h2>
+            <div>
+                <button class="button-ani" id="open-dialogue-btn">Open All</button>
+            </div>
         </div>
+
         <div class="project-highlight-grid utility_grid utility_grid-2">
-            <details open>
+            <details class="dialogue-box">
                 <summary>
                     Structure
                 </summary>
@@ -344,7 +348,7 @@
                     </ul>
                 </div>
             </details>
-            <details>
+            <details class="dialogue-box">
                 <summary>
                     Stair Case
                 </summary>
@@ -354,7 +358,7 @@
                     </ul>
                 </div>
             </details>
-            <details>
+            <details class="dialogue-box">
                 <summary>
                     Sit Out/ Balcony
                 </summary>
@@ -364,7 +368,7 @@
                     </ul>
                 </div>
             </details>
-            <details>
+            <details class="dialogue-box">
                 <summary>
                     Windows
                 </summary>
@@ -374,8 +378,7 @@
                     </ul>
                 </div>
             </details>
-
-            <details>
+            <details class="dialogue-box">
                 <summary>
                     Super Structure
                 </summary>
@@ -385,7 +388,7 @@
                     </ul>
                 </div>
             </details>
-            <details>
+            <details class="dialogue-box">
                 <summary>
                     Doors
                 </summary>
@@ -396,7 +399,7 @@
                     </ul>
                 </div>
             </details>
-            <details>
+            <details class="dialogue-box">
                 <summary>
                     Bathroom
                 </summary>
@@ -408,9 +411,7 @@
                     </ul>
                 </div>
             </details>
-
-
-            <details>
+            <details class="dialogue-box">
                 <summary>
                     Telecom
                 </summary>
@@ -420,7 +421,7 @@
                     </ul>
                 </div>
             </details>
-            <details>
+            <details class="dialogue-box">
                 <summary>
                     Painting
                 </summary>
@@ -430,7 +431,7 @@
                     </ul>
                 </div>
             </details>
-            <details>
+            <details class="dialogue-box">
                 <summary>
                     Water Supply
                 </summary>
@@ -440,7 +441,7 @@
                     </ul>
                 </div>
             </details>
-            <details>
+            <details class="dialogue-box">
                 <summary>
                     Lift
                 </summary>
@@ -450,7 +451,7 @@
                     </ul>
                 </div>
             </details>
-            <details>
+            <details class="dialogue-box">
                 <summary>
                     Lift
                 </summary>
@@ -460,7 +461,7 @@
                     </ul>
                 </div>
             </details>
-            <details>
+            <details class="dialogue-box">
                 <summary>
                     Flooring
                 </summary>
@@ -475,7 +476,7 @@
                     </ul>
                 </div>
             </details>
-            <details>
+            <details class="dialogue-box">
                 <summary>
                     Electrical
                 </summary>
@@ -527,6 +528,17 @@
             x[slideIndex - 1].style.display = "block";
             setTimeout(carousel, 4000); // Change image every 2 seconds
         }
+    </script>
+
+    <script>
+        let open_dialogue_btn = document.getElementById("open-dialogue-btn");
+        let dialogue_box = document.getElementsByClassName("dialogue-box");
+
+        function dialogue_open() {
+            console.log("open");
+            dialogue_box.setAttribute("open", "true");
+        }
+        open_dialogue_btn.addEventListener("click", dialogue_open);
     </script>
 
 </body>

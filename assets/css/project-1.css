@@ -139,6 +139,24 @@
   padding: 5% 10%;
 }
 
+.project-highlight .parent_section-headings {
+  padding: 0;
+  padding-bottom: 5%;
+}
+
+.project_section-headings > div > button {
+  cursor: pointer;
+  display: inline-block;
+  text-transform: uppercase;
+  border: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 1%;
+  padding: 10px;
+  background-color: #3fb9be;
+}
+
 .project-highlight-grid.utility_grid-2 {
   grid-gap: 0;
 }
