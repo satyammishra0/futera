@@ -532,15 +532,24 @@
 
     <script>
         let open_dialogue_btn = document.getElementById("open-dialogue-btn");
-        let dialogue_box = document.getElementsByClassName("dialogue-box");
+        let dialogue_box = document.getElementsByTagName('details');
 
-        function dialogue_open() {
-            console.log("open");
-            dialogue_box.setAttribute("open", "true");
-        }
-        open_dialogue_btn.addEventListener("click", dialogue_open);
+        open_dialogue_btn.addEventListener("click", function() {
+            for (let i = 0; i < dialogue_box.length; i++) {
+                if (dialogue_box[i].hasAttribute('open')) {
+                    open_dialogue_btn.innerHTML = "Open All";
+                    dialogue_box[i].removeAttribute('open');
+                } else {
+                    open_dialogue_btn.innerHTML = "Close All";
+                    dialogue_box[i].setAttribute("open", "true");
+                }
+            }
+        })
     </script>
 
 </body>
 
 </html>
+
+
+<!-- Work on open btn -->

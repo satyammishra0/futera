@@ -162,7 +162,7 @@
   font-size: 46px;
   color: var(--greenish-blue);
   font-weight: 600;
-  font-family: var(--font-antonio);
+  font-family: "Antonio", sans-serif;
 }
 
 .home_second-section-numbers-col > p {

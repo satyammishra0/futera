@@ -108,6 +108,15 @@
         .swiper-overlay {
             font-size: 18px;
         }
+
+        .swiper-overlay>h2 {
+            font-size: 15px;
+        }
+
+
+        .swiper-overlay>h4 {
+            font-size: 13px;
+        }
     }
 </style>
 

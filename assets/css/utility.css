@@ -52,12 +52,13 @@
   font-weight: 700;
   line-height: 55px;
   text-transform: capitalize;
+  font-family: "Antonio", sans-serif;
 }
 
 .utility_main-heading {
   font-size: 37px;
   font-weight: 600;
-  font-family: var(--font-antonio);
+  font-family: "Antonio", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
