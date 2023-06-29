@@ -13,12 +13,12 @@
         align-items: center;
     }
 
-    swiper-slide img {
+    /* swiper-slide img {
         display: block;
         width: 100%;
         height: 100px;
         object-fit: cover;
-    }
+    } */
 
     swiper-container {
         width: 100%;
@@ -55,9 +55,6 @@
 
     swiper-slide img {
         display: block;
-        width: 100%;
-        height: 100px;
-        object-fit: cover;
     }
 
     /* Arrows styling */
@@ -96,12 +93,6 @@
         height: 75vh;
         width: 100%;
         margin: auto;
-    }
-
-    .home_fourth-section-grids>img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
     }
 
     @media screen and (max-width: 700px) {
@@ -162,18 +153,18 @@
         </div>
     </swiper-slide>
     <swiper-slide>
-        <div class="home_fourth-section-grids ">
-            <img src="../Futera/futera-11.jpg" style="" alt="">
+        <div class="home_fourth-section-grids utility_grid utility_grid-center">
+            <img src="../Futera/futera-11.jpg" style="width: 50%;height:80vh;object-fit: cover;">
         </div>
     </swiper-slide>
     <swiper-slide>
-        <div class="home_fourth-section-grids ">
-            <img src="../Futera/futera-12.jpg" style="" alt="">
+        <div class="home_fourth-section-grids utility_grid utility_grid-center">
+            <img src="../Futera/futera-12.jpg" style="width: 50%;height:80vh;object-fit: cover;">
         </div>
     </swiper-slide>
     <swiper-slide>
-        <div class="home_fourth-section-grids ">
-            <img src="../Futera/futera-13.jpg" style="" alt="">
+        <div class="home_fourth-section-grids utility_grid utility_grid-center">
+            <img src="../Futera/futera-13.jpg" style="width: 50%;height:80vh;object-fit: cover;">
         </div>
 </swiper-container>
 
