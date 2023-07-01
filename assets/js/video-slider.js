@@ -70,7 +70,7 @@ for (let i = 0; i < icon.length; i++) {
 ////////////////////////////////////////////////////////////////////////////////
 let slidebox = document.getElementsByClassName("slide-box");
 let play = document.querySelectorAll(".dark .img");
-console.log(play);
+// console.log(play);
 let videopage = document.querySelectorAll(".slide-box .video-page");
 
 for (let i = 0; i < 3; i++) {
@@ -84,9 +84,9 @@ for (let i = 0; i < 3; i++) {
   });
   play[i].addEventListener("click", function () {
     videopage[i].classList.add("block-vedio");
-    console.log(videopage[i]);
+    // console.log(videopage[i]);
     srcremove[i].src = srcopen;
-    console.log(srcremove[i].src);
+    // console.log(srcremove[i].src);
   });
 }
 

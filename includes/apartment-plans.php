@@ -143,7 +143,7 @@
                 </div>
 
                 <button class="button-ani">
-                    <a href="../.cpanel.yml" download>Download Brochure</a>
+                    <a href="#" download>Download Brochure</a>
                 </button>
 
             </div>

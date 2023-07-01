@@ -6,4 +6,4 @@ Options -Indexes
 RewriteCond %{REQUEST_FILENAME} !-f
 #=============================================================================================================
 #
-ErrorDocument 404 http://localhost/saaol/Futera/pages/404.php
+ErrorDocument 404 http://localhost/growupnext/Futera/pages/404.php

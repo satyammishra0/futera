@@ -209,9 +209,12 @@
   .dialog-content {
     background-color: #b84e16;
     color: #fff;
-    width: 100%;
+    width: 90%;
     padding: 20px;
     border-radius: 7px;
+    height: 50vh;
+    overflow-y: scroll;
+    margin: 35% 5%;
   }
   /* ----------------------- */
   /* ----------- Header  */
