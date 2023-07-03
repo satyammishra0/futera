@@ -541,10 +541,6 @@ swiper-slide img {
     margin: 0;
   }
 
-  .home_second-section-grid-img > a {
-    top: 68%;
-  }
-
   .home_second-section-grid-img > img {
     height: 100%;
     width: 100%;
@@ -583,7 +579,7 @@ swiper-slide img {
   }
 
   .home_fifth-section-content-grid.utility_grid-4 {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 0;
   }
 

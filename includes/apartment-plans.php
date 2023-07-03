@@ -95,6 +95,12 @@
         margin: auto;
     }
 
+    .home_fourth-section-grids>img {
+        width: 50%;
+        height: 80vh;
+        object-fit: cover;
+    }
+
     @media screen and (max-width: 700px) {
         .swiper-overlay {
             font-size: 18px;
@@ -107,6 +113,11 @@
 
         .swiper-overlay>h4 {
             font-size: 13px;
+        }
+
+        .home_fourth-section-grids>img {
+            height: 100%;
+            width: 100%;
         }
     }
 </style>
@@ -154,17 +165,17 @@
     </swiper-slide>
     <swiper-slide>
         <div class="home_fourth-section-grids utility_grid utility_grid-center">
-            <img src="../Futera/futera-11.jpg" style="width: 50%;height:80vh;object-fit: cover;">
+            <img src="../Futera/futera-11.jpg">
         </div>
     </swiper-slide>
     <swiper-slide>
         <div class="home_fourth-section-grids utility_grid utility_grid-center">
-            <img src="../Futera/futera-12.jpg" style="width: 50%;height:80vh;object-fit: cover;">
+            <img src="../Futera/futera-12.jpg">
         </div>
     </swiper-slide>
     <swiper-slide>
         <div class="home_fourth-section-grids utility_grid utility_grid-center">
-            <img src="../Futera/futera-13.jpg" style="width: 50%;height:80vh;object-fit: cover;">
+            <img src="../Futera/futera-13.jpg">
         </div>
 </swiper-container>
 

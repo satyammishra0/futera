@@ -55,10 +55,10 @@
                 <a href="#">Read More</a>
             </div>
             <div class="home_second-section-grid-img w3-content w3-section">
-                <img src="../Futera/futera-6.jpg" class="mySlides" alt="Slider img">
-                <img src="../Futera/futera-7.jpg" class="mySlides" alt="Slider img">
-                <img src="../Futera/futera-8.jpg" class="mySlides" alt="Slider img">
-                <img src="../Futera/futera-9.jpg" class="mySlides" alt="Slider img">
+                <img loading="lazy" src="../Futera/futera-6.jpg" class="mySlides" alt="Slider img">
+                <img loading="lazy" src="../Futera/futera-7.jpg" class="mySlides" alt="Slider img">
+                <img loading="lazy" src="../Futera/futera-8.jpg" class="mySlides" alt="Slider img">
+                <img loading="lazy" src="../Futera/futera-9.jpg" class="mySlides" alt="Slider img">
 
                 <a class="button-ani" href="./gallery.php">Gallery</a>
             </div>

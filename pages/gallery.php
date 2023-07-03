@@ -46,60 +46,60 @@
         </div>
 
         <div class="gallery-grid gallery-grid-active" name="all-img">
-            <div class="gallery-grid-img"> <img src="../file1/Aerial-left.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Aerial-right-night.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Ariel-right-Day.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Balcony-2.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Balcony.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/compound-wall-day.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/compound-wall-Night.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Front-Day.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Front-Night.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Left-ISO-Day.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Left-ISO-Night.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/lobby.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Right-ISO -2.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Right-ISO.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Terrace-day.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Terrace-Entry.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Terrace-Night.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Terrace-view -2.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Terrace-view-2.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Terrace-view.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Totlot.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Aerial-left.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Aerial-right-night.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Ariel-right-Day.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Balcony-2.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Balcony.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/compound-wall-day.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/compound-wall-Night.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Front-Day.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Front-Night.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Left-ISO-Day.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Left-ISO-Night.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/lobby.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Right-ISO -2.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Right-ISO.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Terrace-day.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Terrace-Entry.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Terrace-Night.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Terrace-view -2.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Terrace-view-2.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Terrace-view.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Totlot.png" alt="Slider Image"></div>
         </div>
 
         <div class="gallery-grid" name="interior-img">
-            <div class="gallery-grid-img"> <img src="../file2/Dining-2.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file2/Dining.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file2/guest-Bedroom.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file2/Kids-Bedroom.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file2/Kitchen-2.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file2/Kitchen.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file2/Living-room-2.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file2/Living-Room.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file2/Master-Bedroom.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file2/Master-Bedroom2.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file2/Revised-Master-Bedroom.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file2/Toilet.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file2/Dining-2.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file2/Dining.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file2/guest-Bedroom.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file2/Kids-Bedroom.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file2/Kitchen-2.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file2/Kitchen.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file2/Living-room-2.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file2/Living-Room.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file2/Master-Bedroom.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file2/Master-Bedroom2.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file2/Revised-Master-Bedroom.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file2/Toilet.png" alt="Slider Image"></div>
 
         </div>
 
         <div class="gallery-grid " name="exterior-img">
-            <div class="gallery-grid-img"> <img src="../file1/Aerial-left.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Aerial-right-night.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Ariel-right-Day.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/compound-wall-day.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/compound-wall-Night.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Front-Day.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Front-Night.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Left-ISO-Day.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Left-ISO-Night.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Right-ISO -2.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Right-ISO.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Terrace-day.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Terrace-Entry.png" alt="Slider Image"></div>
-            <div class="gallery-grid-img"> <img src="../file1/Terrace-Night.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Aerial-left.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Aerial-right-night.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Ariel-right-Day.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/compound-wall-day.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/compound-wall-Night.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Front-Day.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Front-Night.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Left-ISO-Day.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Left-ISO-Night.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Right-ISO -2.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Right-ISO.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Terrace-day.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Terrace-Entry.png" alt="Slider Image"></div>
+            <div class="gallery-grid-img"> <img loading="lazy" src="../file1/Terrace-Night.png" alt="Slider Image"></div>
         </div>
 
         <div class="gallery-grid " name="videos-img">
