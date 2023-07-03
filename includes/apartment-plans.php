@@ -22,7 +22,7 @@
 
     swiper-container {
         width: 100%;
-        height: 300px;
+        /* height: 300px; */
         margin-left: auto;
         margin-right: auto;
     }
@@ -33,7 +33,7 @@
     }
 
     .mySwiper {
-        height: 55vh;
+        /* height: 55vh; */
         width: 100%;
     }
 
@@ -91,14 +91,14 @@
     .home_fourth-section-grids {
         overflow: hidden;
         height: 75vh;
-        width: 100%;
+        width: 75%;
         margin: auto;
     }
 
     .home_fourth-section-grids>img {
-        width: 50%;
-        height: 80vh;
-        object-fit: cover;
+        width: 100%;
+        /* height: 80vh; */
+        /* object-fit: cover; */
     }
 
     @media screen and (max-width: 700px) {
@@ -119,13 +119,18 @@
             height: 100%;
             width: 100%;
         }
+
+
+        .mySwiper {
+            height: 55vh;
+        }
     }
 </style>
 
 
 <swiper-container style="--swiper-navigation-color: var(--dark-orange) !important; --swiper-pagination-color: #fff" class="mySwiper" thumbs-swiper=".mySwiper2" space-between="10" navigation="true">
     <swiper-slide>
-        <div class="home_fourth-section-grid utility_grid">
+        <div class="home_fourth-section-grid utility_grid ">
             <div class="home_fourth-section-grid-content">
                 <h4>Aveum- Floor Plan</h4>
                 <div class="utility_flex-center-between">
