@@ -159,7 +159,7 @@
                 </div>
 
                 <button class="button-ani">
-                    <a href="#" download>Download Brochure</a>
+                    <a href="../assets/docs/Futera-Aveum-Details.pdf" download>Download Brochure</a>
                 </button>
 
             </div>
